@@ -5,8 +5,14 @@
   background-color: #FDFDFD;
 }
 
+.hamburger-logo{
+  max-height: 25px;
+  margin-top: 3px;
+}
+
 .logo img {
   max-height: 25px;
+  margin-left: 80px;
 }
 
 li, a, button {
@@ -21,11 +27,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 30px;
 }
 
 .right-items {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -94,11 +101,16 @@ header {
 
 .img-span .image {
   display: inline;
-  width: 110px;  /* adjust as needed */
+  
   height: 110px; /* adjust as needed */
   vertical-align: middle; /* align with the text */
+  padding-bottom: 9%;
 }
 
+.img-span p{
+letter-spacing: 0px;
+
+}
 .sub-text-home-left{
   font-family: 'Raleway', sans-serif;
   color: #161618;
@@ -274,7 +286,7 @@ header {
   content: '';
   display: block;
   margin: 20px auto; 
-  width: 80%; 
+  width: 90%; 
   border-bottom: 3px solid #63A5B4; 
   left: 0;
   right: 0;
@@ -287,4 +299,51 @@ header {
   width: 50px; /* adjust the size as needed */
   position: relative;
   top: -170px; /* adjust the position as needed */
+}
+
+.mac-book-pro1415-furniture32 {
+  top: 1309px;
+  left: 130px;
+  width: 327px;
+  height: 327px;
+  position: absolute;
+  border-radius: 5px;
+}
+
+.mac-book-pro1415-text67 {
+  top: 1602px;
+  left: 124px;
+  color: rgba(22, 22, 24, 1);
+  width: 272px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.mac-book-pro1415-text69 {
+  top: 1573px;
+  left: 105px;
+  color: rgba(99, 165, 180, 1);
+  width: 146px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+  
+.new-product-1{
+  margin-top: px;
 }
