@@ -1,0 +1,84 @@
+.header {
+    position: relative;
+    top: -30px;
+}
+
+.hamburger-logo{
+  max-height: 25px;
+  margin-top: 3px;
+}
+
+.logo img {
+  position: relative;
+  max-height: 25px;
+  margin-left: -250px;
+}
+
+li, a, button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: #161618;
+  text-decoration: none;  
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.right-items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  padding-right: 20px;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__link li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__link li a:hover {
+  color: #63A5B4;
+}
+
+.search, .cart, .login {
+  margin-left: 20px;
+}
+
+/* Home > Furniture Arrow */
+
+.home-furniture {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.55rem;
+  color: #161618;
+}
+
+.home{
+    position: relative;
+    top:  -7.10vh;
+    left: 4.0vw;
+}
+
+.arrow {
+  position: relative;
+  top: -14.6vh;
+  left: 10.0vw;
+}
+
+.furniture{
+    position: relative;
+    top: -22.4vh;
+    left: 13.0vw;
+}
