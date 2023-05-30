@@ -123,8 +123,16 @@
     position: absolute;
     border-radius: 10px;
   }
-  .image-background-rectangle-three {
+  .image-background-rectangle-four {
     top: 574px;
+    left: 625px;
+    width: 267px;
+    height: 142px;
+    position: absolute;
+    border-radius: 10px;
+  }
+  .image-background-rectangle-three {
+    top: 400px;
     left: 625px;
     width: 267px;
     height: 142px;
