@@ -82,3 +82,302 @@ header {
     top: -22.4vh;
     left: 13.0vw;
 }
+
+.pageName{
+    position: relative;
+    top: -25.0vh;
+    left: 4.0vw;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.4rem;
+    color: #161618;
+    font-weight: 500;
+}
+
+.optionButton{
+  position: relative;
+  top: -28vh;
+  left: 1vw;
+  text-align: center;
+  
+}
+
+.filter{
+  border-radius: 25px;
+  border: none;
+  background-color: #8A8A8A;
+  color: white;
+  padding: 10px 45px;
+  font-weight: lighter;
+  margin-right: 12px;
+  transition: background-color 0.4s ease;
+}
+
+.filter-img{
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+
+}
+
+.chairs{
+  border-radius: 25px;
+  border: none;
+  background-color: #8A8A8A;
+  color: white;
+  padding: 10px 45px;
+  font-weight: lighter;
+  margin-right: 12px;
+  transition: background-color 0.4s ease;
+}
+
+.units{
+  border-radius: 25px;
+  border: none;
+  background-color: #8A8A8A;
+  color: white;
+  padding: 10px 45px;
+  font-weight: lighter;
+  margin-right: 12px;
+  transition: background-color 0.4s ease;
+}
+
+.tables{
+  border-radius: 25px;
+  border: none;
+  background-color: #8A8A8A;
+  color: white;
+  padding: 10px 45px;
+  font-weight: lighter;
+  margin-right: 12px;
+  transition: background-color 0.4s ease;
+}
+
+.buffets{
+  border-radius: 25px;
+  border: none;
+  background-color: #8A8A8A;
+  color: white;
+  padding: 10px 45px;
+  font-weight: lighter;
+  margin-right: 12px;
+  transition: background-color 0.4s ease;
+}
+
+.beds{
+  border-radius: 25px;
+  border: none;
+  background-color: #8A8A8A;
+  color: white;
+  padding: 10px 45px;
+  font-weight: lighter;
+  margin-right: 12px;
+  transition: background-color 0.4s ease;
+}
+
+.console{
+  border-radius: 25px;
+  border: none;
+  background-color: #8A8A8A;
+  color: white;
+  padding: 10px 45px;
+  font-weight: lighter;
+  margin-right: 12px;
+  transition: background-color 0.4s ease;
+}
+
+.sofas{
+  border-radius: 25px;
+  border: none;
+  background-color: #8A8A8A;
+  color: white;
+  padding: 10px 45px;
+  font-weight: lighter;
+  margin-right: 12px;
+  transition: background-color 0.4s ease;
+}
+
+.filter:hover{
+  background-color: #505050;
+}
+
+.chairs:hover{
+  background-color: #505050;
+}
+
+.units:hover{
+  background-color: #505050;
+}
+
+.tables:hover{
+  background-color: #505050;
+}
+
+.sofas:hover{
+  background-color: #505050;
+}
+
+.buffets:hover{
+  background-color: #505050;
+}
+
+.beds:hover{
+  background-color: #505050;
+}
+
+.console:hover{
+  background-color: #505050;
+}
+
+.product-galery{
+  display: grid;
+  grid-template-columns: repeat(3, 0.01fr); /* This will create a 3-column grid */
+  gap: 25px;
+  justify-content: center;
+  position: relative;
+  top: -20vh;
+}
+
+.product1 {
+  width: 430px;
+  height: 430px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.product2{
+  width: 430px;
+  height: 430px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.product3 {
+  width: 430px;
+  height: 430px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.product4 {
+  width: 430px;
+  height: 430px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.product5{
+  width: 430px;
+  height: 430px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.product6 {
+  width: 430px;
+  height: 430px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+
+.contact-us {
+  top: 100px;
+  left: 756px;
+  color: white;
+  width: 289px;
+  position: absolute;
+  font-size: 24px;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.mac-book-pro1415-text32 {
+  top: 100px;
+  left: 37px;
+  color: white;
+  width: 124px;
+  position: absolute;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.mac-book-pro1415-text34 {
+  top: 100px;
+  left: 1222px;
+  color: white;
+  width: 242px;
+  position: absolute;
+  font-size: 24px;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.mac-book-pro1415-text36 {
+  top: 135px;
+  left: 37px;
+  color: #D2D2D2;
+  width: 445px;
+  position: absolute;
+  font-size: 21px;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.mac-book-pro1415-text43 {
+  top: 165px;
+  left: 756px;
+  color: #D2D2D2;
+  width: 203px;
+  position: absolute;
+  font-size: 21px;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.mac-book-pro1415-text50 {
+  top: 165px;
+  left: 1225px;
+  color: #D2D2D2;
+  width: 175px;
+  height: auto;
+  position: absolute;
+  font-size: 21px;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.mac-book-pro1415-logo824x5212 {
+  top: 30px;
+  left: 37px;
+  width: 669px;
+  height: 39px;
+  position: absolute;
+}
+
+.fotter-rec {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 1518.5px;
+  height: 350px;
+  top: 800px;
+  left: -0.5vw;
+  background-color: #161618;
+}
+
+.contact-us,
+.mac-book-pro1415-text32,
+.mac-book-pro1415-text34,
+.mac-book-pro1415-text36,
+.mac-book-pro1415-text43,
+.mac-book-pro1415-text50 {
+  background-color: transparent;
+}
+
+.foter{
+  position: relative;
+  top: -110vh;
+}
