@@ -1,12 +1,12 @@
-.mac-book-pro1428-container {
+.main-container {
     width: 100%;
     display: flex;
     overflow: auto;
     min-height: 100vh;
     align-items: center;
     flex-direction: column;
-  }
-  .mac-book-pro1428-mac-book-pro1428 {
+  } 
+  .page-container {
     width: 100%;
     height: 1494px;
     display: flex;
@@ -18,12 +18,12 @@
   }
   .brand-logo {
     top: 57px;
-    left: 176px;
+    left: 176px; 
     width: 491px;
     height: 31px;
     position: absolute;
   }
-  .collection-button {
+  .collection-button { 
     top: 52px;
     left: 803px;
     color: rgba(22, 22, 24, 1);
@@ -411,205 +411,6 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  .add-to-cart-rectangle {
-    top: 560px;
-    left: 1047px;
-    width: 288px;
-    height: 47px;
-    position: absolute;
-    border-radius: 20px;
-  }
-  .add-to-cart-text {
-    top: 570px;
-    left: 1057px;
-    color: rgba(255, 255, 255, 1);
-    width: 268px;
-    height: auto;
-    position: absolute;
-    font-size: 20px;
-    font-style: SemiBold;
-    text-align: center;
-    font-family: Raleway;
-    font-weight: 600;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .buy-now-rectangle {
-    top: 620px;
-    left: 1047px;
-    width: 287px;
-    height: 47px;
-    position: absolute;
-    border-radius: 20px;
-  }
-  .buy-now-text {
-    top: 631px;
-    left: 1049px;
-    color: rgba(255, 255, 255, 1);
-    width: 285px;
-    height: auto;
-    position: absolute;
-    font-size: 20px;
-    font-style: SemiBold;
-    text-align: center;
-    font-family: Raleway;
-    font-weight: 600;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .plus-icon-one {
-    top: 800px;
-    left: 1316px;
-    width: 19px;
-    height: 19px;
-    position: absolute;
-  }
-  .plus-icon-two {
-    top: 994px;
-    left: 1316px;
-    width: 19px;
-    height: 19px;
-    position: absolute;
-  }
-  .plus-icon-three {
-    top: 946px;
-    left: 1316px;
-    width: 19px;
-    height: 19px;
-    position: absolute;
-  }
-  .plus-icon-four {
-    top: 897px;
-    left: 1316px;
-    width: 19px;
-    height: 19px;
-    position: absolute;
-  }
-  .plus-icon-five {
-    top: 847px;
-    left: 1316px;
-    width: 19px;
-    height: 19px;
-    position: absolute;
-  }
-  .footer-background {
-    top: 1099px;
-    left: 0px;
-    width: 2912px;
-    height: 400px;
-    position: absolute;
-    background-color: #161618;
-  }
-  .contact-us-text {
-    top: 1207px;
-    left: 756px;
-    color: rgba(243, 243, 243, 1);
-    width: 289px;
-    height: auto;
-    position: absolute;
-    font-size: 24px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
-    font-style: Bold;
-    text-align: left;
-    font-family: Raleway;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .about-us-text {
-    top: 1208px;
-    left: 37px;
-    color: rgba(243, 243, 243, 1);
-    width: 124px;
-    height: auto;
-    position: absolute;
-    font-size: 24px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
-    font-style: Bold;
-    text-align: center;
-    font-family: Raleway;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .terms-and-conditions {
-    top: 1208px;
-    left: 1222px;
-    color: rgba(243, 243, 243, 1);
-    width: 242px;
-    height: auto;
-    position: absolute;
-    font-size: 24px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
-    font-style: Bold;
-    text-align: left;
-    font-family: Raleway;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .about-us-explanation {
-    top: 1247px;
-    left: 37px;
-    color: rgba(243, 243, 243, 0.8500000238418579);
-    width: 445px;
-    height: auto;
-    position: absolute;
-    font-size: 21px;
-    font-style: Medium;
-    text-align: left;
-    font-family: Raleway;
-    font-weight: 500;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .contact-us-explanation {
-    top: 1281px;
-    left: 756px;
-    color: rgba(243, 243, 243, 1);
-    width: 203px;
-    height: auto;
-    position: absolute;
-    font-size: 21px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Raleway;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .terms-and-conditions-explanation {
-    top: 1279px;
-    left: 1225px;
-    color: rgba(243, 243, 243, 0.8500000238418579);
-    width: 175px;
-    height: auto;
-    position: absolute;
-    font-size: 21px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
-    font-style: Medium;
-    text-align: left;
-    font-family: Raleway;
-    font-weight: 500;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .brand-logo-two {
-    top: 1129px;
-    left: 37px;
-    width: 669px;
-    height: 39px;
-    position: absolute;
-  }
-  
   .small-button {
     top: 489px;
     left: 989px;
@@ -750,4 +551,241 @@
     box-shadow: none;
     transform: translateY(0);
   }
-  
+
+  .add-to-cart-button {
+    top: 560px;
+    left: 1047px;
+    width: 288px;
+    height: 47px;
+    position: absolute;
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family:  Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    min-width: 0;
+    outline: none;
+    padding: 12px 24px 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+  }
+
+  .add-to-cart-button:disabled {
+    pointer-events: none;
+  }
+
+  .add-to-cart-button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+
+  .add-to-cart-button:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+  .buy-now-button {
+    top: 620px;
+    left: 1047px;
+    width: 287px;
+    height: 47px;
+    position: absolute;
+    appearance: none;
+    background-color: rgba(99, 165, 180, 1);
+    border: 2px solid rgba(99, 165, 180, 1);
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family:  Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    min-width: 0;
+    outline: none;
+    padding: 12px 24px 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+  }
+
+  .buy-now-button:disabled {
+    pointer-events: none;
+  }
+
+  .buy-now-button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+
+  .buy-now-button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+  .plus-icon-one {
+    top: 800px;
+    left: 1316px;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+  }
+  .plus-icon-two {
+    top: 994px;
+    left: 1316px;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+  }
+  .plus-icon-three {
+    top: 946px;
+    left: 1316px;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+  }
+  .plus-icon-four {
+    top: 897px;
+    left: 1316px;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+  }
+  .plus-icon-five {
+    top: 847px;
+    left: 1316px;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+  }
+  .footer-background {
+    top: 1099px;
+    left: 0px;
+    width: 2912px;
+    height: 400px;
+    position: absolute;
+    background-color: #161618;
+  }
+  .contact-us-text {
+    top: 1207px;
+    left: 756px;
+    color: rgba(243, 243, 243, 1);
+    width: 289px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .about-us-text {
+    top: 1208px;
+    left: 37px;
+    color: rgba(243, 243, 243, 1);
+    width: 160px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    font-style: Bold;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .terms-and-conditions {
+    top: 1208px;
+    left: 1222px;
+    color: rgba(243, 243, 243, 1);
+    width: 242px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .about-us-explanation {
+    top: 1247px;
+    left: 37px;
+    color: rgba(243, 243, 243, 0.8500000238418579);
+    width: 445px;
+    height: auto;
+    position: absolute;
+    font-size: 21px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .contact-us-explanation {
+    top: 1281px;
+    left: 756px;
+    color: rgba(243, 243, 243, 1);
+    width: 203px;
+    height: auto;
+    position: absolute;
+    font-size: 21px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .terms-and-conditions-explanation {
+    top: 1279px;
+    left: 1225px;
+    color: rgba(243, 243, 243, 0.8500000238418579);
+    width: 175px;
+    height: auto;
+    position: absolute;
+    font-size: 21px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    font-style: Medium;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .brand-logo-two {
+    top: 1129px;
+    left: 37px;
+    width: 669px;
+    height: 39px;
+    position: absolute;
+  }
