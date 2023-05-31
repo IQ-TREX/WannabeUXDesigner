@@ -235,6 +235,7 @@ header {
   justify-content: center;
   position: relative;
   top: -20vh;
+  font-family: 'Raleway', sans-serif;
 }
 
 .product1 {
@@ -380,4 +381,58 @@ header {
 .foter{
   position: relative;
   top: -110vh;
+}
+
+.product1-img{
+  position: relative;
+  top: 5vh;
+  left: 18vh;
+}
+
+.product1-price{
+  position: relative;
+  top: 5vh;
+  left: 5vh;
+  font-weight: 549;
+  color: #63A5B4;
+  font-size: 1.6rem;
+}
+
+.product1-name{
+  position: relative;
+  top: 3vh;
+  left: 5vh;
+  color: #161618;
+  font-size: 1.6rem;
+  font-weight: thin;
+}
+
+.product2-img{
+  position: relative;
+  top: 5vh;
+  left: 18vh;
+}
+
+.product3-img{
+  position: relative;
+  top: 5vh;
+  left: 18vh;
+}
+
+.product4-img{
+  position: relative;
+  top: 5vh;
+  left: 18vh;
+}
+
+.product5-img{
+  position: relative;
+  top: 5vh;
+  left: 18vh;
+}
+
+.product6-img{
+  position: relative;
+  top: 5vh;
+  left: 18vh;
 }
