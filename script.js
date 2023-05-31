@@ -12,3 +12,25 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elements = document.querySelectorAll('.plus-sign-one, .plus-sign-two, .plus-sign-three, .plus-sign-four, .plus-sign-five');
+    elements.forEach (function(element){
+    element.addEventListener('click', function() {
+      this.classList.toggle('rotate');
+    });
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    var buttons = document.querySelectorAll('.small-button, .medium-button, .large-button');
+    buttons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        buttons.forEach(function(btn) {
+            btn.classList.remove('clicked');
+          });
+        this.classList.add('clicked');
+      });
+    });
+  });
