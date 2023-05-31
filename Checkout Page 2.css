@@ -71,38 +71,21 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-ellipse29 {
-  top: 55px;
-  left: 1160px;
-  width: 23px;
-  height: 23px;
-  position: absolute;
-  border-color: rgba(99, 165, 180, 1);
-  border-style: solid;
-  border-width: 2px;
-}
-.mac-book-pro1438-vector118 {
-  top: 69px;
-  left: 1311px;
-  width: 2px;
-  height: 12px;
-  position: absolute;
-}
-.mac-book-pro1438-rectangle90 {
-  top: 56px;
-  left: 977px;
+.search-button {
+  top: 54px;
+  left: 1050px;
   width: 22px;
   height: 22px;
   position: absolute;
 }
-.mac-book-pro1438-vector119 {
-  top: 49px;
-  right: 290px;
-  width: 10px;
-  height: 9px;
+.cart-button {
+  top: 54px;
+  left: 1090px;
+  width: 22px;
+  height: 22px;
   position: absolute;
 }
-.mac-book-pro1438-vector120 {
+.burger-menu-button {
   top: 48px;
   left: 45px;
   width: 48px;
@@ -125,7 +108,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-card-flags {
+.mastercard-logo {
   top: 808px;
   left: 777px;
   width: 33px;
@@ -138,120 +121,41 @@
   border-radius: 12px;
   background-color: rgba(1, 50, 111, 1);
 }
-.mac-book-pro1438-logo {
-  top: 4.093023300170898px;
-  left: 5.15625px;
-  width: 22.52272605895996px;
-  height: 13.813953399658203px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
+.express-checkouts {
+    top: 219px;
+    left: 367px;
+    width: 110px;
+    height: 73px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background-color: var(--dl-color-default-darkcolorbackground);
 }
-.mac-book-pro1438-icon {
-  top: 0px;
-  left: 0px;
-  width: 22.52272605895996px;
-  height: 13.813953399658203px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro1438-vector {
-  top: 1.4770550727844238px;
-  left: 8.215795516967773px;
-  width: 6px;
-  height: 11px;
-  position: absolute;
-}
-.mac-book-pro1438-sv-path {
-  top: 0.001064300537109375px;
-  left: 0px;
-  width: 11px;
-  height: 14px;
-  position: absolute;
-}
-.mac-book-pro1438-vector01 {
-  top: 0px;
-  left: 11.26085090637207px;
-  width: 11px;
-  height: 14px;
-  position: absolute;
-}
-.mac-book-pro1438-card-flags1 {
-  top: 219px;
-  left: 367px;
-  width: 110px;
-  height: 73px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-radius: 12px;
-  background-color: var(--dl-color-default-darkcolorbackground);
-}
-.mac-book-pro1438-icon1 {
-  top: 22.918603897094727px;
-  left: 13.75px;
-  width: 82.49994659423828px;
-  height: 32.13507080078125px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro1438-vector02 {
-  top: 10.951993942260742px;
-  left: 13.623403549194336px;
-  width: 13px;
-  height: 13px;
-  position: absolute;
-}
-.mac-book-pro1438-vector03 {
-  top: 15.922666549682617px;
-  left: 1.4508247375488281px;
-  width: 21px;
-  height: 11px;
-  position: absolute;
-}
-.mac-book-pro1438-vector04 {
-  top: 7.363996505737305px;
-  left: 0px;
-  width: 6px;
-  height: 12px;
-  position: absolute;
-}
-.mac-book-pro1438-vector05 {
-  top: 3.552713678800501e-15px;
-  left: 1.4508247375488281px;
-  width: 21px;
-  height: 11px;
-  position: absolute;
-}
-.mac-book-pro1438-vector06 {
-  top: 1.8551750183105469px;
-  left: 35.97051239013672px;
-  width: 15px;
-  height: 23px;
-  position: absolute;
-}
-.mac-book-pro1438-vector07 {
-  top: 8.68348503112793px;
-  left: 51.400634765625px;
-  width: 14px;
-  height: 17px;
-  position: absolute;
-}
-.mac-book-pro1438-vector08 {
+.applepay-button {
+    top: 9.20323371887207px;
+    left: 66.26851654052734px;
+    width: 16px;
+    height: 23px;
+    position: absolute;
+  }
+.shoppay-button {
+    top: 9.20323371887207px;
+    left: 66.26851654052734px;
+    width: 16px;
+    height: 23px;
+    position: absolute;
+  }
+.gpay-button {
   top: 9.20323371887207px;
   left: 66.26851654052734px;
   width: 16px;
   height: 23px;
   position: absolute;
 }
-.mac-book-pro1438-text39 {
+.payment-methods {
   top: 748px;
   left: 49px;
   color: rgba(22, 22, 24, 1);
@@ -275,7 +179,7 @@
   position: absolute;
   border-radius: 10px;
 }
-.mac-book-pro1438-text41 {
+.full-name-text {
   top: 446px;
   left: 75px;
   color: rgba(22, 22, 24, 0.30000001192092896);
@@ -299,7 +203,7 @@
   position: absolute;
   border-radius: 10px;
 }
-.mac-book-pro1438-text43 {
+.mobile-number-text {
   top: 520px;
   left: 349px;
   color: rgba(22, 22, 24, 0.30000001192092896);
@@ -323,7 +227,7 @@
   position: absolute;
   border-radius: 10px;
 }
-.mac-book-pro1438-text45 {
+.address-text {
   top: 590px;
   left: 75px;
   color: rgba(22, 22, 24, 0.30000001192092896);
@@ -347,7 +251,7 @@
   position: absolute;
   border-radius: 10px;
 }
-.mac-book-pro1438-text47 {
+.state-text {
   top: 662px;
   left: 77px;
   color: rgba(22, 22, 24, 0.30000001192092896);
@@ -371,7 +275,7 @@
   position: absolute;
   border-radius: 10px;
 }
-.mac-book-pro1438-text49 {
+.zip-code-text {
   top: 660px;
   left: 361px;
   color: rgba(22, 22, 24, 0.30000001192092896);
@@ -395,7 +299,7 @@
   position: absolute;
   border-radius: 10px;
 }
-.mac-book-pro1438-text51 {
+.email-address-text {
   top: 518px;
   left: 77px;
   color: rgba(22, 22, 24, 0.30000001192092896);
@@ -411,7 +315,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-text53 {
+.credit-card-text {
   top: 806px;
   left: 125px;
   color: rgba(22, 22, 24, 1);
@@ -427,7 +331,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-text55 {
+.bnpl-text {
   top: 883px;
   left: 125px;
   color: rgba(22, 22, 24, 1);
@@ -443,7 +347,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-text57 {
+.afterpay-text {
   top: 843px;
   left: 125px;
   color: rgba(22, 22, 24, 1);
@@ -459,269 +363,22 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-card-flags2 {
-  top: 852px;
-  left: 768px;
-  width: 42px;
-  height: 28px;
-  display: flex;
-  overflow: hidden;
+.payment-method-text{
+  top: 750px;
+  left: 51px;
+  color: rgba(22, 22, 24, 1);
+  width: 235px;
+  height: auto;
   position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-radius: 12px;
-  background-color: rgba(120, 164, 49, 1);
-}
-.mac-book-pro1438-icon2 {
-  top: 10.744186401367188px;
-  left: 5.25px;
-  width: 31.5px;
-  height: 6.4956817626953125px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro1438-vector09 {
-  top: 0.0038967132568359375px;
-  left: 0px;
-  width: 19px;
-  height: 5px;
-  position: absolute;
-}
-.mac-book-pro1438-vector10 {
-  top: 0px;
-  left: 19.815040588378906px;
-  width: 12px;
-  height: 6px;
-  position: absolute;
-}
-.mac-book-pro1438-vector11 {
-  top: 1.1896171569824219px;
-  left: 4.278936386108398px;
-  width: 3px;
-  height: 4px;
-  position: absolute;
-}
-.mac-book-pro1438-card-flags3 {
-  top: 807px;
-  left: 739px;
-  width: 35px;
-  height: 23px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-radius: 12px;
-  background-image: linear-gradient(73deg, rgba(34, 35, 87, 1) 0%, rgba(37, 74, 165, 1) 100%);
-}
-.mac-book-pro1438-icon3 {
-  top: 7.488372325897217px;
-  left: 4.375px;
-  width: 26.24944305419922px;
-  height: 8.29069709777832px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro1438-vector12 {
-  top: 8.29069709777832px;
-  left: 0px;
-  width: 26px;
-  height: 8px;
-  position: absolute;
-}
-.mac-book-pro1438-card-flags4 {
-  top: 807px;
-  left: 701px;
-  width: 35px;
-  height: 23px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-radius: 12px;
-  background-color: rgba(29, 113, 185, 1);
-}
-.mac-book-pro1438-icon4 {
-  top: 4.279069900512695px;
-  left: 18.3203125px;
-  width: 16.69898223876953px;
-  height: 14.44186019897461px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro1438-vector13 {
-  top: 6.782186508178711px;
-  left: 2.793567657470703px;
-  width: 14px;
-  height: 8px;
-  position: absolute;
-}
-.mac-book-pro1438-vector14 {
-  top: 7.623051643371582px;
-  left: 3.722400665283203px;
-  width: 5px;
-  height: 6px;
-  position: absolute;
-}
-.mac-book-pro1438-vector15 {
-  top: 7.62348747253418px;
-  left: 8.866189956665039px;
-  width: 8px;
-  height: 6px;
-  position: absolute;
-}
-.mac-book-pro1438-vector16 {
-  top: 0px;
-  left: 0px;
-  width: 17px;
-  height: 8px;
-  position: absolute;
-}
-.mac-book-pro1438-vector17 {
-  top: 0.8302731513977051px;
-  left: 1.3721790313720703px;
-  width: 8px;
-  height: 6px;
-  position: absolute;
-}
-.mac-book-pro1438-vector18 {
-  top: 0.8292765617370605px;
-  left: 8.888898849487305px;
-  width: 8px;
-  height: 6px;
-  position: absolute;
-}
-.mac-book-pro1438-card-flags5 {
-  top: 807px;
-  left: 663px;
-  width: 35px;
-  height: 23px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-radius: 12px;
-  background-color: var(--dl-color-default-darkcolorbackground);
-}
-.mac-book-pro1438-icon5 {
-  top: 4.279069900512695px;
-  left: 7.65625px;
-  width: 19.715784072875977px;
-  height: 14.44186019897461px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro1438-vector19 {
-  top: 0.0004343986511230469px;
-  left: 13.642280578613281px;
-  width: 6px;
-  height: 14px;
-  position: absolute;
-}
-.mac-book-pro1438-vector20 {
-  top: 0.00010824203491210938px;
-  left: 0px;
-  width: 6px;
-  height: 14px;
-  position: absolute;
-}
-.mac-book-pro1438-vector21 {
-  top: 0px;
-  left: 6.829486846923828px;
-  width: 6px;
-  height: 14px;
-  position: absolute;
-}
-.mac-book-pro1438-card-flags6 {
-  top: 220px;
-  left: 224px;
-  width: 109px;
-  height: 73px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-radius: 12px;
-  background-color: rgba(90, 49, 244, 1);
-}
-.mac-book-pro1438-icon6 {
-  top: 22.918603897094727px;
-  left: 13.625px;
-  width: 81.75px;
-  height: 32.500335693359375px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro1438-shop-pay {
-  top: 0px;
-  left: 0px;
-  width: 82px;
-  height: 33px;
-  position: absolute;
-}
-.mac-book-pro1438-card-flags7 {
-  top: 221px;
-  left: 73px;
-  width: 111px;
-  height: 74px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-radius: 12px;
-  background-color: var(--dl-color-default-darkcolorbackground);
-}
-.mac-book-pro1438-icon7 {
-  top: 21.511627197265625px;
-  left: 13.875px;
-  width: 83.25px;
-  height: 33.91376495361328px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro1438-icon8 {
-  top: 0px;
-  left: 0px;
-  width: 83px;
-  height: 34px;
-  position: absolute;
-}
-.mac-book-pro1438-line20 {
-  top: 332px;
-  left: 17px;
-  width: 262px;
-  height: 1px;
-  position: absolute;
-}
-.mac-book-pro1438-line21 {
-  top: 332px;
-  left: 267px;
-  width: 292px;
-  height: 1px;
-  position: absolute;
-}
-.mac-book-pro1438-line26 {
-  top: 321px;
-  right: 192px;
-  width: 498px;
-  height: 1px;
-  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Raleway;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+
 }
 .mac-book-pro1438-text59 {
   top: 318px;

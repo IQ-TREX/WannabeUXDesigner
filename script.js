@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
 document.addEventListener('DOMContentLoaded', function() {
     var elements = document.querySelectorAll('.plus-sign-one, .plus-sign-two, .plus-sign-three, .plus-sign-four, .plus-sign-five');
     elements.forEach (function(element){
