@@ -680,7 +680,7 @@
   .footer-background {
     top: 1099px;
     left: 0px;
-    width: 2912px;
+    width: 213vh;
     height: 400px;
     position: absolute;
     background-color: #161618;
@@ -790,3 +790,9 @@
     height: 39px;
     position: absolute;
   }
+
+.whole-fotter{
+  position: absolute;
+  top: 8vh;
+  left: 0vh;
+}
