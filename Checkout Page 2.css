@@ -108,7 +108,20 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mastercard-logo {
+.visa-logo {
+    top: 808px;
+    left: 777px;
+    width: 33px;
+    height: 22px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background-color: rgba(1, 50, 111, 1);
+}
+.amex-logo {
   top: 808px;
   left: 777px;
   width: 33px;
@@ -121,6 +134,45 @@
   border-radius: 12px;
   background-color: rgba(1, 50, 111, 1);
 }
+.ucb-logo {
+    top: 808px;
+    left: 777px;
+    width: 33px;
+    height: 22px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background-color: rgba(1, 50, 111, 1);
+}
+.mastercard-logo {
+    top: 808px;
+    left: 777px;
+    width: 33px;
+    height: 22px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background-color: rgba(1, 50, 111, 1);
+}
+.afterpay-logo {
+    top: 808px;
+    left: 777px;
+    width: 33px;
+    height: 22px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background-color: rgba(1, 50, 111, 1);
+}  
 .express-checkouts {
     top: 219px;
     left: 367px;
@@ -171,13 +223,15 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-rectangle78 {
+.rectangle-1 {
   top: 436px;
   left: 45px;
   width: 584px;
   height: 43px;
   position: absolute;
   border-radius: 10px;
+  background-color: #D3D3D3;
+  opacity: 0.5;
 }
 .full-name-text {
   top: 446px;
@@ -195,13 +249,15 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-rectangle80 {
+.rectangle-2 {
   top: 508px;
   left: 332px;
   width: 298px;
   height: 44px;
   position: absolute;
   border-radius: 10px;
+  background-color: #D3D3D3;
+  opacity: 0.5;
 }
 .mobile-number-text {
   top: 520px;
@@ -219,13 +275,15 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-rectangle81 {
+.rectangle-3 {
   top: 581px;
   left: 45px;
   width: 584px;
   height: 43px;
   position: absolute;
   border-radius: 10px;
+  background-color: #D3D3D3;
+  opacity: 0.5;
 }
 .address-text {
   top: 590px;
@@ -243,13 +301,15 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-rectangle83 {
+.rectangle-4 {
   top: 653px;
   left: 48px;
   width: 260px;
   height: 40px;
   position: absolute;
   border-radius: 10px;
+  background-color: #D3D3D3;
+  opacity: 0.5;
 }
 .state-text {
   top: 662px;
@@ -267,13 +327,15 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-rectangle84 {
+.rectangle-5 {
   top: 651px;
   left: 330px;
   width: 295px;
   height: 40px;
   position: absolute;
   border-radius: 10px;
+  background-color: #D3D3D3;
+  opacity: 0.5;
 }
 .zip-code-text {
   top: 660px;
@@ -291,13 +353,15 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-rectangle79 {
+.rectangle-6 {
   top: 508px;
   left: 48px;
   width: 260px;
   height: 44px;
   position: absolute;
   border-radius: 10px;
+  background-color: #D3D3D3;
+  opacity: 0.5;
 }
 .email-address-text {
   top: 518px;
@@ -380,7 +444,7 @@
   text-decoration: none;
 
 }
-.mac-book-pro1438-text59 {
+.or-text {
   top: 318px;
   left: 261px;
   color: rgba(22, 22, 24, 1);
@@ -396,7 +460,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-text61 {
+.express-checkout-text {
   top: 147px;
   left: 32px;
   color: rgba(22, 22, 24, 1);
@@ -412,14 +476,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-line25 {
-  top: 194px;
-  left: 874px;
-  width: 754px;
-  height: 1px;
-  position: absolute;
-}
-.mac-book-pro1438-text63 {
+.order-summary-text {
   top: 175px;
   left: 724px;
   color: rgba(22, 22, 24, 1);
@@ -435,7 +492,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-text65 {
+.catherine-island-text {
   top: 233px;
   left: 723px;
   color: rgba(22, 22, 24, 1);
@@ -451,7 +508,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-text67 {
+.stamford-coffee-table-text {
   top: 270px;
   left: 723px;
   color: rgba(22, 22, 24, 1);
@@ -467,7 +524,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-text69 {
+.price-one {
   top: 270px;
   left: 1125px;
   color: rgba(22, 22, 24, 1);
@@ -483,7 +540,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-text71 {
+.price-two {
   top: 233px;
   left: 1105px;
   color: rgba(22, 22, 24, 1);
@@ -499,7 +556,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-text73 {
+.price-three {
   top: 342px;
   left: 1071px;
   color: rgba(22, 22, 24, 1);
@@ -515,7 +572,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-text75 {
+.subtotal-text {
   top: 342px;
   left: 724px;
   color: rgba(99, 165, 180, 1);
@@ -531,7 +588,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-text77 {
+.grandtotal-text {
   top: 475px;
   left: 724px;
   color: rgba(22, 22, 24, 1);
@@ -547,7 +604,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-text79 {
+.total-price {
   top: 475px;
   left: 1071px;
   color: rgba(22, 22, 24, 1);
@@ -563,7 +620,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-text81 {
+.discount-price {
   top: 413px;
   left: 1070px;
   color: rgba(22, 22, 24, 1);
@@ -579,7 +636,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-text83 {
+.discount-text {
   top: 416px;
   left: 724px;
   color: rgba(99, 165, 180, 1);
@@ -595,7 +652,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-text85 {
+.shipping-price {
   top: 375px;
   left: 1071px;
   color: rgba(22, 22, 24, 1);
@@ -611,7 +668,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-text87 {
+.shipping-text {
   top: 378px;
   left: 725px;
   color: rgba(99, 165, 180, 1);
@@ -627,54 +684,186 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1438-rectangle75 {
-  top: 535px;
-  left: 723px;
-  width: 466px;
-  height: 72px;
-  position: absolute;
-  border-color: rgba(22, 22, 24, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 20px;
+.confirm-order-button {
+    top: 560px;
+    left: 1047px;
+    width: 288px;
+    height: 47px;
+    position: absolute;
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family:  Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    min-width: 0;
+    outline: none;
+    padding: 12px 24px 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
 }
-.mac-book-pro1438-text89 {
-  top: 557px;
-  left: 833px;
-  color: rgba(255, 255, 255, 1);
-  width: 235px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: SemiBold;
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 600;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
+
+.confirm-order-button:disabled {
+    pointer-events: none;
 }
-.mac-book-pro1438-vector22 {
-  top: 813px;
-  left: 88px;
-  width: 11px;
-  height: 11px;
-  position: absolute;
+
+.confirm-order-button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
 }
-.mac-book-pro1438-vector23 {
-  top: 891px;
-  left: 88px;
-  width: 11px;
-  height: 11px;
-  position: absolute;
+
+.confirm-order-button:active {
+    box-shadow: none;
+    transform: translateY(0);
 }
-.mac-book-pro1438-vector24 {
-  top: 852px;
-  left: 88px;
-  width: 11px;
-  height: 11px;
-  position: absolute;
+.checkbox-1 .round {
+    top: 813px;
+    left: 88px;
+    position: absolute;
+    }
+  
+.checkbox-1 .round label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    display: block;
+    }
+  
+.checkbox-1 .round label:after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 4px;
+    opacity: 0;
+    position: absolute;
+    top: 5.5px;
+    transform: rotate(-45deg);
+    width: 12px;
+    }
+  
+.checkbox-1 .round input[type="radio"] {
+    visibility: hidden;
+    display: none;
+    opacity: 0;
+    }
+  
+.checkbox-1 .round input[type="radio"]:checked + label {
+    background-color: #66bb6a;
+    border-color: #66bb6a;
+    }
+  
+.checkbox-1 .round input[type="radio"]:checked + label:after {
+    opacity: 1;
+    }
+
+    
+.checkbox-2 .round {
+    top: 852px;
+    left: 88px;
+    position: absolute;
 }
+      
+.checkbox-2 .round label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+      
+.checkbox-2 .round label:after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 4px;
+    opacity: 0;
+    position: absolute;
+    top: 5.5px;
+    transform: rotate(-45deg);
+    width: 12px;
+}
+      
+.checkbox-2 .round input[type="radio"] {
+    visibility: hidden;
+    display: none;
+    opacity: 0;
+}
+      
+.checkbox-2 .round input[type="radio"]:checked + label {
+    background-color: #66bb6a;
+    border-color: #66bb6a;
+}
+      
+.checkbox-2 .round input[type="radio"]:checked + label:after {
+    opacity: 1;
+}
+
+.checkbox-3 .round {
+    top: 891px;
+    left: 88px;
+    position: absolute;
+}
+      
+.checkbox-3 .round label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+      
+.checkbox-3 .round label:after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 4px;
+    opacity: 0;
+    position: absolute;
+    top: 5.5px;
+    transform: rotate(-45deg);
+    width: 12px;
+}
+      
+.checkbox-3 .round input[type="radio"] {
+    visibility: hidden;
+    display: none;
+    opacity: 0;
+}
+      
+.checkbox-3 .round input[type="radio"]:checked + label {
+    background-color: #66bb6a;
+    border-color: #66bb6a;
+}
+      
+.checkbox-3 .round input[type="radio"]:checked + label:after {
+    opacity: 1;
+}
+      
 .brand-logo-two {
     top: 1129px;
     left: 37px;
@@ -788,3 +977,4 @@
     position: absolute;
     background-color: #161618;
   }
+
