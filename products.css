@@ -385,7 +385,7 @@ header {
 
 .product1-img{
   position: relative;
-  top: 5vh;
+  top: 4vh;
   left: 18vh;
 }
 
@@ -409,30 +409,124 @@ header {
 
 .product2-img{
   position: relative;
-  top: 5vh;
+  top: 3vh;
   left: 18vh;
+}
+
+.product2-price{
+  position: relative;
+  top: 2.5vh;
+  left: 5vh;
+  font-weight: 549;
+  color: #63A5B4;
+  font-size: 1.6rem;
+}
+
+.product2-name{
+  position: relative;
+  top: .5vh;
+  left: 5vh;
+  color: #161618;
+  font-size: 1.6rem;
+  font-weight: thin;
 }
 
 .product3-img{
   position: relative;
   top: 5vh;
   left: 18vh;
+  scale: 1.2;
+}
+
+.product3-price{
+  position: relative;
+  top: 5.5vh;
+  left: 5vh;
+  font-weight: 549;
+  color: #63A5B4;
+  font-size: 1.6rem;
+}
+
+.product3-name{
+  position: relative;
+  top: 3vh;
+  left: 5vh;
+  color: #161618;
+  font-size: 1.6rem;
+  font-weight: thin;
 }
 
 .product4-img{
   position: relative;
-  top: 5vh;
-  left: 18vh;
+  top: 6vh;
+  left: 15vh;
+  scale: 1.2;
+}
+
+.product4-price{
+  position: relative;
+  top: 10.5vh;
+  left: 5vh;
+  font-weight: 549;
+  color: #63A5B4;
+  font-size: 1.6rem;
+}
+
+.product4-name{
+  position: relative;
+  top: 8.8vh;
+  left: 5vh;
+  color: #161618;
+  font-size: 1.6rem;
+  font-weight: thin;
 }
 
 .product5-img{
   position: relative;
   top: 5vh;
-  left: 18vh;
+  left: 14vh;
+  scale: 1.2;
+}
+
+.product5-price{
+  position: relative;
+  top: 5vh;
+  left: 5vh;
+  font-weight: 549;
+  color: #63A5B4;
+  font-size: 1.6rem;
+}
+
+.product5-name{
+  position: relative;
+  top: 3vh;
+  left: 5vh;
+  color: #161618;
+  font-size: 1.6rem;
+  font-weight: thin;
 }
 
 .product6-img{
   position: relative;
+  top: 2vh;
+  left: 13vh;
+  scale: 1.2;
+}
+
+.product6-price{
+  position: relative;
   top: 5vh;
-  left: 18vh;
+  left: 5vh;
+  font-weight: 549;
+  color: #63A5B4;
+  font-size: 1.6rem;
+}
+
+.product6-name{
+  position: relative;
+  top: 3vh;
+  left: 5vh;
+  color: #161618;
+  font-size: 1.6rem;
+  font-weight: thin;
 }
