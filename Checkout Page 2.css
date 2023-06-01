@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+  padding: 0;
+} 
 .main-container {
   width: 100%;
   display: flex;
@@ -16,82 +20,93 @@
   flex-shrink: 0;
   background-color: rgba(255, 255, 255, 1);
 }
-.brand-logo {
-  top: 47px;
-  left: 126px;
-  width: 491px;
-  height: 31px;
-  position: absolute;
-}
-.collection-button {
-  top: 44px;
-  color: rgb(22, 22, 24);
-  right: 800px;
-  width: 178px;
-  height: auto;
-  position: absolute;
-  font-size: 30px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Raleway;
-  font-weight: 500;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.appointments-button {
-  top: 44px;
-  color: rgba(22, 22, 24, 1);
-  right: 406px;
-  width: 205px;
-  height: auto;
-  position: absolute;
-  font-size: 30px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Raleway;
-  font-weight: 500;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.styling-tips-button {
-  top: 43px;
-  color: rgba(22, 22, 24, 1);
-  right: 623px;
-  width: 177px;
-  height: auto;
-  position: absolute;
-  font-size: 30px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Raleway;
-  font-weight: 500;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.search-button {
-  top: 54px;
-  left: 1050px;
-  width: 22px;
-  height: 22px;
-  position: absolute;
-}
-.cart-button {
-  top: 54px;
-  left: 1090px;
-  width: 22px;
-  height: 22px;
-  position: absolute;
-}
-.burger-menu-button {
-  top: 48px;
-  left: 45px;
-  width: 48px;
-  height: 30px;
-  position: absolute;
-}
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 500;
+  }
+  .navbar-item-1 img {
+    top: 40px;
+    left: 70px;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+  }
+  .navbar-item-2 img {
+    max-height: 25px;
+    top: 43px;
+    left: 150px;
+    width: 396px;
+    height: 25px;
+    position: absolute;
+  }
+  .navbar-item-3 {
+    top: 45px;
+    left: 660px;
+    width: 178px;
+    height: auto;
+    position: absolute;
+  }
+  .navbar-item-4 {
+    top: 45px;
+    left: 825px;
+    width: 178px;
+    height: auto;
+    position: absolute;
+  }
+  .navbar-item-5 {
+    top: 45px;
+    left: 1000px;
+    width: 178px;
+    height: auto;
+    position: absolute;
+  }
+  .navbar-item-6 img {
+    top: 45px;
+    left: 1230px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+  }
+  .navbar-item-7 img {
+    top: 44px;
+    left: 1295px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+  }
+  .navbar-item-8 img {
+    top: 40px;
+    left: 1358px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+  }
+  .nav__links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+  }
+  .nav__links li {
+    margin-left: 20px;   
+  }
+  .nav__links a {
+    text-decoration: none;
+    color: black;
+    font-size: 23px; 
+    font-family: Raleway;
+    font-weight: bolder;
+  }
+  .nav__links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #63A5B4;
+  }  
 .delivery-info-text {
   top: 373px;
   left: 51px;
