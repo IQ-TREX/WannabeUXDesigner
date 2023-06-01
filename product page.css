@@ -335,7 +335,7 @@ body {
     width: 191px;
     height: auto;
     position: absolute;
-    font-size: 30px;
+    font-size: 25px;
     font-style: Medium;
     text-align: left;
     font-family: Raleway;
@@ -345,7 +345,7 @@ body {
     text-decoration: none;
   }
   .furniture-price {
-    top: 313px;
+    top: 310px;
     left: 944px;
     color: rgba(99, 165, 180, 1);
     width: 197px;
@@ -361,7 +361,7 @@ body {
     text-decoration: none;
   }
   .furniture-price-extra {
-    top: 364px;
+    top: 350px;
     left: 989px;
     color: rgba(0, 0, 0, 1);
     width: 346px;
