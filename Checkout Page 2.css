@@ -109,7 +109,7 @@ body{
   }  
 .delivery-info-text {
   top: 373px;
-  left: 51px;
+  left: 70px;
   color: rgba(22, 22, 24, 1);
   width: 235px;
   height: auto;
@@ -240,9 +240,9 @@ body{
 }
 .rectangle-1 {
   top: 436px;
-  left: 45px;
+  left: 70px;
   width: 584px;
-  height: 43px;
+  height: 40px;
   position: absolute;
   border-radius: 10px;
   background-color: #D3D3D3;
@@ -250,7 +250,7 @@ body{
 }
 .full-name-text {
   top: 446px;
-  left: 75px;
+  left: 90px;
   color: rgba(22, 22, 24, 0.30000001192092896);
   width: 521px;
   height: auto;
@@ -266,17 +266,17 @@ body{
 }
 .rectangle-2 {
   top: 508px;
-  left: 332px;
+  left: 356px;
   width: 298px;
-  height: 44px;
+  height: 40px;
   position: absolute;
   border-radius: 10px;
   background-color: #D3D3D3;
   opacity: 0.5;
 }
 .mobile-number-text {
-  top: 520px;
-  left: 349px;
+  top: 518px;
+  left: 376px;
   color: rgba(22, 22, 24, 0.30000001192092896);
   width: 243px;
   height: auto;
@@ -292,9 +292,9 @@ body{
 }
 .rectangle-3 {
   top: 581px;
-  left: 45px;
+  left: 70px;
   width: 584px;
-  height: 43px;
+  height: 40px;
   position: absolute;
   border-radius: 10px;
   background-color: #D3D3D3;
@@ -302,7 +302,7 @@ body{
 }
 .address-text {
   top: 590px;
-  left: 75px;
+  left: 90px;
   color: rgba(22, 22, 24, 0.30000001192092896);
   width: 521px;
   height: auto;
@@ -317,8 +317,8 @@ body{
   text-decoration: none;
 }
 .rectangle-4 {
-  top: 653px;
-  left: 48px;
+  top: 651px;
+  left: 70px;
   width: 260px;
   height: 40px;
   position: absolute;
@@ -328,7 +328,7 @@ body{
 }
 .state-text {
   top: 662px;
-  left: 77px;
+  left: 90px;
   color: rgba(22, 22, 24, 0.30000001192092896);
   width: 520px;
   height: auto;
@@ -344,8 +344,8 @@ body{
 }
 .rectangle-5 {
   top: 651px;
-  left: 330px;
-  width: 295px;
+  left: 356px;
+  width: 298px;
   height: 40px;
   position: absolute;
   border-radius: 10px;
@@ -353,8 +353,8 @@ body{
   opacity: 0.5;
 }
 .zip-code-text {
-  top: 660px;
-  left: 361px;
+  top: 662px;
+  left: 376px;
   color: rgba(22, 22, 24, 0.30000001192092896);
   width: 520px;
   height: auto;
@@ -370,9 +370,9 @@ body{
 }
 .rectangle-6 {
   top: 508px;
-  left: 48px;
+  left: 70px;
   width: 260px;
-  height: 44px;
+  height: 40px;
   position: absolute;
   border-radius: 10px;
   background-color: #D3D3D3;
@@ -380,7 +380,7 @@ body{
 }
 .email-address-text {
   top: 518px;
-  left: 77px;
+  left: 90px;
   color: rgba(22, 22, 24, 0.30000001192092896);
   width: 520px;
   height: auto;
@@ -394,57 +394,9 @@ body{
   font-stretch: normal;
   text-decoration: none;
 }
-.credit-card-text {
-  top: 806px;
-  left: 125px;
-  color: rgba(22, 22, 24, 1);
-  width: 235px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.bnpl-text {
-  top: 883px;
-  left: 125px;
-  color: rgba(22, 22, 24, 1);
-  width: 235px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.afterpay-text {
-  top: 843px;
-  left: 125px;
-  color: rgba(22, 22, 24, 1);
-  width: 235px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
 .payment-method-text{
   top: 750px;
-  left: 51px;
+  left: 70px;
   color: rgba(22, 22, 24, 1);
   width: 235px;
   height: auto;
@@ -477,14 +429,14 @@ body{
 }
 .express-checkout-text {
   top: 147px;
-  left: 32px;
+  left: 70px;
   color: rgba(22, 22, 24, 1);
   width: 235px;
   height: auto;
   position: absolute;
   font-size: 24px;
-  font-style: SemiBold;
-  text-align: center;
+  font-style: bold;
+  text-align: left;
   font-family: Raleway;
   font-weight: 600;
   line-height: normal;
@@ -492,13 +444,13 @@ body{
   text-decoration: none;
 }
 .order-summary-text {
-  top: 175px;
-  left: 724px;
+  top: 147px;
+  left: 800px;
   color: rgba(22, 22, 24, 1);
   width: 235px;
   height: auto;
   position: absolute;
-  font-size: 20px;
+  font-size: 24px;
   font-style: SemiBold;
   text-align: left;
   font-family: Raleway;
@@ -509,7 +461,7 @@ body{
 }
 .catherine-island-text {
   top: 233px;
-  left: 723px;
+  left: 800px;
   color: rgba(22, 22, 24, 1);
   width: 466px;
   height: auto;
@@ -525,7 +477,7 @@ body{
 }
 .stamford-coffee-table-text {
   top: 270px;
-  left: 723px;
+  left: 800px;
   color: rgba(22, 22, 24, 1);
   width: 345px;
   height: auto;
@@ -541,14 +493,14 @@ body{
 }
 .price-one {
   top: 270px;
-  left: 1125px;
+  right: 100px;
   color: rgba(22, 22, 24, 1);
   width: 111px;
   height: auto;
   position: absolute;
   font-size: 20px;
   font-style: Regular;
-  text-align: left;
+  text-align: right;
   font-family: Raleway;
   font-weight: 400;
   line-height: normal;
@@ -557,14 +509,14 @@ body{
 }
 .price-two {
   top: 233px;
-  left: 1105px;
+  right: 100px;
   color: rgba(22, 22, 24, 1);
   width: 100px;
   height: auto;
   position: absolute;
   font-size: 20px;
   font-style: Regular;
-  text-align: center;
+  text-align: right;
   font-family: Raleway;
   font-weight: 400;
   line-height: normal;
@@ -573,7 +525,7 @@ body{
 }
 .price-three {
   top: 342px;
-  left: 1071px;
+  right: 100px;
   color: rgba(22, 22, 24, 1);
   width: 109px;
   height: auto;
@@ -589,7 +541,7 @@ body{
 }
 .subtotal-text {
   top: 342px;
-  left: 724px;
+  left: 800px;
   color: rgba(99, 165, 180, 1);
   width: 318px;
   height: auto;
@@ -605,7 +557,7 @@ body{
 }
 .grandtotal-text {
   top: 475px;
-  left: 724px;
+  left: 800px;
   color: rgba(22, 22, 24, 1);
   width: 318px;
   height: auto;
@@ -621,7 +573,7 @@ body{
 }
 .total-price {
   top: 475px;
-  left: 1071px;
+  right: 100px;
   color: rgba(22, 22, 24, 1);
   width: 109px;
   height: auto;
@@ -637,7 +589,7 @@ body{
 }
 .discount-price {
   top: 413px;
-  left: 1070px;
+  right: 100px;
   color: rgba(22, 22, 24, 1);
   width: 110px;
   height: auto;
@@ -653,7 +605,7 @@ body{
 }
 .discount-text {
   top: 416px;
-  left: 724px;
+  left: 800px;
   color: rgba(99, 165, 180, 1);
   width: 318px;
   height: auto;
@@ -669,7 +621,7 @@ body{
 }
 .shipping-price {
   top: 375px;
-  left: 1071px;
+  right: 100px;
   color: rgba(22, 22, 24, 1);
   width: 110px;
   height: auto;
@@ -685,7 +637,7 @@ body{
 }
 .shipping-text {
   top: 378px;
-  left: 725px;
+  left: 800px;
   color: rgba(99, 165, 180, 1);
   width: 318px;
   height: auto;
@@ -700,8 +652,8 @@ body{
   text-decoration: none;
 }
 .confirm-order-button {
-    top: 560px;
-    left: 1047px;
+    top: 550px;
+    right: 215px;
     width: 288px;
     height: 47px;
     position: absolute;
@@ -743,8 +695,24 @@ body{
     box-shadow: none;
     transform: translateY(0);
 }
+.credit-card-text {
+    top: 819px;
+    left: 125px;
+    color: rgba(22, 22, 24, 1);
+    width: 235px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
 .checkbox-1 .round {
-    top: 813px;
+    top: 820px;
     left: 88px;
     position: absolute;
     }
@@ -787,10 +755,24 @@ body{
 .checkbox-1 .round input[type="radio"]:checked + label:after {
     opacity: 1;
     }
-
-    
+.afterpay-text {
+        top: 869px;
+        left: 125px;
+        color: rgba(22, 22, 24, 1);
+        width: 235px;
+        height: auto;
+        position: absolute;
+        font-size: 20px;
+        font-style: Regular;
+        text-align: left;
+        font-family: Raleway;
+        font-weight: 400;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+    }
 .checkbox-2 .round {
-    top: 852px;
+    top: 870px;
     left: 88px;
     position: absolute;
 }
@@ -833,9 +815,24 @@ body{
 .checkbox-2 .round input[type="radio"]:checked + label:after {
     opacity: 1;
 }
-
+.bnpl-text {
+    top: 919px;
+    left: 125px;
+    color: rgba(22, 22, 24, 1);
+    width: 235px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
 .checkbox-3 .round {
-    top: 891px;
+    top: 920px;
     left: 88px;
     position: absolute;
 }
