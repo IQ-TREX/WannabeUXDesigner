@@ -1,0 +1,283 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  font-size: 2rem;
+  position: relative;
+  top: -6vh;
+}
+
+.hamburger-logo{
+  max-height: 25px;
+  margin-top: 3px;
+}
+
+.logo img {
+  position: relative;
+  max-height: 25px;
+  margin-left: -220px;
+}
+
+.right-items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  padding-right: 20px;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+  
+.search, .cart, .login {
+  margin-left: 20px;
+}
+
+header > .right-items > nav > .nav__links > li > a {
+    font-family: 'Raleway', sans-serif ;
+    font-weight: 500;
+    font-size: 25px;
+    color: #161618;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+  }
+  
+  header > .right-items > nav > .nav__links > li > a:hover {
+    color: #63A5B4;
+  }
+  
+
+  .appoinment-img{
+    position: relative;
+    height: 100vh;
+    top: -8vh;
+    right: -2vh;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  div.elem-group {
+    margin: 20px 0;
+  }
+  
+  div.elem-group.inlined {
+    width: 49%;
+    display: inline-block;
+    margin-left: 1%;
+  }
+  
+  label {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 10px;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Raleway', sans-serif;
+    width: 70%;  /* Adjust this value */
+    padding: 10px;
+  }
+  
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+  hr {
+    border: 1px dotted #ccc;
+  }
+  
+  button {
+    height: 50px;
+    background: #63A5B4;
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    right: -27vh;
+    top: 3vh;
+  }
+  
+.form-and-image-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+  }
+  
+  .appoinment-img {
+    width: 50%; 
+    max-width: 50%;
+    margin-right: 20px; 
+  }
+  
+  .appoinment-container {
+    width: 50%;
+    max-width: 50%;
+    width: 100vh;
+    height: 100vh;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: -8vh;  
+  }
+  
+  .appoinment-input{
+    position: relative;
+    top: 5vh;
+    right: -8vh;
+  }
+
+  .mac-book-pro1415-rectangle60 {
+    top: 2988px;
+    left: 0px;
+    width: 1543px;
+    height: 395px;
+    position: absolute;
+  }
+  
+  .mac-book-pro1415-text30 {
+    top: 100px;
+    left: 756px;
+    color: rgba(243, 243, 243, 1);
+    width: 289px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .mac-book-pro1415-text32 {
+    top: 100px;
+    left: 37px;
+    color: rgba(243, 243, 243, 1);
+    width: 124px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .mac-book-pro1415-text34 {
+    top: 100px;
+    left: 1222px;
+    color: rgba(243, 243, 243, 1);
+    width: 242px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .mac-book-pro1415-text36 {
+    top: 135px;
+    left: 37px;
+    color: rgba(243, 243, 243, 0.8500000238418579);
+    width: 445px;
+    height: auto;
+    position: absolute;
+    font-size: 21px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .mac-book-pro1415-text43 {
+    top: 165px;
+    left: 756px;
+    color: rgba(243, 243, 243, 1);
+    width: 203px;
+    height: auto;
+    position: absolute;
+    font-size: 21px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  
+  .mac-book-pro1415-text50 {
+    top: 165px;
+    left: 1225px;
+    color: rgba(243, 243, 243, 1);
+    width: 175px;
+    height: auto;
+    position: absolute;
+    font-size: 21px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 500;
+  }
+  .mac-book-pro1415-logo824x5212 {
+    top: 30px;
+    left: 37px;
+    width: 669px;
+    height: 39px;
+    position: absolute;
+  }
+  
+  .fotter-rec {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 1517.9px;
+    height: 350px;
+    top: 800px;
+    background-color: #161618;
+  }
+  
+  .mac-book-pro1415-text30,
+  .mac-book-pro1415-text32,
+  .mac-book-pro1415-text34,
+  .mac-book-pro1415-text36,
+  .mac-book-pro1415-text43,
+  .mac-book-pro1415-text50 {
+    background-color: transparent;
+  }
+
+  .fotter-main{
+    position: relative;
+    top: -110vh;
+    left: -1.1vh;
+  }
+  

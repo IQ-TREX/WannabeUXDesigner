@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="appoinment.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comme&family=Raleway&display=swap" rel="stylesheet">
+
+    <title>Appoinments</title>
+
+</head>
+<body>
+    <header>
+
+        <!-- Adding hamburger menu -->
+        <a href="#" class="hamburger">
+        <img 
+              src="hamburger.png"
+              class="hamburger-logo"
+            /></a>
+          <!-- Adding logo -->
+          <div class="logo">
+              <a href="index.html">
+                <img src="Logo.png" alt="Logo">
+              </a>
+          </div>
+      
+          <div class="right-items">
+              <!-- Adding nav bar -->
+              <nav>
+                  <ul class="nav__links">
+                      <li><a href="products.html">Collection</a></li>
+                      <li><a href="#">Styling Tips</a></li>
+                      <li><a href="#">Appoinments</a></li>
+                  </ul>
+              </nav>
+      
+              <div class="search">
+                  <a href="#">
+                    <img src="Search logo.png" alt="Logo">
+                  </a>
+              </div>
+      
+              <div class="cart">
+                  <a href="cart.html">
+                    <img src="Cart logo.png" alt="Logo">
+                  </a>
+              </div>
+      
+              <div class="login">
+                  <a href="sigin.html">
+                    <img src="Login logo.png" alt="Logo">
+                  </a>
+              </div>
+          </div>
+      </header>
+
+      <div class="form-and-image-container">
+      <img src="Appoinment Image/appoinment.png" alt="appoinment" class="appoinment-img">
+
+      <div class="appoinment-container">
+        <div class="appoinment-input">
+      <form action="reservation.php" method="post">
+        <div class="elem-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="visitor_name" placeholder="Aryan Saini" pattern=[A-Z\sa-z]{3,20} required>
+        </div>
+        <div class="elem-group">
+          <label for="email">Your E-mail</label>
+          <input type="email" id="email" name="visitor_email" placeholder="aryan.saini@email.com" required>
+        </div>
+        <div class="elem-group">
+          <label for="phone">Your Phone</label>
+          <input type="tel" id="phone" name="visitor_phone" placeholder="0498348387" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+        </div>
+        <div class="elem-group inlined">
+          <label for="checkin-date">Date of Appoinment</label>
+          <input type="date" id="checkin-date" name="checkin" required>
+        </div>
+        <div class="elem-group">
+          <label for="room-selection">Select Type of Appoinment</label>
+          <select id="room-selection" name="room_preference" required>
+              <option value="">Types of Appoinment</option>
+              <option value="connecting">Showroom Appoinment</option>
+              <option value="adjoining">Virtual Appoinment</option>
+              <option value="adjacent">Phone Appoinment</option>
+              <option value="adjacent">Virtual Showroom Tour</option>
+          </select>
+        </div>
+        <button type="submit">Book Appoinment</button>
+      </form>
+    </div>
+    </div>
+</div>
+ 
+<div class="fotter-main">
+<footer>
+    <div class="fotter-rec">
+    <span class="mac-book-pro1415-text30">
+      <span style="background-color: #161618;">CONTACT US AND SERVICES</span>
+    </span>
+    <span class="mac-book-pro1415-text32"><span style="background-color: #161618;">ABOUT US</span></span>
+    <span class="mac-book-pro1415-text34">
+      <span style="background-color: #161618;">TERMS AND CONDITIONS</span>
+    </span>
+    <span class="mac-book-pro1415-text36" >
+      <span>
+        <span style="background-color: #161618;">
+          Classic Australian Made &amp; Australian Designed Furniture
+          Inspired by The Hamptons. Henry &amp; Oliver Co. are a leading
+          Designer Furniture.
+        </span>
+        <br />
+        <span style="background-color: #161618;">
+          Interiors Store located in Perth, WA. We can create custom
+          furniture for your living room, dining room, bedroom and more.
+        </span>
+        <br />
+      </span>
+    </span>
+    <span class="mac-book-pro1415-text43">
+      <span>
+        <span style="background-color: #161618;">Interior Styling Tips</span>
+        <br />
+        <span style="background-color: #161618;">Styling Services</span>
+        <br />
+        <span style="background-color: #161618;">Contact Us</span>
+      </span>
+    </span>
+    <span class="mac-book-pro1415-text50">
+      <span>
+        <span style="background-color: #161618;">General Delivery</span>
+        <br />
+        <span style="background-color: #161618;">AfterPay</span>
+        <br />
+        <span style="background-color: #161618;">ZipMoney</span>
+        <br />
+        <span style="background-color: #161618;">Custom Orders</span>
+        <br />
+        <span style="background-color: #161618;">Returns</span>
+        <br />
+        <span style="background-color: #161618;">Privacy</span>
+      </span>
+    </span>c
+    <img
+    style="background-color: #161618;"
+      src="logo824x52123019-0qtk-200h.png"
+      alt="logo824x52123019"
+      class="mac-book-pro1415-logo824x5212"
+    />
+  </div>
+  </footer>
+</div>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
