@@ -62,11 +62,11 @@ header > .right-items > nav > .nav__links > li > a {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
-  div.elem-group {
+  div.input-group {
     margin: 20px 0;
   }
   
-  div.elem-group.inlined {
+  div.input-group.inlined {
     width: 49%;
     display: inline-block;
     margin-left: 1%;
@@ -89,17 +89,13 @@ header > .right-items > nav > .nav__links > li > a {
     padding: 10px;
   }
   
-  div.elem-group.inlined input {
+  div.input-group.inlined input {
     width: 95%;
     display: inline-block;
   }
   
   textarea {
     height: 250px;
-  }
-  
-  hr {
-    border: 1px dotted #ccc;
   }
   
   button {
@@ -120,6 +116,7 @@ header > .right-items > nav > .nav__links > li > a {
     display: flex;
     justify-content: space-between; 
     align-items: flex-start; 
+    z-index: 9999;
   }
   
   .appoinment-img {
@@ -144,6 +141,7 @@ header > .right-items > nav > .nav__links > li > a {
     position: relative;
     top: 5vh;
     right: -8vh;
+    z-index: 10000;
   }
 
   .mac-book-pro1415-rectangle60 {
@@ -281,3 +279,34 @@ header > .right-items > nav > .nav__links > li > a {
     left: -1.1vh;
   }
   
+label{
+  font-weight: bold;
+}
+
+.popup{
+  width: 400px;
+  background-color: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #161618;
+  visibility: hidden;
+  transition: transform 0.4s ease-in-out;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.popup h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+}
+
+.open-popup{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}

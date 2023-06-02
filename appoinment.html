@@ -63,26 +63,26 @@
 
       <div class="appoinment-container">
         <div class="appoinment-input">
-      <form action="reservation.php" method="post">
-        <div class="elem-group">
+      <form>
+        <div class="input-group">
           <label for="name">Your Name</label>
           <input type="text" id="name" name="visitor_name" placeholder="Aryan Saini" pattern=[A-Z\sa-z]{3,20} required>
         </div>
-        <div class="elem-group">
+        <div class="input-group">
           <label for="email">Your E-mail</label>
           <input type="email" id="email" name="visitor_email" placeholder="aryan.saini@email.com" required>
         </div>
-        <div class="elem-group">
+        <div class="input-group">
           <label for="phone">Your Phone</label>
           <input type="tel" id="phone" name="visitor_phone" placeholder="0498348387" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
         </div>
-        <div class="elem-group inlined">
+        <div class="input-group inlined">
           <label for="checkin-date">Date of Appoinment</label>
           <input type="date" id="checkin-date" name="checkin" required>
         </div>
-        <div class="elem-group">
-          <label for="room-selection">Select Type of Appoinment</label>
-          <select id="room-selection" name="room_preference" required>
+        <div class="input-group">
+          <label for="type-selection">Select Type of Appoinment</label>
+          <select id="type-selection" required>
               <option value="">Types of Appoinment</option>
               <option value="connecting">Showroom Appoinment</option>
               <option value="adjoining">Virtual Appoinment</option>
@@ -90,7 +90,16 @@
               <option value="adjacent">Virtual Showroom Tour</option>
           </select>
         </div>
-        <button type="submit">Book Appoinment</button>
+        <div class="popup-btn">
+        <button type="submit" onclick="openPopup()">Book Appoinment</button>
+        <div class="popup" id="popup">
+          <h2>Thankyou for your details.</h2>
+          <p>Your information is successfully submitted. Thanks!</p>
+          <p> You will recive a mail regarding your conformation.</p>
+          <p> We will contact you soon.</p>
+          <button type="button" onclick="closePopup()">Close</button>
+      </div>
+        </div>
       </form>
     </div>
     </div>
