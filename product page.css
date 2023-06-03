@@ -769,204 +769,46 @@ body {
     top: 8vh;
     left: 0vh;
   }
-  .plus-sign-one {
-    top: 800px;
-    left: 1316px;
-    width: 19px;
-    height: 19px;
-    position: absolute;
-  /* Vertical line */
-  /* horizontal line */
-  }
-  .plus-sign-one:before, .plus-sign-one:after {
-    content: "";
-    position: absolute;
-    background-color: rgba(99, 165, 180, 1);
-    transition: transform 0.25s ease-out;
-  }
-  .plus-sign-one:before {
-    top: 0;
-    left: 50%;
-    width: 4px;
-    height: 100%;
-    margin-left: -2px;
-  }
-  .plus-sign-one:after {
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    margin-top: -2px;
-  }
-  .plus-sign-one:hover {
-    cursor: pointer;
-  }
-  .rotate:before {
-    transform: rotate(90deg);
-  }
-  .rotate:after {
-    transform: rotate(180deg);
-  }
 
-  .plus-sign-two {
-    top: 847px;
-    left: 1316px;
-    width: 19px;
-    height: 19px;
-    position: absolute;
-  /* Vertical line */
-  /* horizontal line */
-  }
-  .plus-sign-two:before, .plus-sign-two:after {
-    content: "";
-    position: absolute;
-    background-color: rgba(99, 165, 180, 1);
-    transition: transform 0.25s ease-out;
-  }
-  .plus-sign-two:before {
-    top: 0;
-    left: 50%;
-    width: 4px;
-    height: 100%;
-    margin-left: -2px;
-  }
-  .plus-sign-two:after {
-    top: 50%;
-    left: 0;
+.accordion {
     width: 100%;
-    height: 4px;
-    margin-top: -2px;
-  }
-  .plus-sign-two:hover {
-    cursor: pointer;
-  }
-  .rotate:before {
-    transform: rotate(90deg);
-  }
-  .rotate:after {
-    transform: rotate(180deg);
-  }
+    top: 770px;
+    position: absolute;
+    left: 50px;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
 
-  .plus-sign-three {
-    top: 897px;
-    left: 1316px;
-    width: 19px;
-    height: 19px;
-    position: absolute;
-  /* Vertical line */
-  /* horizontal line */
-  }
-  .plus-sign-three:before, .plus-sign-three:after {
-    content: "";
-    position: absolute;
-    background-color: rgba(99, 165, 180, 1);
-    transition: transform 0.25s ease-out;
-  }
-  .plus-sign-three:before {
-    top: 0;
-    left: 50%;
-    width: 4px;
-    height: 100%;
-    margin-left: -2px;
-  }
-  .plus-sign-three:after {
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    margin-top: -2px;
-  }
-  .plus-sign-three:hover {
-    cursor: pointer;
-  }
-  .rotate:before {
-    transform: rotate(90deg);
-  }
-  .rotate:after {
-    transform: rotate(180deg);
-  }
+.accordion .item {
+  font-family: Raleway;
+  font-size: 28px;
+}
 
-  .plus-sign-four {
-    top: 946px;
-    left: 1316px;
-    width: 19px;
-    height: 19px;
+.accordion input {
     position: absolute;
-  /* Vertical line */
-  /* horizontal line */
-  }
-  .plus-sign-four:before, .plus-sign-four:after {
-    content: "";
-    position: absolute;
-    background-color: rgba(99, 165, 180, 1);
-    transition: transform 0.25s ease-out;
-  }
-  .plus-sign-four:before {
-    top: 0;
-    left: 50%;
-    width: 4px;
-    height: 100%;
-    margin-left: -2px;
-  }
-  .plus-sign-four:after {
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    margin-top: -2px;
-  }
-  .plus-sign-four:hover {
-    cursor: pointer;
-  }
-  .rotate:before {
-    transform: rotate(90deg);
-  }
-  .rotate:after {
-    transform: rotate(180deg);
-  }
+    opacity: 0;
+}
 
-  .plus-sign-five {
-    top: 994px;
-    left: 1316px;
-    width: 19px;
-    height: 19px;
-    position: absolute;
-  /* Vertical line */
-  /* horizontal line */
-  }
-  .plus-sign-five:before, .plus-sign-five:after {
-    content: "";
-    position: absolute;
-    background-color: rgba(99, 165, 180, 1);
-    transition: transform 0.25s ease-out;
-  }
-  .plus-sign-five:before {
-    top: 0;
-    left: 50%;
-    width: 4px;
-    height: 100%;
-    margin-left: -2px;
-  }
-  .plus-sign-five:after {
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    margin-top: -2px;
-  }
-  .plus-sign-five:hover {
+.accordion label {
+    display: block;
+    background: #FFFFFF;
+    padding: 10px;
     cursor: pointer;
-  }
-  .rotate:before {
-    transform: rotate(90deg);
-  }
-  .rotate:after {
-    transform: rotate(180deg);
-  }
+}
+.accordion label:hover{
+  color: #63A5B4;
+}
 
-  hr{
-    width: 1212px;
-    height: 0.25px;
-    position: absolute;
-    background-color: rgba(99, 165, 180, 1 );
-  }
+.accordion .content {
+    border: 1px solid #FFFFFF;
+    border-top: none;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+    font-size: 16px;
+}
+
+.accordion input:checked ~ .content {
+    height: auto;
+    padding: 10px;
+    transition: all 1s cubic-bezier(.23, 1, 0.32, 1);
+}

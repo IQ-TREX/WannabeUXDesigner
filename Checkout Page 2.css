@@ -399,6 +399,13 @@ body{
   text-decoration: none;
 
 }
+.line-1 {
+    width: 50%; 
+    height: 2px; 
+    background-color: #000; 
+    border: none; 
+    top: 300px
+}
 .or-text {
   top: 328px;
   left: 330px;
