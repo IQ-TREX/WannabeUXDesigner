@@ -13,28 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-var modal = document.getElementById("myModal");
-var btn = document.getElementById("confirmButton");
-var span = document.getElementsByClassName("close")[0];
-var page = document.getElementById("page");
-
-btn.onclick = function() {
-  modal.style.display = "block";
-  document.body.classList.add('modal-open');
-}
-
-span.onclick = function() {
-  modal.style.display = "none";
-  document.body.classList.remove('modal-open');
-}
-
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-    document.body.classList.remove('modal-open');
-  }
-}
-
 // Sigin Page
 const signUpButton = document.getElementById('signUp');
 const signInButton = document.getElementById('signIn');
@@ -98,3 +76,21 @@ function openPopup() {
 function closePopup() {
   document.getElementById('popup').style.display = 'none';
 }
+
+//Pop Up for Order Confirmation
+function openConfirmPopup() {
+    popup.classList.add("open-popup");
+  }
+  function closeConfirmPopup() {
+    popup.classList.remove("open-popup");
+  }
+
+  //Parallax effect for Styling Tips page
+const parallax = document.getElementById("parallax");
+
+// Parallax Effect for DIV 1
+window.addEventListener("scroll", function () {
+  let offset = window.pageYOffset;
+  parallax.style.backgroundPositionY = offset * 0.7 + "px";
+  // DIV 1 background will move slower than other elements on scroll.
+});
