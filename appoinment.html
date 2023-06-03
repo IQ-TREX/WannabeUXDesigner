@@ -14,13 +14,58 @@
 </head>
 <body>
     <header>
-
+      <div class="main-nav-bar">
         <!-- Adding hamburger menu -->
-        <a href="#" class="hamburger">
-        <img 
-              src="hamburger.png"
-              class="hamburger-logo"
-            /></a>
+        <nav role="navigation">
+
+          <div id="menuToggle">
+              <input type="checkbox" />
+
+              <span></span>
+              <span></span>
+              <span></span>
+
+              <!-- Menu List -->
+              <ul id="menu">
+              <a href="#"><li id="naviagtion">New Arrivals</li></a>
+              
+              <a href="#"><li id="naviagtion">Furniture <ul class="submenu">
+                  <a href="#"><li>Charis</li></a>
+                  <a href="#"><li>Units</li></a>
+                  <a href="#"><li>Desks</li></a>
+                  <a href="#"><li>Tables</li></a>
+                  <a href="#"><li>Buffets and Cabinets</li></a>
+                  <a href="#"><li>Beds and Bedsides</li></a>
+                  <a href="#"><li>Consoles</li></a>
+                  <a href="#"><li>Sofas, Modulars and Ottomans</li></a>
+                  </ul>
+              </li></a>
+  
+              <a class="naviagtion" href="#"><li id="naviagtion">Homewears
+                  <ul class="submenu">
+                      <a href="#"><li>Rugs</li></a>
+                      <a href="#"><li>Artworks</li></a>
+                      <a href="#"><li>Mirrors</li></a>
+                      <a href="#"><li>Cushions</li></a>
+                      <a href="#"><li>Clocks</li></a>
+                      <a href="#"><li>Coastal Accents</li></a>
+                      <a href="#"><li>Kitchen and Entertaining</li></a>
+                      <a href="#"><li>Plants and Flowers</li></a>
+                      <a href="#"><li>Ginger Jars and Vase</li></a>
+                      <a href="#"><li>Candles and Diffusers</li></a>
+                      <a href="#"><li>Basket and Trays</li></a>
+                  </ul>
+              </li></a>
+              
+              <a class="naviagtion" href="#"><li id="naviagtion">Lighting</li></a>
+              
+              <a class="naviagtion" href="#"><li id="sale">Sales</li></a>
+  
+              </ul>
+  
+          </div>
+          </nav>
+        </div>
           <!-- Adding logo -->
           <div class="logo">
               <a href="index.html">
@@ -63,6 +108,7 @@
 
       <div class="appoinment-container">
         <div class="appoinment-input">
+<<<<<<< HEAD
       <form>
         <div class="input-group">
           <label for="name">Your Name</label>
@@ -101,6 +147,45 @@
         </div>
         </div>
       </form>
+=======
+          <form onsubmit="event.preventDefault(); openPopup();">
+            <div class="input-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="visitor_name" placeholder="Aryan Saini" pattern=[A-Z\sa-z]{3,20} required>
+            </div>
+            <div class="input-group">
+              <label for="email">Your E-mail</label>
+              <input type="email" id="email" name="visitor_email" placeholder="aryan.saini@email.com" required>
+            </div>
+            <div class="input-group">
+              <label for="phone">Your Phone</label>
+              <input type="tel" id="phone" name="visitor_phone" placeholder="0498348387" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+            </div>
+            <div class="input-group inlined">
+              <label for="checkin-date">Date of Appoinment</label>
+              <input type="date" id="checkin-date" name="checkin" required>
+            </div>
+            <div class="input-group">
+              <label for="type-selection">Select Type of Appoinment</label>
+              <select id="type-selection" required>
+                  <option value="">Types of Appoinment</option>
+                  <option value="connecting">Showroom Appoinment</option>
+                  <option value="adjoining">Virtual Appoinment</option>
+                  <option value="adjacent">Phone Appoinment</option>
+                  <option value="adjacent">Virtual Showroom Tour</option>
+              </select>
+            </div>
+            <button class="submit-btn" type="submit">Book Appoinment</button>
+          </form>
+          <div class="popup" id="popup">
+            <h2>Thankyou for your details.</h2>
+            <p>Your information is successfully submitted. Thanks!</p>
+            <p> You will recive a mail regarding your conformation.</p>
+            <p> We will contact you soon.</p>
+            <button class="close-btn" type="button" onclick="closePopup()">Close</button>
+          </div>
+          
+>>>>>>> 8b759e10f5638f023be21b556eb70696a59e035b
     </div>
     </div>
 </div>

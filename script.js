@@ -69,10 +69,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 // Pop Up for contact page
+// JavaScript code
 function openPopup() {
-  popup.classList.add("open-popup");
+  document.getElementById('popup').style.display = 'block';
 }
 
 function closePopup() {
-  popup.classList.remove("open-popup");
+  document.getElementById('popup').style.display = 'none';
 }
