@@ -48,7 +48,7 @@ header > .right-items > nav > .nav__links > li > a {
     transition: all 0.3s ease 0s;
   }
   
-  header > .right-items > nav > .nav__links > li > a:hover {
+header > .right-items > nav > .nav__links > li > a:hover {
     color: #63A5B4;
   }
   
@@ -81,7 +81,7 @@ header > .right-items > nav > .nav__links > li > a {
   
   input, select, textarea {
     border-radius: 2px;
-    border: 2px solid #777;
+    border: 1px solid #777;
     box-sizing: border-box;
     font-size: 1.25em;
     font-family: 'Raleway', sans-serif;
@@ -274,9 +274,9 @@ header > .right-items > nav > .nav__links > li > a {
   }
 
   .fotter-main{
-    position: relative;
-    top: -110vh;
+    position: absolute;
     left: -1.1vh;
+    bottom: 0vh;
   }
   
 label{

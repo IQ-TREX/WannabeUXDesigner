@@ -14,18 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    var buttons = document.querySelectorAll('.small-button, .medium-button, .large-button');
-    buttons.forEach(function(button) {
-      button.addEventListener('click', function() {
-        buttons.forEach(function(btn) {
-            btn.classList.remove('clicked');
-          });
-        this.classList.add('clicked');
-      });
-    });
-  });
-
 // Sigin Page
 const signUpButton = document.getElementById('signUp');
 const signInButton = document.getElementById('signIn');
