@@ -5,6 +5,8 @@
   background-color: #FDFDFD;
 }
 
+
+
 .hamburger-logo{
   max-height: 25px;
   margin-top: 3px;
@@ -103,6 +105,64 @@ letter-spacing: 0px;
   line-height: 65%;
 }
 
+.customButton {
+  position: absolute;
+  top: 535px;
+  left: 1186px;
+  width: 191px;
+  height: 130px;/* Specify the height */
+  position: absolute; /* Specify the height */
+  background: #FFFFFF url('Floor lamp black.png') no-repeat center; /* Add your initial button image here */
+  background-size: contain; /* This ensures the image fits inside the button */
+  transition: background 0.4s ease-in-out; /* This is to animate the change of image and color */
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(220, 220, 220, 4.0);
+}
+
+.customButton:hover {
+  background: #161618 url('Floor lamp.png') no-repeat center; /* Add your hover button image here */
+  background-size: contain; /* This ensures the image fits inside the button */
+
+}
+
+.customButton2 {
+  top: 340px;
+  left: 1186px;
+  width: 185px;
+  height: 130px;
+  position: absolute;
+  background: #FFFFFF url('Floor mirror black.png') no-repeat center; /* Add your initial button image here */
+  background-size: contain; /* This ensures the image fits inside the button */
+  transition: background 0.4s ease-in-out; /* This is to animate the change of image and color */
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(220, 220, 220, 4.0);
+}
+
+.customButton2:hover {
+  background: #161618 url('Floor mirror.png') no-repeat center; /* Add your hover button image here */
+  background-size: contain; /* This ensures the image fits inside the button */
+
+}
+
+.customButton3 {
+  top: 150px;
+  left: 1186px;
+  width: 185px;
+  height: 130px;
+  position: absolute;/* Specify the height */
+  background: #FFFFFF url('Sofa black.png') no-repeat center; /* Add your initial button image here */
+  background-size: contain; /* This ensures the image fits inside the button */
+  transition: background 0.4s ease-in-out; /* This is to animate the change of image and color */
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(220, 220, 220, 4.0);
+}
+
+.customButton3:hover {
+  background: #161618 url('Sofa.png') no-repeat center; /* Add your hover button image here */
+  background-size: contain; /* This ensures the image fits inside the button */
+
+}
+
 .Mirror-btn{
   top: 340px;
   left: 1186px;
@@ -127,6 +187,7 @@ letter-spacing: 0px;
   box-shadow: 0px 0px 10px rgba(220, 220, 220, 4.0); /* Adjust as needed */
   border-radius: 15px; /* Adjust as needed */
   z-index: 1;
+  background-image: url('home page left side icon\Sofa.png');
 }
 
 .Lamp-btn{
@@ -617,14 +678,14 @@ letter-spacing: 0px;
   color: white;
   
 }
-.square1
+
 
 .home-instagram-icon{
-  top: 19px;
-  left: 390px;
+  position: absolute;
+  top: 3vh;
+  left: 14vh;
   width: 38px;
   height: 38px;
-  position: absolute;
 }
 
 .insta-main {
@@ -639,8 +700,8 @@ letter-spacing: 0px;
   background-color: none;
 }
 .insta-id {
-  top: 60px;
-  left: 110px;
+  top: 65px;
+  left: 50px;
   color: rgba(2, 4, 8, 1);
   width: 366px;
   height: auto;
