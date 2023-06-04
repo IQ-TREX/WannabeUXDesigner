@@ -345,133 +345,31 @@ header {
   
 }
 
-.filter{
-  border-radius: 25px;
-  border: none;
-  background-color: #8A8A8A;
-  color: white;
-  padding: 10px 45px;
-  font-weight: lighter;
-  margin-right: 12px;
-  transition: background-color 0.4s ease;
-}
-
 .filter-img{
   height: 20px;
   width: 20px;
   margin-right: 5px;
-
+  position: relative;
+  top: 0.5vh;
 }
 
-.chairs{
+button{
   border-radius: 25px;
   border: none;
   background-color: #8A8A8A;
   color: white;
-  padding: 10px 45px;
+  padding: 13px 48px;
   font-weight: lighter;
   margin-right: 12px;
   transition: background-color 0.4s ease;
+  font-size: 1.4rem;
 }
 
-.units{
-  border-radius: 25px;
-  border: none;
-  background-color: #8A8A8A;
-  color: white;
-  padding: 10px 45px;
-  font-weight: lighter;
-  margin-right: 12px;
-  transition: background-color 0.4s ease;
-}
-
-.tables{
-  border-radius: 25px;
-  border: none;
-  background-color: #8A8A8A;
-  color: white;
-  padding: 10px 45px;
-  font-weight: lighter;
-  margin-right: 12px;
-  transition: background-color 0.4s ease;
-}
-
-.buffets{
-  border-radius: 25px;
-  border: none;
-  background-color: #8A8A8A;
-  color: white;
-  padding: 10px 45px;
-  font-weight: lighter;
-  margin-right: 12px;
-  transition: background-color 0.4s ease;
-}
-
-.beds{
-  border-radius: 25px;
-  border: none;
-  background-color: #8A8A8A;
-  color: white;
-  padding: 10px 45px;
-  font-weight: lighter;
-  margin-right: 12px;
-  transition: background-color 0.4s ease;
-}
-
-.console{
-  border-radius: 25px;
-  border: none;
-  background-color: #8A8A8A;
-  color: white;
-  padding: 10px 45px;
-  font-weight: lighter;
-  margin-right: 12px;
-  transition: background-color 0.4s ease;
-}
-
-.sofas{
-  border-radius: 25px;
-  border: none;
-  background-color: #8A8A8A;
-  color: white;
-  padding: 10px 45px;
-  font-weight: lighter;
-  margin-right: 12px;
-  transition: background-color 0.4s ease;
-}
-
-.filter:hover{
+button:hover{
   background-color: #505050;
 }
 
-.chairs:hover{
-  background-color: #505050;
-}
-
-.units:hover{
-  background-color: #505050;
-}
-
-.tables:hover{
-  background-color: #505050;
-}
-
-.sofas:hover{
-  background-color: #505050;
-}
-
-.buffets:hover{
-  background-color: #505050;
-}
-
-.beds:hover{
-  background-color: #505050;
-}
-
-.console:hover{
-  background-color: #505050;
-}
-
+/* Product Galery */
 .product-galery{
   display: grid;
   grid-template-columns: repeat(3, 0.01fr); /* This will create a 3-column grid */
@@ -486,45 +384,70 @@ header {
   width: 430px;
   height: 430px;
   background-color: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border: 0.01px #161618 solid;
+  border-radius: 10px;
 }
 
 .product2{
   width: 430px;
   height: 430px;
   background-color: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border: 0.01px #161618 solid;
+  border-radius: 10px;
 }
 
 .product3 {
   width: 430px;
   height: 430px;
   background-color: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border: 0.01px #161618 solid;
+  border-radius: 10px;
 }
 
 .product4 {
   width: 430px;
   height: 430px;
   background-color: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border: 0.01px #161618 solid;
+  border-radius: 10px;
 }
 
 .product5{
   width: 430px;
   height: 430px;
   background-color: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border: 0.01px #161618 solid;
+  border-radius: 10px;
 }
 
 .product6 {
   width: 430px;
   height: 430px;
   background-color: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border: 0.01px #161618 solid;
+  border-radius: 10px;
 }
 
-
+#card-box {
+  z-index: 90
+  transform: translate(-50%,-50%);
+  border: 1px solid rgba(#F2F4F8, 1);
+  box-shadow: 0 0 0 rgba(0,0,0,0), 0 0 0 rgba(0,0,0,0);
+  transition: ease-in-out .2s;
+  
+  &:hover {
+    top: calc( 50% - 2px );
+    border: 1px solid rgba(#F2F4F8, 0);
+    box-shadow: 0 15px 20px rgba(0,0,0,.2), 0 0 5px rgba(0,0,0,.5);
+    cursor: pointer;
+  }
+  
+  &:active {
+    top: 50%;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2), 0 0 2px rgba(0,0,0,.5);
+    transition: ease-in-out .1s;
+  }
+}
 
 .contact-us {
   top: 100px;
@@ -611,6 +534,7 @@ header {
   top: 800px;
   left: -0.5vw;
   background-color: #161618;
+  
 }
 
 .contact-us,
@@ -753,13 +677,14 @@ header {
 .product6-img{
   position: relative;
   top: 2vh;
-  left: 13vh;
-  scale: 1.2;
+  left: 10vh;
+  max-height: 40vh;
+  /* scale: 1.2; */
 }
 
 .product6-price{
   position: relative;
-  top: 5vh;
+  top: 1vh;
   left: 5vh;
   font-weight: 549;
   color: #63A5B4;
@@ -768,9 +693,14 @@ header {
 
 .product6-name{
   position: relative;
-  top: 3vh;
+  top: -1vh;
   left: 5vh;
   color: #161618;
   font-size: 1.6rem;
   font-weight: thin;
+}
+
+.whole-body{
+  position: relative;
+  top: -10vh;
 }

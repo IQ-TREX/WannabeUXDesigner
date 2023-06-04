@@ -298,9 +298,7 @@ header {
 	  top: -7vh;
 	  left: -8vh;
 	  z-index: 999;
-	}
-  
-
+	}  
 
 h1 {
 	font-weight: bold;
@@ -385,8 +383,9 @@ input {
 	overflow: hidden;
 	width: 100%; /* Full screen width */
 	max-width: 100%;
-	min-height: 90vh; /* Full screen height */
-    top: -6vh;
+	min-height: 100vh; /* Full screen height */
+    top: -11vh;
+	font-family: 'Raleway', sans-serif;
 }
 
 
@@ -578,3 +577,4 @@ input {
     position: relative;
     top: -4.5vh;
 }
+
