@@ -15,54 +15,94 @@ header {
   padding-bottom: 15vh;
 }
 
-.logo img {
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 500;
+}
+.navbar-item-1 img {
+  top: 30px;
+  left: 70px;
+  width: 40px;
+  height: 30px;
   position: absolute;
-  max-height: 3vh;
-  margin-left: 4vw;
-  /* margin-top: -9vh; */
-  padding: 2vw;
-  z-index: 0.9;
-  top: 0.9vh;
 }
-
-.right-items {
-  position: relative;
-  margin-top: -1vh;
-  margin-left: 48vw;
-  width: 150%;
-  /* margin-top: -9vh; */
-
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+.navbar-item-2 img {
+  max-height: 25px;
+  top: 33px;
+  left: 150px;
+  width: 396px;
+  height: 25px;
+  position: absolute;
 }
-
+.navbar-item-3 {
+  top: 35px;
+  left: 660px;
+  width: 178px;
+  height: auto;
+  position: absolute;
+}
+.navbar-item-4 {
+  top: 35px;
+  left: 825px;
+  width: 178px;
+  height: auto;
+  position: absolute;
+}
+.navbar-item-5 {
+  top: 35px;
+  left: 1000px;
+  width: 178px;
+  height: auto;
+  position: absolute;
+}
+.navbar-item-6 img {
+  top: 35px;
+  left: 1230px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.navbar-item-7 img {
+  top: 34px;
+  left: 1295px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.navbar-item-8 img {
+  top: 30px;
+  left: 1358px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
 .nav__links {
   list-style: none;
   display: flex;
-  padding-right: 20px;
+  justify-content: flex-end;
+  padding: 13px;
 }
-
 .nav__links li {
-  padding: 0px 20px;
+  margin-left: 20px;   
 }
-  
-.search, .cart, .login {
-  margin-left: 20px;
+.nav__links a {
+  text-decoration: none;
+  color: black;
+  font-size: 23px; 
+  font-family: Raleway;
+  font-weight: bolder;
+}
+.nav__links li a {
+  transition: all 0.3s ease 0s;
 }
 
-.nav__links li a{
-    font-family: 'Raleway', sans-serif ;
-    font-weight: 500;
-    font-size: 25px;
-    color: #161618;
-    text-decoration: none;
-    transition: all 0.3s ease 0s;
-  }
-  
-  .nav__links li a:hover{
-    color: #63A5B4;
-  }
+.nav__links li a:hover {
+  color: #63A5B4;
+}  
 
   #sale{
     color: red;
@@ -308,8 +348,8 @@ header {
 }
 
 .home-left {
-  top: 10vh;
-  left: 50px;
+  top: 250px;
+  left: 40px;
   color: #161618;
   width: 351px;
   height: auto;
@@ -362,8 +402,8 @@ letter-spacing: 0px;
 
 .customButton {
   position: absolute;
-  top: 535px;
-  left: 1186px;
+  top: 735px;
+  left: 1100px;
   width: 191px;
   height: 130px;/* Specify the height */
   position: absolute; /* Specify the height */
@@ -381,8 +421,8 @@ letter-spacing: 0px;
 }
 
 .customButton2 {
-  top: 340px;
-  left: 1186px;
+  top: 530px;
+  left: 1100px;
   width: 185px;
   height: 130px;
   position: absolute;
@@ -400,8 +440,8 @@ letter-spacing: 0px;
 }
 
 .customButton3 {
-  top: 150px;
-  left: 1186px;
+  top: 330px;
+  left: 1100px;
   width: 185px;
   height: 130px;
   position: absolute;/* Specify the height */
@@ -496,15 +536,15 @@ letter-spacing: 0px;
 }
 
 .left-sofa-text {
-  top: 285px;
-  left: 1200px;
+  top: 465px;
+  left: 1125px;
   color: rgba(22, 22, 24, 1);
   width: 161px;
   height: auto;
   position: absolute;
   font-size: 32px;
   font-style: Medium;
-  text-align: center;
+  text-align: left;
   font-family: Raleway;
   font-weight: 500;
   line-height: normal;
@@ -513,15 +553,15 @@ letter-spacing: 0px;
 }
 
 .left-lamp-text {
-  top: 670px;
-  left: 1205px;
+  top: 870px;
+  left: 1135px;
   color: rgba(22, 22, 24, 1);
   width: 161px;
   height: auto;
   position: absolute;
   font-size: 32px;
   font-style: Medium;
-  text-align: center;
+  text-align: left;
   font-family: Raleway;
   font-weight: 500;
   line-height: normal;
@@ -529,15 +569,15 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 .left-mirror-text {
-  top: 480px;
-  left: 1185px;
+  top: 670px;
+  left: 1105px;
   color: rgba(22, 22, 24, 1);
   width: 191px;
   height: auto;
   position: absolute;
   font-size: 32px;
   font-style: Medium;
-  text-align: center;
+  text-align: left;
   font-family: Raleway;
   font-weight: 500;
   line-height: normal;
@@ -546,7 +586,7 @@ letter-spacing: 0px;
 }
 
 .whats-new {
-  top: 850px;
+  top: 1030px;
   left: 67px;
   color: rgba(0, 0, 0, 1);
   width: 652px;
@@ -562,8 +602,8 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 .whats-p {
-  top: 825px;
-  left: 756px;
+  top: 990px;
+  left: 669px;
   color: rgba(0, 0, 0, 0.8500000238418579);
   width: 671px;
   height: auto;
@@ -582,7 +622,7 @@ letter-spacing: 0px;
 
 .centered-line {
   position: absolute;
-  top: 940px; /* Adjust as needed */
+  top: 1090px; /* Adjust as needed */
   content: '';
   display: block;
   margin: 20px auto; 
@@ -593,7 +633,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-furniture32 {
-  top: 1309px;
+  top: 1470px;
   left: 130px;
   width: 327px;
   height: 327px;
@@ -602,7 +642,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-text67 {
-  top: 1602px;
+  top: 1770px;
   left: 124px;
   color: rgba(22, 22, 24, 1);
   width: 272px;
@@ -619,7 +659,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-text69 {
-  top: 1573px;
+  top: 1740px;
   left: 105px;
   color: rgba(99, 165, 180, 1);
   width: 146px;
@@ -640,7 +680,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-furniture21 {
-  top: 1309px;
+  top: 1470px;
   left: 593px;
   width: 335px;
   height: 335px;
@@ -649,7 +689,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-text71 {
-  top: 1610px;
+  top: 1770px;
   left: 561px;
   color: rgba(22, 22, 24, 1);
   width: 279px;
@@ -666,7 +706,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-text73 {
-  top: 1580px;
+  top: 1740px;
   left: 573px;
   color: rgba(99, 165, 180, 1);
   width: 150px;
@@ -683,7 +723,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-furniture12 {
-  top: 1306px;
+  top: 1470px;
   left: 1046px;
   width: 340px;
   height: 340px;
@@ -692,7 +732,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-text75 {
-  top: 1609px;
+  top: 1770px;
   left: 1032px;
   color: rgba(22, 22, 24, 1);
   width: 230px;
@@ -709,7 +749,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-text77 {
-  top: 1580px;
+  top: 1740px;
   left: 1020px;
   color: rgba(99, 165, 180, 1);
   width: 152px;
@@ -726,7 +766,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-furniture42 {
-  top: 1739px;
+  top: 1910px;
   left: 130px;
   width: 333px;
   height: 333px;
@@ -735,7 +775,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-text79 {
-  top: 2009px;
+  top: 2170px;
   left: 105px;
   color: rgba(99, 165, 180, 1);
   width: 148px;
@@ -752,7 +792,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-text85 {
-  top: 2039px;
+  top: 2200px;
   left: 150px;
   color: rgba(22, 22, 24, 1);
   width: 275px;
@@ -769,7 +809,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-classicbentwooddiningchairorrattanseat2491 {
-  top: 1751px;
+  top: 1910px;
   left: 637px;
   width: 216px;
   height: 259px;
@@ -778,7 +818,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-text81 {
-  top: 2011px;
+  top: 2170px;
   left: 607px;
   color: rgba(99, 165, 180, 1);
   width: 152px;
@@ -795,7 +835,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-text87 {
-  top: 2036px;
+  top: 2200px;
   left: 607px;
   color: rgba(22, 22, 24, 1);
   width: 283px;
@@ -812,7 +852,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-rectangle110 {
-  top: 1733px;
+  top: 1910px;
   left: 591px;
   width: 339px;
   height: 339px;
@@ -821,7 +861,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-chelseachairgreynew1 {
-  top: 1739px;
+  top: 1910px;
   left: 1084px;
   width: 260px;
   height: 258px;
@@ -830,7 +870,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-text83 {
-  top: 2010px;
+  top: 2170px;
   left: 1062px;
   color: rgba(99, 165, 180, 1);
   width: 151px;
@@ -847,7 +887,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-text89 {
-  top: 2036px;
+  top: 2200px;
   left: 1062px;
   color: rgba(22, 22, 24, 1);
   width: 282px;
@@ -864,7 +904,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-rectangle112 {
-  top: 1733px;
+  top: 1910px;
   left: 1046px;
   width: 338px;
   height: 339px;
@@ -1150,12 +1190,12 @@ letter-spacing: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 5.5vh;
-  left: 47vh; 
+  top: 150px;
+  left: 325px; 
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width: 890px;
-  height: 530px;
+  width: 800px;
+  height: 540px;
   border-radius: 20px;
   overflow: hidden;
   position: relative;
@@ -1163,9 +1203,8 @@ letter-spacing: 0px;
 }
 
 .video {
-  position: relative;
-  left: 0;
-  top: 0;
+  position: absolute;
+  top: 0px;
   opacity: 1;
 }
 
