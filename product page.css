@@ -141,25 +141,25 @@ body {
     border-radius: 10px;
   }
   .furniture-image-one {
-    top: 300px;
-    left: 130px;
+    top: 280px;
+    left: 140px;
     width: 400px;
-    height: 389px;
+    height: 320px;
     position: absolute;
   }
   .furniture_image_two {
-    top: 370px;
-    left: 672px;
-    width: 175px;
-    height: 170px;
+    top: 400px;
+    left: 680px;
+    width: 155px;
+    height: 130px;
     position: absolute;
     border-radius: 10px;
   }
   .furniture_image_three {
-    top: 510px;
+    top: 545px;
     left: 672px;
     width: 175px;
-    height: 170px;
+    height: 150px;
     position: absolute;
   }
   .furniture_image_four {
@@ -340,8 +340,8 @@ color: #63A5B4;
     text-decoration: none;
   }
   .afterpay-logo {
-    top: 388px;
-    left: 1100px;
+    top: 375px;
+    left: 1115px;
     width: 125px;
     height: 30px;
     position: absolute;

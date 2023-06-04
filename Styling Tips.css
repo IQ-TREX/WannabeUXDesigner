@@ -122,6 +122,7 @@
   .parallax-item p {
     font-size: 15px;
     padding: 3rem;
+    top: 40px;
     right: 40px;
     text-align: right;
     font-weight: 100;
@@ -137,12 +138,16 @@
   }
 
   .parallax-item:nth-child(2) {
+    background: url("FinalIMAGE.png");
     background-color: black;
     color: #FFFFFF;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
   }
   
   .parallax-item:nth-child(3) {
-    background: url("Furniture1.png");
+    background: url("Styling\ Tips\ 1.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Parallax Effect for DIV 3 */
@@ -152,21 +157,152 @@
   }
   
   .parallax-item:nth-child(4) {
+    background: url("finalIMAGE\ 6.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     background-color: black;
     color: #FFFFFF;
   }
 
   .parallax-item:nth-child(5) {
+    background: url("finalIMAGE\ 2.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     background-color: #FFFFFF;
     color: #000000;
   }
 
   .parallax-item:nth-child(6) {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     background-color: black;
     color: #FFFFFF;
   }
 
-  
+  .footer-background {
+    top: 0px;
+    left: 0px;
+    width: 213vh;
+    height: 400px;
+    position: relative;
+    background-color: #161618;
+  }
+  .contact-us-text {
+    top: 80px;
+    left: 756px;
+    color: rgba(243, 243, 243, 1);
+    width: 289px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .about-us-text {
+    top: 80px;
+    left: 37px;
+    color: rgba(243, 243, 243, 1);
+    width: 160px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    font-style: Bold;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .terms-and-conditions {
+    top: 80px;
+    left: 1222px;
+    color: rgba(243, 243, 243, 1);
+    width: 242px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .about-us-explanation {
+    top: 150px;
+    left: 37px;
+    color: rgba(243, 243, 243, 0.8500000238418579);
+    width: 445px;
+    height: auto;
+    position: absolute;
+    font-size: 21px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .contact-us-explanation {
+    top: 150px;
+    left: 756px;
+    color: rgba(243, 243, 243, 1);
+    width: 203px;
+    height: auto;
+    position: absolute;
+    font-size: 21px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .terms-and-conditions-explanation {
+    top: 150px;
+    left: 1225px;
+    color: rgba(243, 243, 243, 0.8500000238418579);
+    width: 175px;
+    height: auto;
+    position: absolute;
+    font-size: 21px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    font-style: Medium;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .brand-logo-two {
+    top: 20px;
+    left: 37px;
+    width: 669px;
+    height: 39px;
+    position: absolute;
+  }
+
+  .whole-footer{
+    top: 0px;
+    left: 0px;
+    width: 213vh;
+    height: 400px;
+    position: relative;
+  }
   
   @media screen and (max-width: 768px) {
     .parallax-item h2 {
