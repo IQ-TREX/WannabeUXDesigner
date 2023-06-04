@@ -337,7 +337,7 @@ header {
   
   input, select, textarea {
     border-radius: 2px;
-    border: 2px solid #777;
+    border: 1px solid #777;
     box-sizing: border-box;
     font-size: 1.25em;
     font-family: 'Raleway', sans-serif;
@@ -530,9 +530,9 @@ header {
   }
 
   .fotter-main{
-    position: relative;
-    top: -110vh;
+    position: absolute;
     left: -1.1vh;
+    bottom: 0vh;
   }
   
 label{

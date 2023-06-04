@@ -170,86 +170,6 @@ body {
     position: absolute;
     border-radius: 10px;
   }
-  .description-button {
-    top: 795px;
-    left: 139px;
-    color: rgba(80, 63, 55, 1);
-    width: 489px;
-    height: auto;
-    position: absolute;
-    font-size: 20px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Raleway;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .enquiry-button {
-    top: 843px;
-    left: 139px;
-    color: rgba(80, 63, 55, 1);
-    width: 489px;
-    height: auto;
-    position: absolute;
-    font-size: 20px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Raleway;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .bnpl-button {
-    top: 893px;
-    left: 139px;
-    color: rgba(80, 63, 55, 1);
-    width: 629px;
-    height: auto;
-    position: absolute;
-    font-size: 20px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Raleway;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .shipping-button {
-    top: 941px;
-    left: 139px;
-    color: rgba(80, 63, 55, 1);
-    width: 489px;
-    height: auto;
-    position: absolute;
-    font-size: 20px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Raleway;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .reviews-button {
-    top: 990px;
-    left: 139px;
-    color: rgba(80, 63, 55, 1);
-    width: 489px;
-    height: auto;
-    position: absolute;
-    font-size: 20px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Raleway;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
   .navigation-arrow-one {
     top: 154.9150390625px;
     left: 171px;
@@ -312,6 +232,49 @@ body {
     font-stretch: normal;
     text-decoration: none;
   }
+
+.accordion {
+  width: 100%;
+  top: 770px;
+  position: absolute;
+  left: 50px;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.accordion .item {
+font-family: Raleway;
+font-size: 28px;
+}
+
+.accordion input {
+  position: absolute;
+  opacity: 0;
+}
+
+.accordion label {
+  display: block;
+  background: #FFFFFF;
+  padding: 10px;
+  cursor: pointer;
+}
+.accordion label:hover{
+color: #63A5B4;
+}
+
+.accordion .content {
+  border: 1px solid #FFFFFF;
+  border-top: none;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease;
+  font-size: 16px;
+}
+
+.accordion input:checked ~ .content {
+  height: auto;
+  padding: 10px;
+  transition: all 1s cubic-bezier(.23, 1, 0.32, 1);
+}
   .furniture-main-title {
     top: 225px;
     left: 988px;

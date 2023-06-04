@@ -111,7 +111,7 @@ body{
   top: 373px;
   left: 70px;
   color: rgba(22, 22, 24, 1);
-  width: 235px;
+  width: 300px;
   height: auto;
   position: absolute;
   font-size: 24px;
@@ -226,162 +226,78 @@ body{
   font-stretch: normal;
   text-decoration: none;
 }
-.rectangle-1 {
+ ::placeholder{
+   padding: 5px;
+   opacity: 1.0;
+   color:rgba(99, 165, 180, 1);
+   font-size: 16px;
+ }
+
+ input {
+  border-radius: 2px;
+  border: 1px solid #777;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  width: 70%;  
+  padding: 20px;
+}
+
+#name{
   top: 436px;
   left: 70px;
   width: 584px;
   height: 40px;
   position: absolute;
   border-radius: 10px;
-  background-color: #D3D3D3;
-  opacity: 0.5;
+  border-width: 0.25px;
 }
-.full-name-text {
-  top: 446px;
-  left: 90px;
-  color: rgba(22, 22, 24, 0.30000001192092896);
-  width: 521px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.rectangle-2 {
+ #phone{
   top: 508px;
-  left: 356px;
-  width: 298px;
+  left: 436px;
+  width: 218px;
   height: 40px;
   position: absolute;
   border-radius: 10px;
-  background-color: #D3D3D3;
-  opacity: 0.5;
-}
-.mobile-number-text {
-  top: 518px;
-  left: 376px;
-  color: rgba(22, 22, 24, 0.30000001192092896);
-  width: 243px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.rectangle-3 {
+  border-width: 0.25px;
+ }
+#address{
   top: 581px;
   left: 70px;
   width: 584px;
   height: 40px;
   position: absolute;
   border-radius: 10px;
-  background-color: #D3D3D3;
-  opacity: 0.5;
+  border-width: 0.25px;
 }
-.address-text {
-  top: 590px;
-  left: 90px;
-  color: rgba(22, 22, 24, 0.30000001192092896);
-  width: 521px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.rectangle-4 {
+#state{
   top: 651px;
   left: 70px;
   width: 260px;
   height: 40px;
   position: absolute;
   border-radius: 10px;
-  background-color: #D3D3D3;
-  opacity: 0.5;
+  border-width: 0.25px;
 }
-.state-text {
-  top: 662px;
-  left: 90px;
-  color: rgba(22, 22, 24, 0.30000001192092896);
-  width: 520px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.rectangle-5 {
+#zipcode{
   top: 651px;
   left: 356px;
   width: 298px;
   height: 40px;
   position: absolute;
   border-radius: 10px;
-  background-color: #D3D3D3;
-  opacity: 0.5;
+  border-width: 0.25px;
 }
-.zip-code-text {
-  top: 662px;
-  left: 376px;
-  color: rgba(22, 22, 24, 0.30000001192092896);
-  width: 520px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.rectangle-6 {
+#email{
   top: 508px;
   left: 70px;
-  width: 260px;
+  width: 340px;
   height: 40px;
   position: absolute;
   border-radius: 10px;
-  background-color: #D3D3D3;
-  opacity: 0.5;
+  border-width: 0.25px;
 }
-.email-address-text {
-  top: 518px;
-  left: 90px;
-  color: rgba(22, 22, 24, 0.30000001192092896);
-  width: 520px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
+
 .payment-method-text{
   top: 750px;
   left: 70px;
@@ -985,3 +901,117 @@ body{
     background-color: #161618;
   }
 
+  .home-page-button {
+    appearance: none;
+    background-color: rgba(99, 165, 180, 1);
+    border: 2px solid rgba(99, 165, 180, 1);
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family:  Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    min-width: 0;
+    outline: none;
+    padding: 12px 24px 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+  }
+
+  .home-page-button:disabled {
+    pointer-events: none;
+  }
+
+  .home-page-button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+
+  .home-page-button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.popup{
+  width: 750px;
+  height: 300px;
+  background-color: #000000;
+  border-radius: 20px;
+  position: absolute;
+  top: 400px;
+  left: 725px;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #FFFFFF;
+  visibility: hidden;
+  transition: transform 0.4s ease-in-out;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  font-family: Raleway;
+}
+
+.popup h2{
+  font-family: Raleway;
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+}
+
+.open-popup{
+  visibility: visible;
+  top: 480px;
+  transform: translate(-50%, -50%) scale(1);
+}
+.close-button {
+  top: 245px;
+  left: 260px;
+  width: 287px;
+  height: 47px;
+  position: absolute;
+  appearance: none;
+  background-color: rgba(99, 165, 180, 1);
+  border: 2px solid rgba(99, 165, 180, 1);
+  border-radius: 20px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family:  Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+  min-width: 0;
+  outline: none;
+  padding: 12px 24px 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.close-button:disabled {
+  pointer-events: none;
+}
+
+.close-button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.close-button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}

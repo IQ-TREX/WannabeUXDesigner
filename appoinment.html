@@ -108,6 +108,46 @@
 
       <div class="appoinment-container">
         <div class="appoinment-input">
+<<<<<<< HEAD
+      <form>
+        <div class="input-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="visitor_name" placeholder="Aryan Saini" pattern=[A-Z\sa-z]{2,20} required>
+        </div>
+        <div class="input-group">
+          <label for="email">Your E-mail</label>
+          <input type="email" id="email" name="visitor_email" placeholder="aryan.saini@email.com" required>
+        </div>
+        <div class="input-group">
+          <label for="phone">Your Phone</label>
+          <input type="tel" id="phone" name="visitor_phone" placeholder="0498348387" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+        </div>
+        <div class="input-group inlined">
+          <label for="checkin-date">Date of Appoinment</label>
+          <input type="date" id="checkin-date" name="checkin" required>
+        </div>
+        <div class="input-group">
+          <label for="type-selection">Select Type of Appoinment</label>
+          <select id="type-selection" required>
+              <option value="">Types of Appoinment</option>
+              <option value="connecting">Showroom Appoinment</option>
+              <option value="adjoining">Virtual Appoinment</option>
+              <option value="adjacent">Phone Appoinment</option>
+              <option value="adjacent">Virtual Showroom Tour</option>
+          </select>
+        </div>
+        <div class="popup-btn">
+        <button type="submit" onclick="openPopup()">Book Appoinment</button>
+        <div class="popup" id="popup">
+          <h2>Thankyou for your details.</h2>
+          <p>Your information is successfully submitted. Thanks!</p>
+          <p> You will recive a mail regarding your conformation.</p>
+          <p> We will contact you soon.</p>
+          <button type="button" onclick="closePopup()">Close</button>
+        </div>
+        </div>
+      </form>
+=======
           <form onsubmit="event.preventDefault(); openPopup();">
             <div class="input-group">
               <label for="name">Your Name</label>
@@ -145,6 +185,7 @@
             <button class="close-btn" type="button" onclick="closePopup()">Close</button>
           </div>
           
+>>>>>>> 8b759e10f5638f023be21b556eb70696a59e035b
     </div>
     </div>
 </div>

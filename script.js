@@ -13,19 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
-document.addEventListener('DOMContentLoaded', function() {
-    var buttons = document.querySelectorAll('.small-button, .medium-button, .large-button');
-    buttons.forEach(function(button) {
-      button.addEventListener('click', function() {
-        buttons.forEach(function(btn) {
-            btn.classList.remove('clicked');
-          });
-        this.classList.add('clicked');
-      });
-    });
-  });
-
 // Sigin Page
 const signUpButton = document.getElementById('signUp');
 const signInButton = document.getElementById('signIn');
@@ -89,3 +76,21 @@ function openPopup() {
 function closePopup() {
   document.getElementById('popup').style.display = 'none';
 }
+
+//Pop Up for Order Confirmation
+function openConfirmPopup() {
+    popup.classList.add("open-popup");
+  }
+  function closeConfirmPopup() {
+    popup.classList.remove("open-popup");
+  }
+
+  //Parallax effect for Styling Tips page
+const parallax = document.getElementById("parallax");
+
+// Parallax Effect for DIV 1
+window.addEventListener("scroll", function () {
+  let offset = window.pageYOffset;
+  parallax.style.backgroundPositionY = offset * 0.7 + "px";
+  // DIV 1 background will move slower than other elements on scroll.
+});
