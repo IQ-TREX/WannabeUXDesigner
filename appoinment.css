@@ -1,25 +1,43 @@
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 30px;
+  align-items: top;
+  /* padding: 5vw; */
   font-size: 2rem;
   position: relative;
-  top: -6vh;
+  top: 0vh;
 }
-
+/* 
 .hamburger-logo{
-  max-height: 25px;
-  margin-top: 3px;
+  max-height: 5vh;
+  margin-top: -2vh;
+  margin-left: -100vw;
+} */
+
+
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 15vh;
 }
 
 .logo img {
-  position: relative;
-  max-height: 25px;
-  margin-left: -220px;
+  position: absolute;
+  max-height: 4vh;
+  margin-left: 4vw;
+  /* margin-top: -9vh; */
+  padding: 2vw;
+  z-index: 0.9;
 }
 
 .right-items {
+  position: relative;
+  margin-top: -1vh;
+  margin-left: 45vw;
+  width: 150%;
+  /* margin-top: -9vh; */
+
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -39,7 +57,7 @@ header {
   margin-left: 20px;
 }
 
-header > .right-items > nav > .nav__links > li > a {
+.nav__links li a{
     font-family: 'Raleway', sans-serif ;
     font-weight: 500;
     font-size: 25px;
@@ -48,7 +66,7 @@ header > .right-items > nav > .nav__links > li > a {
     transition: all 0.3s ease 0s;
   }
   
-  header > .right-items > nav > .nav__links > li > a:hover {
+  .nav__links li a:hover{
     color: #63A5B4;
   }
 
@@ -89,9 +107,12 @@ header > .right-items > nav > .nav__links > li > a {
   #menuToggle
   {
     display: block;
-    position: relative;
-    top: 50px;
-    left: 50px;
+    position: absolute;
+    
+    margin-top: 5vh;
+    margin-left: 1.5vw;
+    /* top: 50px;
+    left: 50px; */
   
     z-index: 1;
     
@@ -110,7 +131,7 @@ header > .right-items > nav > .nav__links > li > a {
   #menuToggle input
   {
     display: block;
-    width: 40px;
+    width: 2rem;
     height: 32px;
     position: absolute;
     top: -7px;
@@ -127,8 +148,8 @@ header > .right-items > nav > .nav__links > li > a {
   #menuToggle span
   {
     display: block;
-    width: 33px;
-    height: 4px;
+    width: 2rem;
+    height: 0.25rem;
     margin-bottom: 5px;
     position: relative;
   
@@ -191,11 +212,13 @@ header > .right-items > nav > .nav__links > li > a {
   #menu
   {
     position: absolute;
-    width: 300px;
+    width: 200px;
     height: 800px;
+    left: -5vw;
     margin: -100px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
+    padding-left: 7vw;
     
     background: #161618;
     list-style-type: none;
@@ -208,6 +231,7 @@ header > .right-items > nav > .nav__links > li > a {
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   
     box-shadow: 4px 0 6px rgba(0, 0, 0, 0.2);
+    z-index: 0.9;
   }
   
   #menu li
@@ -244,7 +268,7 @@ header > .right-items > nav > .nav__links > li > a {
     transition: transform 0.5s ease-in-out;
     opacity: 0; /* Initially hide the submenu */
     pointer-events: none; /* Ignore clicks on the hidden submenu */
-    
+    z-index: 0.8;
   }
   
   .submenu li {
