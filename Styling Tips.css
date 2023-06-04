@@ -7,44 +7,166 @@
     scroll-behavior: smooth;
   }
   
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 500;
+  }
+  .navbar-item-1 img {
+    top: 40px;
+    left: 70px;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+  }
+  .navbar-item-2 img {
+    max-height: 25px;
+    top: 43px;
+    left: 150px;
+    width: 396px;
+    height: 25px;
+    position: absolute;
+  }
+  .navbar-item-3 {
+    top: 45px;
+    left: 660px;
+    width: 178px;
+    height: auto;
+    position: absolute;
+  }
+  .navbar-item-4 {
+    top: 45px;
+    left: 825px;
+    width: 178px;
+    height: auto;
+    position: absolute;
+  }
+  .navbar-item-5 {
+    top: 45px;
+    left: 1000px;
+    width: 178px;
+    height: auto;
+    position: absolute;
+  }
+  .navbar-item-6 img {
+    top: 45px;
+    left: 1230px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+  }
+  .navbar-item-7 img {
+    top: 44px;
+    left: 1295px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+  }
+  .navbar-item-8 img {
+    top: 40px;
+    left: 1358px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+  }
+  .nav__links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 48px;
+  }
+  .nav__links li {
+    margin-left: 20px;   
+  }
+  .nav__links a {
+    text-decoration: none;
+    color: black;
+    font-size: 23px; 
+    font-family: Raleway;
+    font-weight: bolder;
+  }
+  .nav__links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #63A5B4;
+  }  
+
   .parallax-item {
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    font-family: Montserrat, sans-serif;
+    font-family: Raleway, sans-serif;
     width: 100%;
     min-height: 100vh;
   }
   
+  .parallax-item h1 {
+    text-align: center;
+    font-size: 80px;
+    padding: 60px;
+    width: 2000px;
+  } 
   .parallax-item h2 {
-    font-size: 3rem;
-    text-transform: uppercase;
-    background-color: whitesmoke;
-    padding: 1rem;
-    border-radius: 1rem;
+    left: 40px;
+    text-align: left;
+    font-size: 80px;
+    padding: 60px;
+    width: 700px;
   }
-  
+
+  .parallax-item p {
+    font-size: 15px;
+    padding: 3rem;
+    right: 40px;
+    text-align: right;
+    font-weight: 100;
+    width: 1000px;
+  }
   .parallax-item:first-child {
-    background: url("https://images.unsplash.com/photo-1663305411753-4c305e177ff3?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjM5NDA4ODE&ixlib=rb-1.2.1&q=80");
+    text-align: right;
+    background-color: #FFFFFF;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Parallax Effect for DIV 3 */
+    min-height: 850px;
   }
-  
+
   .parallax-item:nth-child(2) {
-    background: #fdd835;
+    background-color: black;
+    color: #FFFFFF;
   }
   
   .parallax-item:nth-child(3) {
-    background: url("https://images.unsplash.com/photo-1663183539627-adbe2c8ef43d?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjM5Mzk5ODc&ixlib=rb-1.2.1&q=80");
+    background: url("Furniture1.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Parallax Effect for DIV 3 */
     min-height: 700px;
+    background-color: #FFFFFF;
+    color: #000000;
   }
   
   .parallax-item:nth-child(4) {
-    background: #1565c0;
+    background-color: black;
+    color: #FFFFFF;
   }
+
+  .parallax-item:nth-child(5) {
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+
+  .parallax-item:nth-child(6) {
+    background-color: black;
+    color: #FFFFFF;
+  }
+
+  
   
   @media screen and (max-width: 768px) {
     .parallax-item h2 {
