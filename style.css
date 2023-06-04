@@ -308,7 +308,7 @@ header {
 }
 
 .home-left {
-  top: 13vh;
+  top: 10vh;
   left: 50px;
   color: #161618;
   width: 351px;
@@ -322,14 +322,17 @@ header {
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
-  margin-top: -50px;
+  margin-top: -7vh;
+  letter-spacing: -1px; /* adjust as needed */
+  line-height: -5; /* adjust as needed */
+  padding: 0;
 }
 
 .img-span .image {
   display: inline;
-  height: 110px; /* adjust as needed */
+  height: 100px; /* adjust as needed */
   vertical-align: middle; /* align with the text */
-  padding-bottom: 9%;
+  padding-bottom: 15%;
 }
 
 .img-span p{
@@ -340,8 +343,21 @@ letter-spacing: 0px;
   font-family: 'Raleway', sans-serif;
   color: #161618;
   font-size: 25px;
-  margin-top: 40px;
-  line-height: 65%;
+  margin-top: 100px;
+  line-height: 1%;
+  padding: 0px;
+  position: relative;
+  top: -31vh;
+}
+
+.left-space-text-home{
+  position: relative;
+  top: -25vh;
+}
+
+.left-lamp-text-home{
+  position: relative;
+  top: -10vh;
 }
 
 .customButton {
@@ -546,7 +562,7 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 .whats-p {
-  top: 850px;
+  top: 825px;
   left: 756px;
   color: rgba(0, 0, 0, 0.8500000238418579);
   width: 671px;
@@ -886,7 +902,7 @@ letter-spacing: 0px;
 }
 
 .mac-book-pro1415-text19 {
-  top: 65px;
+  top: 15px;
   background-color: #FFFFFF;
   color: rgba(0, 0, 0, 1);
   position: absolute;
@@ -896,28 +912,32 @@ letter-spacing: 0px;
   text-align: center;
 }
 
-.button {
+.button12 {
   position: relative;
   top: 290px;
   height: 50px;
   width: 250px;
   align-items: center;
-  display: inline-block;
   text-align: center;
-  padding: 10px 20px;
   border-radius: 20px;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   color: black;
   transition: background-color 0.3s;
   background-color: #63A5B4;
+  font-size: 1.6rem;
+  text-decoration: none;
 }
 
-.button:hover {
+.button12:hover {
   background-color: #161618;
   color: white;
   
 }
 
+.sign-up-btn{
+  position: relative;
+  top: 1vh;
+}
 
 .home-instagram-icon{
   position: absolute;
@@ -927,8 +947,13 @@ letter-spacing: 0px;
   height: 38px;
 }
 
+.insta-all-font{
+  position: absolute;
+  left: 7vh;
+}
+
 .insta-main {
-  top: 15px;
+  top: -13px;
   left: 155px;
   color: rgba(2, 4, 8, 1);
   width: 554px;
@@ -1109,6 +1134,7 @@ letter-spacing: 0px;
   height: 350px;
   top: 800px;
   background-color: #161618;
+  left: -1.1vh;
 }
 
 .mac-book-pro1415-text30,
@@ -1133,7 +1159,7 @@ letter-spacing: 0px;
   border-radius: 20px;
   overflow: hidden;
   position: relative;
-  z-index: 10;
+  z-index: 0;
 }
 
 .video {
@@ -1161,7 +1187,7 @@ letter-spacing: 0px;
 
 .whole-body{
   position: relative;
-  top: -1vh;
+  top: -16vh;
 }
 
 .whats-new-container{
