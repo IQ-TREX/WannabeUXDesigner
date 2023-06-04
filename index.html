@@ -13,14 +13,57 @@
     
 </head>
 <body class="body-main">
-    <header>
-
+  <header>
+    <div class="main-nav-bar">
       <!-- Adding hamburger menu -->
-      <a href="#" class="hamburger">
-      <img 
-            src="hamburger.png"
-            class="hamburger-logo"
-          /></a>
+      <nav role="navigation" class="header-nav">
+
+        <div id="menuToggle">
+            <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <!-- Menu List -->
+            <ul id="menu">
+            <a href="#"><li id="naviagtion">New Arrivals</li></a>
+            
+            <a href="#"><li id="naviagtion">Furniture <ul class="submenu">
+                <a href="#"><li>Charis</li></a>
+                <a href="#"><li>Units</li></a>
+                <a href="#"><li>Desks</li></a>
+                <a href="#"><li>Tables</li></a>
+                <a href="#"><li>Buffets and Cabinets</li></a>
+                <a href="#"><li>Beds and Bedsides</li></a>
+                <a href="#"><li>Consoles</li></a>
+                <a href="#"><li>Sofas, Modulars and Ottomans</li></a>
+                </ul>
+            </li></a>
+
+            <a class="naviagtion" href="#"><li id="naviagtion">Homewears
+                <ul class="submenu">
+                    <a href="#"><li>Rugs</li></a>
+                    <a href="#"><li>Artworks</li></a>
+                    <a href="#"><li>Mirrors</li></a>
+                    <a href="#"><li>Cushions</li></a>
+                    <a href="#"><li>Clocks</li></a>
+                    <a href="#"><li>Coastal Accents</li></a>
+                    <a href="#"><li>Kitchen and Entertaining</li></a>
+                    <a href="#"><li>Plants and Flowers</li></a>
+                    <a href="#"><li>Ginger Jars and Vase</li></a>
+                    <a href="#"><li>Candles and Diffusers</li></a>
+                    <a href="#"><li>Basket and Trays</li></a>
+                </ul>
+            </li></a>
+            
+            <a class="naviagtion" href="#"><li id="naviagtion">Lighting</li></a>
+            
+            <a class="naviagtion" href="#"><li id="sale">Sales</li></a>
+
+            </ul>
+
+        </div>
         <!-- Adding logo -->
         <div class="logo">
             <a href="index.html">
@@ -34,7 +77,7 @@
                 <ul class="nav__links">
                     <li><a href="products.html">Collection</a></li>
                     <li><a href="#">Styling Tips</a></li>
-                    <li><a href="appoinment.html">Appoinments</a></li>
+                    <li><a href="#">Appoinments</a></li>
                 </ul>
             </nav>
     
@@ -56,7 +99,10 @@
                 </a>
             </div>
         </div>
-    </header>
+      </nav>
+    </div>
+  </header>
+
     <div class="whole-body">
       <div id="outer">
         <video loop autoplay muted class="video"
@@ -68,9 +114,12 @@
         <span>
           <span>Elevate Your</span>
           <br />
+          <div class="left-lamp-text-home">
           <p>L <span class="img-span"><img src="lamp1.png" alt="Your Image" class="image"></span>ving</p>
+          </div>
+          <div class="left-space-text-home">
           <span>Space</span>
-          <br/>
+          </div>
           <div class="sub-text-home-left">
             <p>Find the Perfect</p>
             <br/> 
@@ -101,27 +150,6 @@
     </div>
   </a>
 
-    <!-- <div class="Mirror-b">
-      <div class="Mirror"></div>
-      <a href="products.html" class="Mirror-btn"></a>
-  </div> -->
-
-    <!-- <div class="Lamp-b">
-        <img
-          src="home page left side icon\Floor lamp.png"
-          alt="Floorlamp"
-          class="Lamp"
-        />
-        <a href="#" class="Lamp-btn"></a>
-    </div>
-    <div class="Sofa-b">
-        <img
-          src="home page left side icon\Sofa.png"
-          alt="Sofa"
-          class="Sofa"
-        />
-        <a href="#" class="Sofa-btn"></a>
-  </div> -->
 </div>
   <div class="whats-new-container">
   <div class="whatsnew-bio">
@@ -228,11 +256,12 @@
           <h1>STYLE TIPS 
           <br /> STRAIGHT TO YOUR INBOX</h1>
         </span>
-        <a href="#" class="button">SIGN-UP</a>
+        <a href="#" class="button12"><div class="sign-up-btn">SIGN-UP</div></a>
       </div>
       
       <div class="square2">
         <a href="https://www.instagram.com/henryandoliverco_interiors/?hl=en">
+          <div class="insta-all-font">
         <h2 class="insta-main">INSTAGRAM</h2>
           <span class="insta-id">
               <span>@henryandoliverco_interiors</span>
@@ -242,7 +271,7 @@
             alt="Instagramimg-1"
             class="home-instagram-icon"
           />
-
+        </div>
         <img
           src="home page instagram\image-1.png"
           alt="Instagramimg-2"
