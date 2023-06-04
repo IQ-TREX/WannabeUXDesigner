@@ -7,13 +7,6 @@ header {
   position: relative;
   top: 0vh;
 }
-/* 
-.hamburger-logo{
-  max-height: 5vh;
-  margin-top: -2vh;
-  margin-left: -100vw;
-} */
-
 
 .header-nav{
   display: flex;
@@ -24,17 +17,18 @@ header {
 
 .logo img {
   position: absolute;
-  max-height: 4vh;
+  max-height: 3vh;
   margin-left: 4vw;
   /* margin-top: -9vh; */
   padding: 2vw;
   z-index: 0.9;
+  top: 0.9vh;
 }
 
 .right-items {
   position: relative;
   margin-top: -1vh;
-  margin-left: 45vw;
+  margin-left: 48vw;
   width: 150%;
   /* margin-top: -9vh; */
 
@@ -111,8 +105,6 @@ header {
     
     margin-top: 5vh;
     margin-left: 1.5vw;
-    /* top: 50px;
-    left: 50px; */
   
     z-index: 1;
     
@@ -212,7 +204,7 @@ header {
   #menu
   {
     position: absolute;
-    width: 200px;
+    width: 250px;
     height: 800px;
     left: -5vw;
     margin: -100px 0 0 -50px;
@@ -231,7 +223,7 @@ header {
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   
     box-shadow: 4px 0 6px rgba(0, 0, 0, 0.2);
-    z-index: 0.9;
+    z-index: 3.9;
   }
   
   #menu li
@@ -268,7 +260,7 @@ header {
     transition: transform 0.5s ease-in-out;
     opacity: 0; /* Initially hide the submenu */
     pointer-events: none; /* Ignore clicks on the hidden submenu */
-    z-index: 0.8;
+    z-index: 0.1;
   }
   
   .submenu li {
@@ -372,7 +364,9 @@ header {
     display: flex;
     justify-content: space-between; 
     align-items: flex-start; 
-    z-index: 9999;
+    z-index: 0;
+    position: relative;
+    top: -7vh;
   }
   
   .appoinment-img {
@@ -531,8 +525,8 @@ header {
 
   .fotter-main{
     position: absolute;
-    left: -1.1vh;
-    bottom: 0vh;
+    left: 0vh;
+    top: 10vh;
   }
   
 label{
