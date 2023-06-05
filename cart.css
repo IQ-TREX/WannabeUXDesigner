@@ -404,6 +404,8 @@ header {
     color: white;
     transition: background-color 0.3s;
     background-color: #161618;
+    text-decoration: none;
+    z-index: 9999;
   }
   
   .proced-button:hover {
