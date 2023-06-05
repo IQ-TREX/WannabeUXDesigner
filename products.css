@@ -456,107 +456,126 @@ card-box:active {
   }
   
 
-.contact-us {
-  top: 100px;
-  left: 756px;
-  color: white;
-  width: 289px;
-  position: absolute;
-  font-size: 24px;
-  text-align: left;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-}
-.mac-book-pro1415-text32 {
-  top: 100px;
-  left: 37px;
-  color: white;
-  width: 124px;
-  position: absolute;
-  font-size: 24px;
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-}
-.mac-book-pro1415-text34 {
-  top: 100px;
-  left: 1222px;
-  color: white;
-  width: 242px;
-  position: absolute;
-  font-size: 24px;
-  text-align: left;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-}
-.mac-book-pro1415-text36 {
-  top: 135px;
-  left: 37px;
-  color: #D2D2D2;
-  width: 445px;
-  position: absolute;
-  font-size: 21px;
-  text-align: left;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-}
-.mac-book-pro1415-text43 {
-  top: 165px;
-  left: 756px;
-  color: #D2D2D2;
-  width: 203px;
-  position: absolute;
-  font-size: 21px;
-  text-align: left;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-}
-
-.mac-book-pro1415-text50 {
-  top: 165px;
-  left: 1225px;
-  color: #D2D2D2;
-  width: 175px;
-  height: auto;
-  position: absolute;
-  font-size: 21px;
-  text-align: left;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-}
-.mac-book-pro1415-logo824x5212 {
-  top: 30px;
-  left: 37px;
-  width: 669px;
-  height: 39px;
-  position: absolute;
-}
-
-.fotter-rec {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  width: 1518.5px;
-  height: 350px;
-  top: 800px;
-  left: -0.5vw;
-  background-color: #161618;
+  .mac-book-pro1415-rectangle60 {
+    top: 2988px;
+    left: 0px;
+    width: 1543px;
+    height: 395px;
+    position: absolute;
+  }
   
-}
-
-.contact-us,
-.mac-book-pro1415-text32,
-.mac-book-pro1415-text34,
-.mac-book-pro1415-text36,
-.mac-book-pro1415-text43,
-.mac-book-pro1415-text50 {
-  background-color: transparent;
-}
-
-.foter{
-  position: relative;
-  top: -110vh;
-}
+  .contactus{
+    top: 100px;
+    left: 756px;
+    color: rgba(243, 243, 243, 1);
+    width: 289px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .aboutus {
+    top: 100px;
+    left: 37px;
+    color: rgba(243, 243, 243, 1);
+    width: 124px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .termsandconditions{
+    top: 100px;
+    left: 1222px;
+    color: rgba(243, 243, 243, 1);
+    width: 242px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .footer-explanation{
+    top: 135px;
+    left: 37px;
+    color: rgba(243, 243, 243, 0.8500000238418579);
+    width: 445px;
+    height: auto;
+    position: absolute;
+    font-size: 21px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .explanation-1 {
+    top: 165px;
+    left: 756px;
+    color: rgba(243, 243, 243, 1);
+    width: 203px;
+    height: auto;
+    position: absolute;
+    font-size: 21px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  
+  .explanation-2{
+    top: 165px;
+    left: 1225px;
+    color: rgba(243, 243, 243, 1);
+    width: 175px;
+    height: auto;
+    position: absolute;
+    font-size: 21px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 500;
+  }
+  .logo-2 {
+    top: 30px;
+    left: 37px;
+    width: 669px;
+    height: 39px;
+    position: absolute;
+  }
+  
+  .fotter-rec {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 1517.5px;
+    height: 350px;
+    top: 800px;
+    background-color: #161618;
+    left: -1.1vh;
+  }
 
 .product1-img{
   position: relative;

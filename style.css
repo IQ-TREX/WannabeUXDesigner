@@ -901,7 +901,7 @@ letter-spacing: 0px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.mac-book-pro1415-text19 {
+.style-tips{
   top: 15px;
   background-color: #FFFFFF;
   color: rgba(0, 0, 0, 1);
@@ -1024,7 +1024,7 @@ letter-spacing: 0px;
   position: absolute;
 }
 
-.mac-book-pro1415-text30 {
+.contactus{
   top: 100px;
   left: 756px;
   color: rgba(243, 243, 243, 1);
@@ -1040,7 +1040,7 @@ letter-spacing: 0px;
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1415-text32 {
+.aboutus {
   top: 100px;
   left: 37px;
   color: rgba(243, 243, 243, 1);
@@ -1056,7 +1056,7 @@ letter-spacing: 0px;
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1415-text34 {
+.termsandconditions{
   top: 100px;
   left: 1222px;
   color: rgba(243, 243, 243, 1);
@@ -1072,7 +1072,7 @@ letter-spacing: 0px;
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1415-text36 {
+.footer-explanation{
   top: 135px;
   left: 37px;
   color: rgba(243, 243, 243, 0.8500000238418579);
@@ -1088,7 +1088,7 @@ letter-spacing: 0px;
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro1415-text43 {
+.explanation-1 {
   top: 165px;
   left: 756px;
   color: rgba(243, 243, 243, 1);
@@ -1105,7 +1105,7 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.mac-book-pro1415-text50 {
+.explanation-2{
   top: 165px;
   left: 1225px;
   color: rgba(243, 243, 243, 1);
@@ -1118,7 +1118,7 @@ letter-spacing: 0px;
   font-family: Raleway;
   font-weight: 500;
 }
-.mac-book-pro1415-logo824x5212 {
+.logo-2 {
   top: 30px;
   left: 37px;
   width: 669px;
@@ -1137,12 +1137,12 @@ letter-spacing: 0px;
   left: -1.1vh;
 }
 
-.mac-book-pro1415-text30,
-.mac-book-pro1415-text32,
-.mac-book-pro1415-text34,
-.mac-book-pro1415-text36,
-.mac-book-pro1415-text43,
-.mac-book-pro1415-text50 {
+.contactus,
+.aboutus,
+.termsandconditions,
+.footer-explanation,
+.explanation-1,
+.explanation-2 {
   background-color: transparent;
 }
 
@@ -1345,25 +1345,25 @@ letter-spacing: 0px;
       left: -70vh;
     }
 
-    .mac-book-pro1415-logo824x5212{
+    .logo-2{
       left: 30vh;
     }
 
-    .mac-book-pro1415-text36{
+    .footer-explanation{
       left: 30vh;
     }
 
-    .mac-book-pro1415-text43{
+    .explanation-1{
       left: 20vh;
       top: 20vh;
       position: relative;
     }
 
-    .mac-book-pro1415-text30{
+    .explanation-2{
       left: 97vh;
     }
 
-    .mac-book-pro1415-text32{
+    .aboutus{
       left: 30vh;
       top: 11vh;
     }

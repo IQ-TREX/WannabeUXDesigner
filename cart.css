@@ -425,7 +425,7 @@ header {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
   }
-  .mac-book-pro1415-text32 {
+  .aboutus{
     top: 100px;
     left: 37px;
     color: white;
@@ -436,7 +436,7 @@ header {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
   }
-  .mac-book-pro1415-text34 {
+  .tandc {
     top: 100px;
     left: 1222px;
     color: white;
@@ -447,7 +447,7 @@ header {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
   }
-  .mac-book-pro1415-text36 {
+  .explanation{
     top: 135px;
     left: 37px;
     color: #D2D2D2;
@@ -458,7 +458,7 @@ header {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
   }
-  .mac-book-pro1415-text43 {
+  .explanation-1 {
     top: 165px;
     left: 756px;
     color: #D2D2D2;
@@ -470,7 +470,7 @@ header {
     font-weight: 400;
   }
   
-  .mac-book-pro1415-text50 {
+  .explanation-2 {
     top: 165px;
     left: 1225px;
     color: #D2D2D2;
@@ -482,7 +482,7 @@ header {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
   }
-  .mac-book-pro1415-logo824x5212 {
+  .logo-2{
     top: 30px;
     left: 37px;
     width: 669px;
@@ -502,11 +502,11 @@ header {
   }
   
   .contact-us,
-  .mac-book-pro1415-text32,
-  .mac-book-pro1415-text34,
-  .mac-book-pro1415-text36,
-  .mac-book-pro1415-text43,
-  .mac-book-pro1415-text50 {
+  .aboutus,
+  .tandc,
+  .explanation,
+  .explanaation-1,
+  .explanation-2 {
     background-color: transparent;
   }
   
@@ -613,7 +613,7 @@ header {
   top: 20vh;
 }
 
-@media screen and (min-width: 1500px){
+@media screen and (max-width: 1500px){
   .nav__links li {
     width: 150px;
     padding: 0px 5px;
