@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-// Sigin Page
+// Signin Page
 const signUpButton = document.getElementById('signUp');
 const signInButton = document.getElementById('signIn');
 const container = document.getElementById('container');
@@ -26,8 +26,7 @@ signInButton.addEventListener('click', () => {
 	container.classList.remove("right-panel-active");
 });
 
-// Pop Up for appoinment page 
-
+// Pop Up for appointment page 
 document.addEventListener('DOMContentLoaded', function() {
 
     // Get the form element
@@ -85,7 +84,7 @@ function openConfirmPopup() {
     popup.classList.remove("open-popup");
   }
 
-  //Parallax effect for Styling Tips page
+//Parallax effect for Styling Tips page
 const parallax = document.getElementById("parallax");
 
 // Parallax Effect for DIV 1
