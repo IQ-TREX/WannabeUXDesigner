@@ -1201,3 +1201,170 @@ letter-spacing: 0px;
   top: -68vh;
 }
 
+.mobile-home-page-1{
+  display: none;
+}
+
+.mobile-left a {
+  display: none;
+}
+
+@media screen  and (max-width:400px) { 
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo img{
+    max-width:38vh;
+    position: relative;
+    top: 4vh;
+    left: 3.5vh;
+  }
+
+  .mobile-home-page-1{
+    display: flex;
+    max-width: fit-content;
+    left: -1vh;
+    position: relative;
+    top: -6vh;
+  }
+  
+  .home-left{
+    display: none;
+  }
+  .home-right {
+    display: none;
+    }
+
+    #outer{
+      display: none;
+    }
+
+    #menu{
+      left: 3vh;
+    }
+
+    .mobile-left a {
+      display: block;
+      color: #161618;
+      text-align: left;
+      padding: 8px;
+      text-decoration: none;
+      font-family: Raleway;
+      font-size: 1.5rem;
+      top: -104vh;
+      left: 25vh;
+      position: relative;
+      font-weight: bold;
+    }
+  
+    .mobile-left a:hover {
+      color: #63A5B4;
+    }
+
+    .whats-new{
+      font-size: 1.5rem;
+      top: 80vh;
+      left: 2vh;
+    }
+
+    .centered-line{
+      top: 84vh;
+      left: -1.6vh;
+    }
+
+    .whats-p{
+      display: none;
+    }
+
+    .new-product-1{
+      transform: scale(0.4);
+      left: -15vh;
+      top: 63vh;
+      position: relative;
+    }
+    
+    .new-product-2{
+      transform: scale(0.4);
+      left: -18vh;
+      top: 63vh;
+      position: relative;
+    }
+
+    .new-product-3{
+      transform: scale(0.4);
+      left: -59vh;
+      top: 83vh;
+      position: relative;
+    }
+
+    .new-product-4{
+      transform: scale(0.4);
+      left: 4vh;
+      top: 63.1vh;
+      position: relative;
+    }
+    
+    .new-product-5{
+      transform: scale(0.4);
+      left: -18vh;
+      top: 83vh;
+      position: relative;
+    }
+
+    .new-product-6{
+      transform: scale(0.4);
+      left: -59vh;
+      top: 83vh;
+      position: relative;
+    }
+
+    .square1{
+      transform: scale(0.5);
+      left: -11.5vh;
+      top: 25vh
+    }
+
+    .square2{
+      transform: scale(0.5);
+      left: -11.5vh;
+      top: 10vh
+    }
+    
+    .right-items{
+      left: -9000vh;
+    }
+
+    .fotter-rec{
+      transform: scale(0.3);
+      top: -10vh;
+      left: -70vh;
+    }
+
+    .mac-book-pro1415-logo824x5212{
+      left: 30vh;
+    }
+
+    .mac-book-pro1415-text36{
+      left: 30vh;
+    }
+
+    .mac-book-pro1415-text43{
+      left: 20vh;
+      top: 20vh;
+      position: relative;
+    }
+
+    .mac-book-pro1415-text30{
+      left: 97vh;
+    }
+
+    .mac-book-pro1415-text32{
+      left: 30vh;
+      top: 11vh;
+    }
+
+}
+
