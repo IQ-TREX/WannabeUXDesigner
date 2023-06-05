@@ -12,22 +12,96 @@
     <title>Henry & Oliver Co.</title>
 </head>
 <body>
-    <nav id="navbar">
-        <ul class="nav__links">
-          <li class="navbar-item-1"><a href="#"><img src="hamburger.png" alt="Collection"></a></li>
-          <div class="navbar-item-2">
+  <header>
+    <div class="main-nav-bar">
+      <!-- Adding hamburger menu -->
+      <nav role="navigation" class="header-nav">
+
+        <div id="menuToggle">
+            <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <!-- Menu List -->
+            <ul id="menu">
+            <a href="#"><li id="naviagtion">New Arrivals</li></a>
+            
+            <a href="#"><li id="naviagtion">Furniture <ul class="submenu">
+                <a href="#"><li>Charis</li></a>
+                <a href="#"><li>Units</li></a>
+                <a href="#"><li>Desks</li></a>
+                <a href="#"><li>Tables</li></a>
+                <a href="#"><li>Buffets and Cabinets</li></a>
+                <a href="#"><li>Beds and Bedsides</li></a>
+                <a href="#"><li>Consoles</li></a>
+                <a href="#"><li>Sofas, Modulars and Ottomans</li></a>
+                </ul>
+            </li></a>
+
+            <a class="naviagtion" href="#"><li id="naviagtion">Homewears
+                <ul class="submenu">
+                    <a href="#"><li>Rugs</li></a>
+                    <a href="#"><li>Artworks</li></a>
+                    <a href="#"><li>Mirrors</li></a>
+                    <a href="#"><li>Cushions</li></a>
+                    <a href="#"><li>Clocks</li></a>
+                    <a href="#"><li>Coastal Accents</li></a>
+                    <a href="#"><li>Kitchen and Entertaining</li></a>
+                    <a href="#"><li>Plants and Flowers</li></a>
+                    <a href="#"><li>Ginger Jars and Vase</li></a>
+                    <a href="#"><li>Candles and Diffusers</li></a>
+                    <a href="#"><li>Basket and Trays</li></a>
+                </ul>
+            </li></a>
+            
+            <a class="naviagtion" href="#"><li id="naviagtion">Lighting</li></a>
+            
+            <a class="naviagtion" href="#"><li id="sale">Sales</li></a>
+
+            </ul>
+
+        </div>
+        <!-- Adding logo -->
+        <div class="logo-header">
             <a href="index.html">
               <img src="Logo.png" alt="Logo">
             </a>
-          </div>
-          <li class="navbar-item-3"><a href="index.html">Collection</a></li>
-          <li class="navbar-item-4"><a href="Styling Tips.html">Styling Tips</a></li>
-          <li class="navbar-item-5"><a href="appoinment.html">Appointments</a></li>
-          <li class="navbar-item-6"><a href="#"><img src="Search logo.png" alt="Collection"></a></li>
-          <li class="navbar-item-7"><a href="cart.html"><img src="Cart logo.png" alt="Collection"></a></li>
-          <li class="navbar-item-8"><a href="sigin.html"><img src="Login logo.png" alt="Collection"></a></li>
-        </ul>
-    </nav>
+        </div>
+    
+        <div class="right-items">
+            <!-- Adding nav bar -->
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="products.html">Collection</a></li>
+                    <li><a href="#">Styling Tips</a></li>
+                    <li><a href="appoinment.html">Appoinments</a></li>
+                </ul>
+            </nav>
+    
+            <div class="search">
+                <a href="#">
+                  <img src="Search logo.png" alt="Logo">
+                </a>
+            </div>
+    
+            <div class="cart">
+                <a href="cart.html">
+                  <img src="Cart logo.png" alt="Logo">
+                </a>
+            </div>
+    
+            <div class="login">
+                <a href="sigin.html">
+                  <img src="Login logo.png" alt="Logo">
+                </a>
+            </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="whole-body">
     <section>
         <div id="parallax" class="parallax-item">
           <h1> INTERIOR STYLING TIPS</h1>
@@ -131,5 +205,6 @@
           class="brand-logo-two"
         />
     </footer>
+  </div>
 </body>
 </html>
