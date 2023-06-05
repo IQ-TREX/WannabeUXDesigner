@@ -775,3 +775,128 @@ color: #63A5B4;
     padding: 10px;
     transition: all 1s cubic-bezier(.23, 1, 0.32, 1);
 }
+
+@media screen  and (max-width:400px) { 
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-item-2 img{
+    transform: scale(0.9);
+    position: relative;
+    top: -1vh;
+    left: 18.1vh;
+  }
+
+  .navbar-item-1 img{
+    left: 2vh;
+    top: 4.3vh;
+  }
+
+  .home-button{
+    position: relative;
+    top: 11.9vh;
+    left: 5vh;
+    z-index: 3000;
+  }
+
+  .navigation-arrow-one{
+    top: 12.5vh;
+    left: 13vh;
+    z-index: 30000;
+  }
+
+  .furniture-button{
+    top: 12.2vh;
+    left: 10vh;
+    z-index: 30000;
+  }
+
+  .navigation-arrow-two{
+    top: 12.5vh;
+    left: 27vh;
+    z-index: 30000;
+  }
+
+  .tables-button{
+    top: 12.2vh;
+    left: 23vh;
+    z-index: 30000;
+  }
+
+  .furniture-main-title{
+    position: relative;
+    top: 17vh;
+    left: -2vh;
+    z-index: 30000;
+    font-size: 1.7rem;
+  }
+
+  .furniture{
+    position: relative;
+    top: -20.5vh;
+    left: 30vw;
+  }
+
+  .arrow{
+    position: relative;
+    top: -14vh;
+    left: 24vw;
+  }
+
+  .fotter-rec{
+    transform: scale(0.3);
+    top: -35vh;
+    left: -70vh;
+  }
+
+  .btn-container{
+    transform: scale(0.5);
+    z-index: 999999;
+    top: -35vh;
+  }
+
+  .accordion{
+    left: 0.4vh;
+  }
+
+  .furniture-image-scale{
+    transform: scale(0.5);
+    top: 15vh;
+    left: -14.5vh;
+    position: relative;
+  }
+
+  .product-name-price{
+    z-index: 3000000000;
+    top: -10vh;
+    left: -10vh;
+  }
+
+  .mac-book-pro1415-logo824x5212{
+    left: 30vh;
+  }
+
+  .mac-book-pro1415-text36{
+    left: 30vh;
+  }
+
+  .mac-book-pro1415-text43{
+    left: 20vh;
+    top: 20vh;
+    position: relative;
+  }
+
+  .mac-book-pro1415-text30{
+    left: 97vh;
+  }
+
+  .mac-book-pro1415-text32{
+    left: 30vh;
+    top: 11vh;
+  }
+
+
+}
