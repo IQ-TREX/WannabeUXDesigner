@@ -775,3 +775,128 @@ left: 10.5vw;
   left: 13.0vw;
 }
 }
+
+@media screen  and (max-width:400px) { 
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo img{
+    max-width:36.1vh;
+    position: relative;
+    top: 4vh;
+    left: 3.5vh;
+  }
+
+  #menu{
+    left: 3vh;
+  }
+
+  .furniture{
+    position: relative;
+    top: -20.5vh;
+    left: 30vw;
+  }
+
+  .arrow{
+    position: relative;
+    top: -14vh;
+    left: 24vw;
+  }
+
+  .filter{
+    position: relative;
+    top: -9vh;
+    left: -14vh;
+  }
+
+  .chairs-btn{
+    position: relative;
+    top: 0vh;
+    left: -10vh;
+  }
+
+  .units-btn{
+    position: relative;
+    top: -15vh;
+    left: 2vh;
+  }
+
+  .tables-btn{
+    position: relative;
+    top: -15vh;
+    left: 2vh;
+  }
+
+  .sofas-btn{
+    position: relative;
+    top: -24.5vh;
+    left: -14vh;
+  }
+
+  .beds-btn{
+    position: relative;
+    top: -12vh;
+    left: 5vh;
+  }
+  
+  .buffets-btn{
+    position: relative;
+    top: -4vh;
+    left: -13.5vh;
+  }
+
+  .console-btn{
+    position: relative;
+    top: -10.2vh;
+    left: 8vh;
+  }
+
+  .optionButton{
+    transform: scale(0.7);
+  }
+
+  .product-galery{
+    position: relative;
+    top: -58vh;
+    left: 15vh;
+    z-index: 0;
+    transform: scale(0.6);
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(1, 0.01fr); /* This will create a 3-column grid */
+    gap: 25px;
+    justify-content: center;
+  }
+
+  .fotter-rec{
+    transform: scale(0.3);
+    top: -35vh;
+    left: -70vh;
+  }
+
+  .mac-book-pro1415-logo824x5212{
+    left: 30vh;
+  }
+
+  .mac-book-pro1415-text36{
+    left: 30vh;
+  }
+
+  .mac-book-pro1415-text43{
+    left: 20vh;
+    top: 20vh;
+    position: relative;
+  }
+
+  .mac-book-pro1415-text30{
+    left: 97vh;
+  }
+
+  .mac-book-pro1415-text32{
+    left: 30vh;
+    top: 11vh;
+  }
+}
