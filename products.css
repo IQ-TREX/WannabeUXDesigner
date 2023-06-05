@@ -371,6 +371,8 @@ button:hover{
 
 /* Product Galery */
 .product-galery{
+  text-decoration: none;
+
   display: grid;
   grid-template-columns: repeat(3, 0.01fr); /* This will create a 3-column grid */
   gap: 25px;
@@ -380,7 +382,12 @@ button:hover{
   font-family: 'Raleway', sans-serif;
 }
 
+.product-galery a{
+  text-decoration: none;
+}
 .product1 {
+  text-decoration: none;
+
   width: 430px;
   height: 430px;
   background-color: white;
@@ -559,6 +566,7 @@ card-box:active {
 }
 
 .product1-price{
+  text-decoration: none;
   position: relative;
   top: 5vh;
   left: 5vh;
@@ -568,6 +576,7 @@ card-box:active {
 }
 
 .product1-name{
+  text-decoration: none;
   position: relative;
   top: 3vh;
   left: 5vh;
