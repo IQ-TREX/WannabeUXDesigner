@@ -93,3 +93,4 @@ window.addEventListener("scroll", function () {
   parallax.style.backgroundPositionY = offset * 0.7 + "px";
   // DIV 1 background will move slower than other elements on scroll.
 });
+
