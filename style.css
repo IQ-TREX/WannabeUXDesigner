@@ -602,7 +602,7 @@ letter-spacing: 0px;
   border-radius: 5px;
 }
 
-.mac-book-pro1415-text67 {
+.console-text {
   top: 1602px;
   left: 124px;
   color: rgba(22, 22, 24, 1);
@@ -619,7 +619,7 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.mac-book-pro1415-text69 {
+.price-1 {
   top: 1573px;
   left: 105px;
   color: rgba(99, 165, 180, 1);
@@ -640,7 +640,7 @@ letter-spacing: 0px;
   margin-top: px;
 }
 
-.mac-book-pro1415-furniture21 {
+.product-2-image {
   top: 1309px;
   left: 593px;
   width: 335px;
@@ -649,7 +649,7 @@ letter-spacing: 0px;
   border-radius: 5px;
 }
 
-.mac-book-pro1415-text71 {
+.dining-table-text {
   top: 1610px;
   left: 561px;
   color: rgba(22, 22, 24, 1);
@@ -666,7 +666,7 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.mac-book-pro1415-text73 {
+.price-2{
   top: 1580px;
   left: 573px;
   color: rgba(99, 165, 180, 1);
@@ -683,7 +683,7 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.mac-book-pro1415-furniture12 {
+.product-3-image {
   top: 1306px;
   left: 1046px;
   width: 340px;
@@ -692,7 +692,7 @@ letter-spacing: 0px;
   border-radius: 5px;
 }
 
-.mac-book-pro1415-text75 {
+.coffeetable-text{
   top: 1609px;
   left: 1032px;
   color: rgba(22, 22, 24, 1);
@@ -709,7 +709,7 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.mac-book-pro1415-text77 {
+.price-3{
   top: 1580px;
   left: 1020px;
   color: rgba(99, 165, 180, 1);
@@ -726,7 +726,7 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.mac-book-pro1415-furniture42 {
+.product-4-image{
   top: 1739px;
   left: 130px;
   width: 333px;
@@ -735,7 +735,7 @@ letter-spacing: 0px;
   border-radius: 5px;
 }
 
-.mac-book-pro1415-text79 {
+.price-4{
   top: 2009px;
   left: 105px;
   color: rgba(99, 165, 180, 1);
@@ -752,7 +752,7 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.mac-book-pro1415-text85 {
+.tvunit-text {
   top: 2039px;
   left: 150px;
   color: rgba(22, 22, 24, 1);
@@ -769,7 +769,7 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.mac-book-pro1415-classicbentwooddiningchairorrattanseat2491 {
+.product-5-image-2{
   top: 1751px;
   left: 637px;
   width: 216px;
@@ -778,7 +778,7 @@ letter-spacing: 0px;
   border-radius: 5px;
 }
 
-.mac-book-pro1415-text81 {
+.price-5{
   top: 2011px;
   left: 607px;
   color: rgba(99, 165, 180, 1);
@@ -795,7 +795,7 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.mac-book-pro1415-text87 {
+.bentwood-text{
   top: 2036px;
   left: 607px;
   color: rgba(22, 22, 24, 1);
@@ -812,7 +812,7 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.mac-book-pro1415-rectangle110 {
+.product-5-image{
   top: 1733px;
   left: 591px;
   width: 339px;
@@ -821,7 +821,7 @@ letter-spacing: 0px;
   border-radius: 5px;
 }
 
-.mac-book-pro1415-chelseachairgreynew1 {
+.product-6-image-2{
   top: 1739px;
   left: 1084px;
   width: 260px;
@@ -830,7 +830,7 @@ letter-spacing: 0px;
   border-radius: 5px;
 }
 
-.mac-book-pro1415-text83 {
+.price-6 {
   top: 2010px;
   left: 1062px;
   color: rgba(99, 165, 180, 1);
@@ -847,7 +847,7 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.mac-book-pro1415-text89 {
+.chealseachair{
   top: 2036px;
   left: 1062px;
   color: rgba(22, 22, 24, 1);
@@ -864,7 +864,7 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.mac-book-pro1415-rectangle112 {
+.product-6-image{
   top: 1733px;
   left: 1046px;
   width: 338px;
@@ -880,7 +880,6 @@ letter-spacing: 0px;
 
 .square1 {
   position: relative;
-  display: flex;
   justify-content: center;
   top: 1100px;
   left: 130px;
@@ -1220,9 +1219,9 @@ letter-spacing: 0px;
 
   .logo img{
     max-width:38vh;
-    position: relative;
-    top: 4vh;
-    left: 3.5vh;
+    position: absolute;
+    top: 36px;
+    left: 20px;
   }
 
   .mobile-home-page-1{
@@ -1230,7 +1229,7 @@ letter-spacing: 0px;
     max-width: fit-content;
     left: -1vh;
     position: relative;
-    top: -6vh;
+    top: -1vh;
   }
   
   .home-left{
@@ -1256,7 +1255,7 @@ letter-spacing: 0px;
       text-decoration: none;
       font-family: Raleway;
       font-size: 1.5rem;
-      top: -104vh;
+      top: -100vh;
       left: 25vh;
       position: relative;
       font-weight: bold;
@@ -1268,12 +1267,12 @@ letter-spacing: 0px;
 
     .whats-new{
       font-size: 1.5rem;
-      top: 80vh;
+      top: 0vh;
       left: 2vh;
     }
 
     .centered-line{
-      top: 84vh;
+      top: 0vh;
       left: -1.6vh;
     }
 
@@ -1284,55 +1283,56 @@ letter-spacing: 0px;
     .new-product-1{
       transform: scale(0.4);
       left: -15vh;
-      top: 63vh;
+      top: 100vh;
       position: relative;
     }
     
     .new-product-2{
       transform: scale(0.4);
       left: -18vh;
-      top: 63vh;
+      top: 100vh;
       position: relative;
     }
 
     .new-product-3{
       transform: scale(0.4);
       left: -59vh;
-      top: 83vh;
+      top: 120vh;
       position: relative;
     }
 
     .new-product-4{
       transform: scale(0.4);
       left: 4vh;
-      top: 63.1vh;
+      top: 120vh;
       position: relative;
     }
     
     .new-product-5{
       transform: scale(0.4);
       left: -18vh;
-      top: 83vh;
+      top: 100vh;
       position: relative;
     }
 
     .new-product-6{
       transform: scale(0.4);
       left: -59vh;
-      top: 83vh;
+      top: 120vh;
       position: relative;
     }
 
     .square1{
+      position: relative;
       transform: scale(0.5);
-      left: -11.5vh;
-      top: 25vh
+      top: 25vh;
+      left: 0vh;
     }
 
     .square2{
       transform: scale(0.5);
-      left: -11.5vh;
-      top: 10vh
+      left: 0px;
+      top: 25vh;
     }
     
     .right-items{
@@ -1341,7 +1341,7 @@ letter-spacing: 0px;
 
     .fotter-rec{
       transform: scale(0.3);
-      top: -10vh;
+      bottom: 0vh;
       left: -70vh;
     }
 
@@ -1427,71 +1427,71 @@ letter-spacing: 0px;
     top: 1470px;
     left: 100px;
   }
-  .mac-book-pro1415-text67 {
+  .console-text {
     top: 1770px;
   }
-  .mac-book-pro1415-text69 {
+  .price-1 {
     top: 1740px;
   }
 
- .mac-book-pro1415-furniture21 {
+ .product-2-image {
   left: 550px;
   top: 1470px;
  }
- .mac-book-pro1415-text71 {
+ .dining-table-text{
   top: 1770px;
  }
- .mac-book-pro1415-text73 {
+ .price-2 {
   top: 1740px;
  }
- .mac-book-pro1415-furniture12 {
+ .product-3-image {
   left: 1000px;
   top: 1470px;
  }
 
- .mac-book-pro1415-text75 {
+ .coffeetable-text {
   top: 1770px;
  }
 
- .mac-book-pro1415-text77 {
+ .price-3{
   top: 1740px;
  }
 
- .mac-book-pro1415-furniture42 {
+ .product-4-image{
   left: 100px;
   top: 1910px;
  }
- .mac-book-pro1415-text79 {
+ .price-4{
   top: 2170px;
  }
- .mac-book-pro1415-text85 {
+ .tvunit-text{
   top: 2200px;
  }
- .mac-book-pro1415-classicbentwooddiningchairorrattanseat2491 {
+ .product-5-image-2 {
   left: 600px;
   top: 1910px;
  }
- .mac-book-pro1415-text81 {
+ .price-5{
   top: 2170px;
  }
- .mac-book-pro1415-text87 {
+ .bentwood-text {
   top: 2200px;
  }
- .mac-book-pro1415-rectangle110 {
+ .product-5-image{
   left: 550px;
   top: 1910px;
  }
- .mac-book-pro1415-chelseachairgreynew1 {
+ .product-6-image-2{
   left: 1050px;
   top: 1910px;
  }
- .mac-book-pro1415-text83 {
+ .price-6 {
   top: 2170px;
  }
- .mac-book-pro1415-text89 {
+ .chealseachair {
   top: 2200px;
  }
- .mac-book-pro1415-rectangle112 {
+ .product-6-image {
   left: 1000px;
   top: 1910px;
  }
