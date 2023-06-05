@@ -513,12 +513,12 @@ header {
 .line-1 {
     width: 50%; 
     height: 2px; 
-    background-color: #000; 
+    background-color:rgba(99, 165, 180, 1) ; 
     border: none; 
     top: 40vh;
     position: relative;
     transform: rotate(90deg);
-    right: 5vh;
+    right: 0vh;
 }
 .or-text {
   top: 328px;
@@ -1212,4 +1212,12 @@ header {
 .close-button:active {
   box-shadow: none;
   transform: translateY(0);
+}
+
+@media screen and (min-width: 1300px){
+
+  .nav__links li {
+    width: 150px;
+    padding: 0px 5px;
+  }
 }

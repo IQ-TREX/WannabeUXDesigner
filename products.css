@@ -714,7 +714,7 @@ card-box:active {
   top: -10vh;
 }
 
-@media screen and (min-width: 1300px){
+@media screen and (max-width: 1500px){
   .nav__links li {
     width: 150px;
     padding: 0px 5px;
