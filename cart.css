@@ -612,3 +612,70 @@ header {
   position: relative;
   top: 20vh;
 }
+
+@media screen and (min-width: 1300px){
+  .nav__links li {
+    width: 150px;
+    padding: 0px 5px;
+  }
+  .discount{
+    position: absolute;
+    top: 0vh;
+  } 
+  .subtotal{
+    position: absolute;
+    top: 14vh;
+}
+
+.shiping{
+    position: absolute;
+    top: 18vh; 
+}
+
+.discount-price{
+    position: absolute;
+    top: 22vh;
+}
+
+.grand-total{
+    position: absolute;
+    top: 30vh;
+}
+#discount-c {
+  width: 20%; 
+  border-radius: 7px; 
+  padding: 10px; 
+  border: 1px solid #ddd; 
+  background-color: #E8E8E8;
+  top: 150px;
+  position: absolute;
+}
+.cart-mid-line-1{
+  left: -35vh;
+}
+.proced-button {
+  position: relative;
+  top: 40vh;
+  right: -115vh;
+}
+.mid-line{
+  position: absolute;
+  top: 55vh; 
+  right: -22vh;
+}
+.cart-item-price-1{
+  left: 80vh;
+}
+.cart-item-price-2{
+  left: 80vh;
+}
+.favorite{
+  position: relative;
+  top: -4vh;
+  left: 5vw;
+}
+.favorite-items{
+  position: relative;
+  top: 20vh;
+}
+}

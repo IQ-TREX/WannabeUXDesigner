@@ -371,6 +371,7 @@ button:hover{
 
 /* Product Galery */
 .product-galery{
+  text-decoration: none;
   display: grid;
   grid-template-columns: repeat(3, 0.01fr); /* This will create a 3-column grid */
   gap: 25px;
@@ -380,7 +381,12 @@ button:hover{
   font-family: 'Raleway', sans-serif;
 }
 
+.product-galery a{
+  text-decoration: none;
+}
 .product1 {
+  text-decoration: none;
+
   width: 430px;
   height: 430px;
   background-color: white;
@@ -559,6 +565,7 @@ card-box:active {
 }
 
 .product1-price{
+  text-decoration: none;
   position: relative;
   top: 5vh;
   left: 5vh;
@@ -568,6 +575,7 @@ card-box:active {
 }
 
 .product1-name{
+  text-decoration: none;
   position: relative;
   top: 3vh;
   left: 5vh;
@@ -704,4 +712,66 @@ card-box:active {
 .whole-body{
   position: relative;
   top: -10vh;
+}
+
+@media screen and (min-width: 1300px){
+  .nav__links li {
+    width: 150px;
+    padding: 0px 5px;
+  }
+  .product-galery{
+    top: 100px;
+    left: 220px;
+  }
+  .product6-name{
+    top: -5.5vh;
+  }
+  .product6-img{
+    left: 5vh;
+  }
+  .product6-price{
+    position: relative;
+   top: -5.7vh;
+  }
+  .optionButton {
+  position: absolute;
+  top: 35px;
+  left: 40px;
+  text-align: left;
+  padding: 0px;
+  }
+  .sofas-btn{
+    top: 0px;
+    position: absolute;
+  }
+  .filter{
+    width: 120px;
+    height: 52px;
+  }
+  .filter-img{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    position: absolute;
+    top: 2vh;
+    left: 20px;
+  }
+
+.home{
+  position: relative;
+  top:  -7.7vh;
+  left: 4.0vw;
+}
+
+.arrow {
+position: relative;
+top: -14.1vh;
+left: 10.5vw;
+}
+
+.furniture{
+  position: relative;
+  top: -20.9vh;
+  left: 13.0vw;
+}
 }
