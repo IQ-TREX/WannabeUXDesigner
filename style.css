@@ -1,23 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
-  header {
+html,
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
   display: flex;
   justify-content: space-between;
   align-items: top;
   /* padding: 5vw; */
   font-size: 2rem;
-  position: relative;
+  width: 100%;
   top: 0vh;
 }
 
-.header-nav{
+.full-width {
+  width: 100%;
+}
+
+.header-nav {
   display: flex;
   justify-content: space-between;
-  position: relative;
-  padding-bottom: 15vh;
+
+  padding-bottom: 5vh;
 }
 
 .logo img {
-  position: absolute;
+
   max-height: 3vh;
   margin-left: 4vw;
   /* margin-top: -9vh; */
@@ -26,17 +43,30 @@
   top: 0.9vh;
 }
 
+@media only screen and (max-width: 600px) {
+  .logo img {
+    width: 80%;
+  }
+}
+
 .right-items {
-  position: relative;
-  margin-top: -1vh;
-  margin-left: 48vw;
-  width: 150%;
+
+
+
+
   /* margin-top: -9vh; */
 
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .right-items {
+    display: none;
+  }
+}
+
 
 .nav__links {
   list-style: none;
@@ -47,264 +77,250 @@
 .nav__links li {
   padding: 0px 20px;
 }
-  
-.search, .cart, .login {
+
+.search,
+.cart,
+.login {
   margin-left: 20px;
 }
 
-.nav__links li a{
-    font-family: 'Raleway', sans-serif ;
-    font-weight: 500;
-    font-size: 25px;
-    color: #161618;
-    text-decoration: none;
-    transition: all 0.3s ease 0s;
-  }
-  
-  .nav__links li a:hover{
-    color: #63A5B4;
-  }
+.nav__links li a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: #161618;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
 
-  #sale{
-    color: red;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-  }
-  
-  #custom-color {
-    color: rgb(255, 87, 51); /* The desired color in RGB format */
-  }
-  
-  /* Add styles for menu list items */
-  #menu a {
-    display: block;
-    position: relative;
-  }
-  
-  /* Create an initial hidden line for each menu list item */
-  #menu a::before {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    background-color: #63A5B4; /* Use the same color as the hamburger icon */
-    bottom: 0;
-    left: 0;
-    transition: width 0.3s ease;
-  }
-  
-  /* Expand the line on hover */
-  #menu a:hover::before {
-    width: 80%;
-  }
-  
-  #menuToggle
-  {
-    display: block;
-    position: absolute;
-    
-    margin-top: 5vh;
-    margin-left: 1.5vw;
-  
-    z-index: 1;
-    
-    -webkit-user-select: none;
-    user-select: none;
-  }
-  
-  #menuToggle a
-  {
-    text-decoration: none;
-    color: #FDFDFD;
-    
-    transition: color 0.3s ease;
-  }
-  
-  #menuToggle input
-  {
-    display: block;
-    width: 2rem;
-    height: 32px;
-    position: absolute;
-    top: -7px;
-    left: -5px;
-    
-    cursor: pointer;
-    
-    opacity: 0; /* hide this */
-    z-index: 2; /* and place it over the hamburger */
-    
-    -webkit-touch-callout: none;
-  }
-  
-  #menuToggle span
-  {
-    display: block;
-    width: 2rem;
-    height: 0.25rem;
-    margin-bottom: 5px;
-    position: relative;
-  
-    
-    
-    background: #63A5B4;
-    border-radius: 3px;
-    
-    z-index: 1;
-    
-    transform-origin: 4px 0px;
-    
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                opacity 0.55s ease;
-  }
-  
-  #menuToggle span:first-child
-  {
-    transform-origin: 0% 0%;
-  }
-  
-  #menuToggle span:nth-last-child(2)
-  {
-    transform-origin: 0% 100%;
-  }
-  
-  /* 
+.nav__links li a:hover {
+  color: #63A5B4;
+}
+
+#sale {
+  color: red;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+#custom-color {
+  color: rgb(255, 87, 51);
+  /* The desired color in RGB format */
+}
+
+/* Add styles for menu list items */
+#menu a {
+  display: block;
+
+}
+
+/* Create an initial hidden line for each menu list item */
+#menu a::before {
+  content: '';
+
+  width: 0;
+  height: 2px;
+  background-color: #63A5B4;
+  /* Use the same color as the hamburger icon */
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+/* Expand the line on hover */
+#menu a:hover::before {
+  width: 80%;
+}
+
+#menuToggle {
+  display: block;
+
+
+  margin-top: 5vh;
+  margin-left: 1.5vw;
+
+  z-index: 1;
+
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a {
+  text-decoration: none;
+  color: #FDFDFD;
+
+  transition: color 0.3s ease;
+}
+
+#menuToggle input {
+  display: block;
+  width: 2rem;
+  height: 32px;
+
+  top: -7px;
+  left: -5px;
+
+  cursor: pointer;
+
+  opacity: 0;
+  /* hide this */
+  z-index: 2;
+  /* and place it over the hamburger */
+
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span {
+  display: block;
+  width: 2rem;
+  height: 0.25rem;
+  margin-bottom: 5px;
+
+
+
+
+  background: #63A5B4;
+  border-radius: 3px;
+
+  z-index: 1;
+
+  transform-origin: 4px 0px;
+
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+    opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+/* 
    * Transform all the slices of hamburger
    * into a crossmark.
    */
-  #menuToggle input:checked ~ span
-  {
-    opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
-    background: #63A5B4;
-  }
-  
-  /*
+#menuToggle input:checked~span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #63A5B4;
+}
+
+/*
    * hide the middle one.
    */
-  #menuToggle input:checked ~ span:nth-last-child(3)
-  {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-  }
-  
-  /*
+#menuToggle input:checked~span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
    *the last one should go the other direction
    */
-  #menuToggle input:checked ~ span:nth-last-child(2)
-  {
-    transform: rotate(-45deg) translate(0, -1px);
-  }
-  
-  /*
+#menuToggle input:checked~span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
    * Make this absolute positioned
    * at the top left of the screen
    */
-  #menu
-  {
-    position: absolute;
-    width: 250px;
-    height: 800px;
-    left: -5vw;
-    margin: -100px 0 0 -50px;
-    padding: 50px;
-    padding-top: 125px;
-    padding-left: 7vw;
-    
-    background: #161618;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    /* to stop flickering of text in safari */
-    
-    transform-origin: 0% 0%;
-    transform: translate(-100%, 0);
-    
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-  
-    box-shadow: 4px 0 6px rgba(0, 0, 0, 0.2);
-    z-index: 3.9;
-  }
-  
-  #menu li
-  {
-    padding: 10px 0;
-    font-size: 22px;
-  }
-  
-  /*
+#menu {
+
+
+  background: #161618;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+
+  box-shadow: 4px 0 6px rgba(0, 0, 0, 0.2);
+  z-index: 3.9;
+}
+
+#menu li {
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
    * slide it in from the left
    */
-  #menuToggle input:checked ~ ul
-  {
-    transform: none;
-  }
-  
-  /* Sub Menu */
-  #menu li {
-    position: relative;
-    padding: 10px 0;
-    font-size: 22px;
-  }
-  
-  .submenu {
-    position: absolute;
-    left: 100%;
-    top: 0;
-    width: 300px;
-    height: 100vh;
-    background: #161618;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    transform: translateX(-100%);
-    transition: transform 0.5s ease-in-out;
-    opacity: 0; /* Initially hide the submenu */
-    pointer-events: none; /* Ignore clicks on the hidden submenu */
-    z-index: 0.1;
-  }
-  
-  .submenu li {
-    padding: 10px 0;
-    font-size: 22px;
-  }
-  
-  #menu li:hover .submenu {
-    opacity: 1;
-    visibility: visible;
-  }
-  
-  .submenu-visible {
-    transform: translateX(0);
-    opacity: 1;
-    pointer-events: auto;
-  }
-  
-  
-  .menuToggle{
-    font-family: 'Raleway', sans-serif;
-  }
-  
-  #naviagtion{
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-  }
-  
-  .submenu{
-    font-family: 'Raleway', sans-serif;
-  }
-  
-  .hamburger{
-    position: relative;
-    top: -7vh;
-    left: -8vh;
-    z-index: 999;
-  }
+#menuToggle input:checked~ul {
+  transform: none;
+}
+
+/* Sub Menu */
+#menu li {
+
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+.submenu {
+
+
+
+  background: #161618;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in-out;
+  opacity: 0;
+  /* Initially hide the submenu */
+  pointer-events: none;
+  /* Ignore clicks on the hidden submenu */
+  z-index: 0.1;
+}
+
+.submenu li {
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+#menu li:hover .submenu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.submenu-visible {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+.menuToggle {
+  font-family: 'Raleway', sans-serif;
+}
+
+#naviagtion {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.submenu {
+  font-family: 'Raleway', sans-serif;
+}
+
+.hamburger {
+
+
+  z-index: 999;
+}
 
 .content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+
   padding: 10px;
 }
 
@@ -312,9 +328,8 @@
   top: 10vh;
   left: 50px;
   color: #161618;
-  width: 351px;
-  height: auto;
-  position: absolute;
+
+
   font-size: 70px;
   font-style: SemiBold;
   text-align: left;
@@ -323,186 +338,189 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
-  margin-top: -7vh;
-  letter-spacing: -1px; /* adjust as needed */
-  line-height: -5; /* adjust as needed */
+
+  letter-spacing: -1px;
+  /* adjust as needed */
+
+  /* adjust as needed */
   padding: 0;
 }
 
-.img-span .image {
-  display: inline;
-  height: 100px; /* adjust as needed */
-  vertical-align: middle; /* align with the text */
-  padding-bottom: 15%;
+@media only screen and (max-width: 600px) {
+  .home-left {
+    font-size: 35px;
+  }
+
+  .img-span .image {
+
+    height: 35px;
+
+  }
 }
 
-.img-span p{
-letter-spacing: 0px;
+
+
+.img-span p {
+  letter-spacing: 0px;
 
 }
-.sub-text-home-left{
+
+.sub-text-home-left {
   font-family: 'Raleway', sans-serif;
   color: #161618;
   font-size: 25px;
   margin-top: 100px;
-  line-height: 1%;
+
   padding: 0px;
-  position: relative;
-  top: -31vh;
+
 }
 
-.left-space-text-home{
-  position: relative;
-  top: -25vh;
+@media only screen and (max-width: 600px) {
+  .sub-text-home-left {
+    font-size: 15px;
+  }
 }
 
-.left-lamp-text-home{
-  position: relative;
-  top: -10vh;
-}
+
+
+.left-space-text-home {}
+
+.left-lamp-text-home {}
 
 .customButton {
-  position: absolute;
-  top: 535px;
-  left: 1186px;
-  width: 191px;
-  height: 130px;/* Specify the height */
-  position: absolute; /* Specify the height */
-  background: #FFFFFF url('Floor lamp black.png') no-repeat center; /* Add your initial button image here */
-  background-size: contain; /* This ensures the image fits inside the button */
-  transition: background 0.4s ease-in-out; /* This is to animate the change of image and color */
+
+  /* Specify the height */
+  height: 20vh;
+  /* Specify the height */
+  background: #FFFFFF url('Floor lamp black.png') no-repeat center;
+  /* Add your initial button image here */
+  background-size: contain;
+  /* This ensures the image fits inside the button */
+  transition: background 0.4s ease-in-out;
+  /* This is to animate the change of image and color */
   border-radius: 15px;
   box-shadow: 0px 0px 10px rgba(220, 220, 220, 4.0);
 }
 
 .customButton:hover {
-  background: #161618 url('Floor lamp.png') no-repeat center; /* Add your hover button image here */
-  background-size: contain; /* This ensures the image fits inside the button */
+  background: #161618 url('Floor lamp.png') no-repeat center;
+  /* Add your hover button image here */
+  background-size: contain;
+  /* This ensures the image fits inside the button */
 
 }
 
 .customButton2 {
-  top: 340px;
-  left: 1186px;
-  width: 185px;
-  height: 130px;
-  position: absolute;
-  background: #FFFFFF url('Floor mirror black.png') no-repeat center; /* Add your initial button image here */
-  background-size: contain; /* This ensures the image fits inside the button */
-  transition: background 0.4s ease-in-out; /* This is to animate the change of image and color */
+  height: 20vh;
+  background: #FFFFFF url('Floor mirror black.png') no-repeat center;
+  /* Add your initial button image here */
+  background-size: contain;
+  /* This ensures the image fits inside the button */
+  transition: background 0.4s ease-in-out;
+  /* This is to animate the change of image and color */
   border-radius: 15px;
   box-shadow: 0px 0px 10px rgba(220, 220, 220, 4.0);
 }
 
 .customButton2:hover {
-  background: #161618 url('Floor mirror.png') no-repeat center; /* Add your hover button image here */
-  background-size: contain; /* This ensures the image fits inside the button */
+  background: #161618 url('Floor mirror.png') no-repeat center;
+  /* Add your hover button image here */
+  background-size: contain;
+  /* This ensures the image fits inside the button */
 
 }
 
 .customButton3 {
-  top: 150px;
-  left: 1186px;
-  width: 185px;
-  height: 130px;
-  position: absolute;/* Specify the height */
-  background: #FFFFFF url('Sofa black.png') no-repeat center; /* Add your initial button image here */
-  background-size: contain; /* This ensures the image fits inside the button */
-  transition: background 0.4s ease-in-out; /* This is to animate the change of image and color */
+
+  height: 20vh;
+  /* Specify the height */
+  background: #FFFFFF url('Sofa black.png') no-repeat center;
+  /* Add your initial button image here */
+  background-size: contain;
+  /* This ensures the image fits inside the button */
+  transition: background 0.4s ease-in-out;
+  /* This is to animate the change of image and color */
   border-radius: 15px;
   box-shadow: 0px 0px 10px rgba(220, 220, 220, 4.0);
 }
 
 .customButton3:hover {
-  background: #161618 url('Sofa.png') no-repeat center; /* Add your hover button image here */
-  background-size: contain; /* This ensures the image fits inside the button */
+  background: #161618 url('Sofa.png') no-repeat center;
+  /* Add your hover button image here */
+  background-size: contain;
+  /* This ensures the image fits inside the button */
 
 }
 
-.Mirror-btn{
-  top: 340px;
-  left: 1186px;
-  width: 185px;
-  height: 130px;
-  position: absolute;
+.Mirror-btn {
+
+
   border-radius: 15px;
-  background: #FFFFFF; /* Adjust color as needed */
-  box-shadow: 0px 0px 10px rgba(220, 220, 220, 4.0); /* Adjust as needed */
-  border-radius: 15px; /* Adjust as needed */
+  background: #FFFFFF;
+  /* Adjust color as needed */
+  box-shadow: 0px 0px 10px rgba(220, 220, 220, 4.0);
+  /* Adjust as needed */
+  border-radius: 15px;
+  /* Adjust as needed */
   z-index: 1;
 }
 
-.Sofa-btn{
-  top: 150px;
-  left: 1186px;
-  width: 185px;
-  height: 130px;
-  position: absolute;
+.Sofa-btn {
+
+
   border-radius: 15px;
-  background: #FFFFFF; /* Adjust color as needed */
-  box-shadow: 0px 0px 10px rgba(220, 220, 220, 4.0); /* Adjust as needed */
-  border-radius: 15px; /* Adjust as needed */
+  background: #FFFFFF;
+  /* Adjust color as needed */
+  box-shadow: 0px 0px 10px rgba(220, 220, 220, 4.0);
+  /* Adjust as needed */
+  border-radius: 15px;
+  /* Adjust as needed */
   z-index: 1;
   background-image: url('home page left side icon\Sofa.png');
 }
 
-.Lamp-btn{
-  top: 535px;
-  left: 1186px;
-  width: 191px;
-  height: 130px;
-  position: absolute;
+.Lamp-btn {
+
+
   border-radius: 15px;
-  background: #FFFFFF; /* Adjust color as needed */
-  box-shadow: 0px 0px 10px rgba(220, 220, 220, 4.0); /* Adjust as needed */
-  border-radius: 15px; /* Adjust as needed */
+  background: #FFFFFF;
+  /* Adjust color as needed */
+  box-shadow: 0px 0px 10px rgba(220, 220, 220, 4.0);
+  /* Adjust as needed */
+  border-radius: 15px;
+  /* Adjust as needed */
   z-index: 1;
 }
 
-.Mirror {
-  top: 341px;
-  left: 1216px;
-  width: 128px;
-  height: 128px;
-  position: absolute;
-}
-.Lamp {
-  top: 536px;
-  left: 1216px;
-  width: 128px;
-  height: 128px;
-  position: absolute;
-}
-.Sofa {
-  top: 151px;
-  left: 1216px;
-  width: 128px;
-  height: 128px;
-  position: absolute;
-}
+.Mirror {}
 
-.Mirror, .Lamp, .Sofa {
+.Lamp {}
+
+.Sofa {}
+
+.Mirror,
+.Lamp,
+.Sofa {
   z-index: 2;
 }
 
-.hamburger{
+.hamburger {
   top: 40px;
   left: 40px;
-  position: absolute;
+
 }
 
-.hamburger-logo{
+.hamburger-logo {
   width: 45px;
   height: 30px;
 }
 
 .left-sofa-text {
-  top: 285px;
-  left: 1200px;
+
   color: rgba(22, 22, 24, 1);
-  width: 161px;
+
   height: auto;
-  position: absolute;
+
   font-size: 32px;
   font-style: Medium;
   text-align: center;
@@ -514,12 +532,11 @@ letter-spacing: 0px;
 }
 
 .left-lamp-text {
-  top: 670px;
-  left: 1205px;
+
   color: rgba(22, 22, 24, 1);
-  width: 161px;
+
   height: auto;
-  position: absolute;
+
   font-size: 32px;
   font-style: Medium;
   text-align: center;
@@ -529,13 +546,13 @@ letter-spacing: 0px;
   font-stretch: normal;
   text-decoration: none;
 }
+
 .left-mirror-text {
-  top: 480px;
-  left: 1185px;
+
   color: rgba(22, 22, 24, 1);
-  width: 191px;
+
   height: auto;
-  position: absolute;
+
   font-size: 32px;
   font-style: Medium;
   text-align: center;
@@ -547,28 +564,34 @@ letter-spacing: 0px;
 }
 
 .whats-new {
-  top: 850px;
-  left: 67px;
+
   color: rgba(0, 0, 0, 1);
-  width: 652px;
+
   height: auto;
-  position: absolute;
+
   font-size: 70px;
   font-style: SemiBold;
   text-align: left;
+  flex: 1;
   font-family: Raleway;
   font-weight: 600;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .whats-new {
+    font-size: 25px;
+  }
+}
+
 .whats-p {
-  top: 825px;
-  left: 756px;
+
   color: rgba(0, 0, 0, 0.8500000238418579);
-  width: 671px;
+  flex: 1;
   height: auto;
-  position: absolute;
+
   font-size: 26px;
   font-style: Regular;
   text-align: right;
@@ -577,38 +600,73 @@ letter-spacing: 0px;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none
-
 }
 
+@media only screen and (max-width: 600px) {
+  .whats-p {
+    font-size: 16px;
+  }
+}
+
+.container {
+  display: flex;
+  padding-left: 10%;
+  gap: 10px;
+  padding-right: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.extra-gap {
+  gap: 30px;
+  align-items: center;
+  
+}
+
+.v-container {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 5%;
+  flex-direction: column;
+}
 
 .centered-line {
-  position: absolute;
-  top: 940px; /* Adjust as needed */
+
+
+  /* Adjust as needed */
   content: '';
   display: block;
-  margin: 20px auto; 
-  width: 90%; 
-  border-bottom: 3px solid #63A5B4; 
+  margin: 20px auto;
+  width: 90%;
+  border-bottom: 3px solid #63A5B4;
   left: 0;
   right: 0;
 }
 
 .product-1-image {
-  top: 1309px;
-  left: 130px;
-  width: 327px;
-  height: 327px;
-  position: absolute;
-  border-radius: 5px;
+  height: 370px;
+  width: 370px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .product-1-image {
+    width: 80vw;
+    height: 80vw;
+  }
 }
 
 .console-text {
-  top: 1602px;
-  left: 124px;
+
   color: rgba(22, 22, 24, 1);
-  width: 272px;
+
   height: auto;
-  position: absolute;
+
   font-size: 16px;
   font-style: Regular;
   text-align: center;
@@ -620,12 +678,11 @@ letter-spacing: 0px;
 }
 
 .price-1 {
-  top: 1573px;
-  left: 105px;
+
   color: rgba(99, 165, 180, 1);
-  width: 146px;
+
   height: auto;
-  position: absolute;
+
   font-size: 20px;
   font-style: SemiBold;
   text-align: center;
@@ -635,27 +692,25 @@ letter-spacing: 0px;
   font-stretch: normal;
   text-decoration: none;
 }
-  
-.new-product-1{
-  margin-top: px;
+
+.new-product-1 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .product-2-image {
-  top: 1309px;
-  left: 593px;
-  width: 335px;
-  height: 335px;
-  position: absolute;
+
+
   border-radius: 5px;
 }
 
 .dining-table-text {
-  top: 1610px;
-  left: 561px;
+
   color: rgba(22, 22, 24, 1);
-  width: 279px;
-  height: auto;
-  position: absolute;
+
+
   font-size: 16px;
   font-style: Regular;
   text-align: center;
@@ -666,13 +721,12 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.price-2{
-  top: 1580px;
-  left: 573px;
+.price-2 {
+
   color: rgba(99, 165, 180, 1);
   width: 150px;
   height: auto;
-  position: absolute;
+
   font-size: 20px;
   font-style: SemiBold;
   text-align: center;
@@ -684,21 +738,17 @@ letter-spacing: 0px;
 }
 
 .product-3-image {
-  top: 1306px;
-  left: 1046px;
-  width: 340px;
-  height: 340px;
-  position: absolute;
+
+
   border-radius: 5px;
 }
 
-.coffeetable-text{
-  top: 1609px;
-  left: 1032px;
+.coffeetable-text {
+
   color: rgba(22, 22, 24, 1);
   width: 230px;
   height: auto;
-  position: absolute;
+
   font-size: 16px;
   font-style: Regular;
   text-align: center;
@@ -709,13 +759,12 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.price-3{
-  top: 1580px;
-  left: 1020px;
+.price-3 {
+
   color: rgba(99, 165, 180, 1);
   width: 152px;
   height: auto;
-  position: absolute;
+
   font-size: 20px;
   font-style: SemiBold;
   text-align: center;
@@ -726,22 +775,18 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.product-4-image{
-  top: 1739px;
-  left: 130px;
-  width: 333px;
-  height: 333px;
-  position: absolute;
+.product-4-image {
+
+
   border-radius: 5px;
 }
 
-.price-4{
-  top: 2009px;
-  left: 105px;
+.price-4 {
+
   color: rgba(99, 165, 180, 1);
   width: 148px;
   height: auto;
-  position: absolute;
+
   font-size: 20px;
   font-style: SemiBold;
   text-align: center;
@@ -753,12 +798,11 @@ letter-spacing: 0px;
 }
 
 .tvunit-text {
-  top: 2039px;
-  left: 150px;
+
   color: rgba(22, 22, 24, 1);
   width: 275px;
   height: auto;
-  position: absolute;
+
   font-size: 16px;
   font-style: Regular;
   text-align: left;
@@ -769,22 +813,21 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.product-5-image-2{
+.product-5-image-2 {
   top: 1751px;
   left: 637px;
   width: 216px;
   height: 259px;
-  position: absolute;
+
   border-radius: 5px;
 }
 
-.price-5{
-  top: 2011px;
-  left: 607px;
+.price-5 {
+
   color: rgba(99, 165, 180, 1);
   width: 152px;
   height: auto;
-  position: absolute;
+
   font-size: 20px;
   font-style: SemiBold;
   text-align: left;
@@ -795,13 +838,12 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.bentwood-text{
-  top: 2036px;
-  left: 607px;
+.bentwood-text {
+
   color: rgba(22, 22, 24, 1);
   width: 283px;
   height: auto;
-  position: absolute;
+
   font-size: 16px;
   font-style: Regular;
   text-align: left;
@@ -812,31 +854,24 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.product-5-image{
-  top: 1733px;
-  left: 591px;
-  width: 339px;
-  height: 339px;
-  position: absolute;
+.product-5-image {
+
+
   border-radius: 5px;
 }
 
-.product-6-image-2{
-  top: 1739px;
-  left: 1084px;
-  width: 260px;
-  height: 258px;
-  position: absolute;
+.product-6-image-2 {
+
+
   border-radius: 5px;
 }
 
 .price-6 {
-  top: 2010px;
-  left: 1062px;
+
   color: rgba(99, 165, 180, 1);
   width: 151px;
   height: auto;
-  position: absolute;
+
   font-size: 20px;
   font-style: SemiBold;
   text-align: left;
@@ -847,13 +882,12 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.chealseachair{
-  top: 2036px;
-  left: 1062px;
+.chealseachair {
+
   color: rgba(22, 22, 24, 1);
   width: 282px;
   height: auto;
-  position: absolute;
+
   font-size: 16px;
   font-style: Regular;
   text-align: left;
@@ -864,59 +898,65 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.product-6-image{
-  top: 1733px;
-  left: 1046px;
-  width: 338px;
-  height: 339px;
-  position: absolute;
+.product-6-image {
+
   border-radius: 5px;
 }
 
-.whats-new-btn{
-  position: relative;
-  top: -102vh;
+.whats-new-btn {
+
+  grid-auto-rows: 1fr;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .whats-new-btn {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .square1 {
-  position: relative;
+
   justify-content: center;
-  top: 1100px;
-  left: 130px;
-  width: 570px;
-  height: 400px;
+  flex: 1;
   border-radius: 10px;
   background-color: #FFFFFF;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .square2 {
-  position: relative;
+
   top: 700px;
   left: 800px;
-  width: 570px;
-  height: 400px;
+  flex: 1;
   border-radius: 10px;
   background-color: #FFFFFF;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.style-tips{
+.style-tips {
   top: 15px;
   background-color: #FFFFFF;
   color: rgba(0, 0, 0, 1);
-  position: absolute;
+
   font-size: 28px;
   font-family: Raleway;
-  font-weight: 999; 
+  font-weight: 999;
   text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .style-tips {
+    font-size: 18px;
+  }
+}
+
 .button12 {
-  position: relative;
-  top: 290px;
-  height: 50px;
-  width: 250px;
+
+
   align-items: center;
   text-align: center;
   border-radius: 20px;
@@ -931,106 +971,106 @@ letter-spacing: 0px;
 .button12:hover {
   background-color: #161618;
   color: white;
-  
+
 }
 
-.sign-up-btn{
-  position: relative;
+.sign-up-btn {
+
   top: 1vh;
 }
 
-.home-instagram-icon{
-  position: absolute;
+.home-instagram-icon {
+
   top: 3vh;
   left: 14vh;
   width: 38px;
   height: 38px;
 }
 
-.insta-all-font{
-  position: absolute;
+.insta-all-font {
+  display: flex;
   left: 7vh;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
 }
 
 .insta-main {
-  top: -13px;
-  left: 155px;
+
   color: rgba(2, 4, 8, 1);
-  width: 554px;
-  position: absolute;
-  font-size: 40px;
+  padding: 5px;
+
+  font-size: 30px;
   font-weight: 800;
   font-family: Raleway;
   background-color: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .insta-main {
+    font-size: 20px;
+  }
+}
+
 .insta-id {
   top: 65px;
   left: 50px;
   color: rgba(2, 4, 8, 1);
   width: 366px;
   height: auto;
-  position: absolute;
+
   font-size: 20px;
   text-align: center;
   font-family: Raleway;
   font-weight: bold;
 }
 
-.home-instagram-img-1{
-  position: relative;
-  top: 100px;
-  left: 10px;
-  height: 92px;
-  width: 201px;
+@media only screen and (max-width: 600px) {
+  .insta-id {
+    font-size: 15px;
+  }
 }
 
-.home-instagram-img-2 {
-  position: relative;
-  top: 200px;
-  left: -195px;
-  height: 92px;
-  width: 201px;
+.insta-ui {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
 }
 
-.home-instagram-img-3 {
-  position: relative;
-  top: 110px;
-  left: 10px;
-  height: 92px;
-  width: 201px;
-}
 
-.home-instagram-img-4 {
-  position: relative;
-  top: 5px;
-  left: 22px;
-  height: 185px;
-  width: 335px;
-}
 
-.home-instagram-img-5 {
-  position: relative;
-  top: 10px;
-  left: 228px;
+.home-instagram-img-1 {
   height: 100px;
-  width: 335px;
+  width: 100px;
+
 }
 
-.mac-book-pro1415-rectangle60 {
-  top: 2988px;
-  left: 0px;
-  width: 1543px;
-  height: 395px;
-  position: absolute;
+@media only screen and (max-width: 600px) {
+  .insta-ui {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .home-instagram-img-1 {
+    height: 25vw;
+    width: 25vw;
+  }
 }
 
-.contactus{
-  top: 100px;
-  left: 756px;
+.mac-book-pro1415-rectangle60 {}
+
+.footer {
+  background-color: #161618;
+  margin-top: 20px;
+  width: 100%;
+
+}
+
+.contactus {
+
   color: rgba(243, 243, 243, 1);
-  width: 289px;
+
   height: auto;
-  position: absolute;
+
   font-size: 24px;
   font-style: Bold;
   text-align: left;
@@ -1040,13 +1080,13 @@ letter-spacing: 0px;
   font-stretch: normal;
   text-decoration: none;
 }
+
 .aboutus {
-  top: 100px;
-  left: 37px;
+
   color: rgba(243, 243, 243, 1);
   width: 124px;
   height: auto;
-  position: absolute;
+
   font-size: 24px;
   font-style: Bold;
   text-align: center;
@@ -1056,13 +1096,13 @@ letter-spacing: 0px;
   font-stretch: normal;
   text-decoration: none;
 }
-.termsandconditions{
-  top: 100px;
-  left: 1222px;
+
+.termsandconditions {
+
   color: rgba(243, 243, 243, 1);
   width: 242px;
   height: auto;
-  position: absolute;
+
   font-size: 24px;
   font-style: Bold;
   text-align: left;
@@ -1072,13 +1112,14 @@ letter-spacing: 0px;
   font-stretch: normal;
   text-decoration: none;
 }
-.footer-explanation{
-  top: 135px;
-  left: 37px;
+
+
+.footer-explanation {
+
   color: rgba(243, 243, 243, 0.8500000238418579);
-  width: 445px;
+  margin-bottom: 20px;
   height: auto;
-  position: absolute;
+  flex: 1;
   font-size: 21px;
   font-style: Medium;
   text-align: left;
@@ -1088,13 +1129,13 @@ letter-spacing: 0px;
   font-stretch: normal;
   text-decoration: none;
 }
+
 .explanation-1 {
-  top: 165px;
-  left: 756px;
+
   color: rgba(243, 243, 243, 1);
   width: 203px;
   height: auto;
-  position: absolute;
+
   font-size: 21px;
   font-style: Regular;
   text-align: left;
@@ -1105,36 +1146,45 @@ letter-spacing: 0px;
   text-decoration: none;
 }
 
-.explanation-2{
-  top: 165px;
-  left: 1225px;
+.explanation-2 {
+
   color: rgba(243, 243, 243, 1);
   width: 175px;
   height: auto;
-  position: absolute;
+
   font-size: 21px;
   font-style: Medium;
   text-align: left;
   font-family: Raleway;
   font-weight: 500;
 }
+
 .logo-2 {
-  top: 30px;
-  left: 37px;
-  width: 669px;
-  height: 39px;
-  position: absolute;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-bottom: 20px;
+  width: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-2 {
+    width: 80%;
+  }
 }
 
 .fotter-rec {
-  position: relative;
+
   display: flex;
   justify-content: center;
-  width: 1517.5px;
-  height: 350px;
-  top: 800px;
+
   background-color: #161618;
   left: -1.1vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .fotter-rec {
+    flex-direction: column;
+  }
 }
 
 .contactus,
@@ -1151,354 +1201,58 @@ letter-spacing: 0px;
   justify-content: center;
   align-items: center;
   top: 5.5vh;
-  left: 47vh; 
-  border-radius: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width: 890px;
-  height: 530px;
+
+  
   border-radius: 20px;
   overflow: hidden;
-  position: relative;
+
   z-index: 0;
 }
 
 .video {
-  position: relative;
+width: 50vw;
+    height: 35vw;
   left: 0;
   top: 0;
+  object-fit: cover;
   opacity: 1;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
-.home-right{
-  position: relative;
-  left: 12vh;
-  top: -90vh;
+@media only screen and (max-width: 600px) {
+  .video {
+    width: 80vw;
+    height: 45vw;
+  }
 }
 
-.body-main{
-  position: relative;
+.home-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.body-main {
+
   top: -2vh;
 }
 
-.inbox-fotter{
-  position: relative;
-  top: 25vh;
+.inbox-fotter {
+  margin-top: 30px;
+
 }
 
-.whole-body{
-  position: relative;
-  top: -16vh;
-}
+.whole-body {}
 
-.whats-new-container{
-  position: relative;
-  top: -25vh;
+.whats-new-container {
+
+
   z-index: 2;
 }
 
-.whatsnew-bio{
-  position: relative;
-  top: -68vh;
+.whatsnew-bio {
+  display: flex;
+  align-items: center;
 }
-
-
-.mobile-home-page-1{
-  display: none;
-}
-
-.mobile-left a {
-  display: none;
-}
-
-@media screen  and (max-width:400px) { 
-
-  body{
-    margin: 0;
-    padding: 0;
-  }
-
-  .logo img{
-    max-width:38vh;
-    position: absolute;
-    top: 36px;
-    left: 20px;
-  }
-
-  .mobile-home-page-1{
-    display: flex;
-    max-width: fit-content;
-    left: -1vh;
-    position: relative;
-    top: -1vh;
-  }
-  
-  .home-left{
-    display: none;
-  }
-  .home-right {
-    display: none;
-    }
-
-    #outer{
-      display: none;
-    }
-
-    #menu{
-      left: 3vh;
-    }
-
-    .mobile-left a {
-      display: block;
-      color: #161618;
-      text-align: left;
-      padding: 8px;
-      text-decoration: none;
-      font-family: Raleway;
-      font-size: 1.5rem;
-      top: -100vh;
-      left: 25vh;
-      position: relative;
-      font-weight: bold;
-    }
-  
-    .mobile-left a:hover {
-      color: #63A5B4;
-    }
-
-    .whats-new{
-      font-size: 1.5rem;
-      top: 0vh;
-      left: 2vh;
-    }
-
-    .centered-line{
-      top: 0vh;
-      left: -1.6vh;
-    }
-
-    .whats-p{
-      display: none;
-    }
-
-    .new-product-1{
-      transform: scale(0.4);
-      left: -15vh;
-      top: 100vh;
-      position: relative;
-    }
-    
-    .new-product-2{
-      transform: scale(0.4);
-      left: -18vh;
-      top: 100vh;
-      position: relative;
-    }
-
-    .new-product-3{
-      transform: scale(0.4);
-      left: -59vh;
-      top: 120vh;
-      position: relative;
-    }
-
-    .new-product-4{
-      transform: scale(0.4);
-      left: 4vh;
-      top: 120vh;
-      position: relative;
-    }
-    
-    .new-product-5{
-      transform: scale(0.4);
-      left: -18vh;
-      top: 100vh;
-      position: relative;
-    }
-
-    .new-product-6{
-      transform: scale(0.4);
-      left: -59vh;
-      top: 120vh;
-      position: relative;
-    }
-
-    .square1{
-      position: relative;
-      transform: scale(0.5);
-      top: 25vh;
-      left: 0vh;
-    }
-
-    .square2{
-      transform: scale(0.5);
-      left: 0px;
-      top: 25vh;
-    }
-    
-    .right-items{
-      left: -9000vh;
-    }
-
-    .fotter-rec{
-      transform: scale(0.3);
-      bottom: 0vh;
-      left: -70vh;
-    }
-
-    .logo-2{
-      left: 30vh;
-    }
-
-    .footer-explanation{
-      left: 30vh;
-    }
-
-    .explanation-1{
-      left: 20vh;
-      top: 20vh;
-      position: relative;
-    }
-
-    .explanation-2{
-      left: 97vh;
-    }
-
-    .aboutus{
-      left: 30vh;
-      top: 11vh;
-    }
-  }
-
-@media screen and (max-width: 1500px){
-
-  .nav__links li {
-    width: 150px;
-    padding: 0px 5px;
-  }
-  .home-left {
-    top: 160px;
-    left: 40px;
-  }
-  #outer {
-    top: 85px;
-    left: 38vh; 
-    width: 800px;
-    height: 540px;
-  }
-  .customButton{
-    top: 675px;
-    left: 1090px;
-  }
-  .customButton2 {
-    top: 470px;
-    left: 1090px;
-  }
-  .customButton3 {
-    top: 270px;
-    left: 1090px;
-  }
-  .left-sofa-text {
-    top: 405px;
-    left: 1115px;
-    text-align: left;
-  }
-  .left-lamp-text {
-    top: 810px;
-    left: 1125px;
-    text-align: left;
-  }
-  .left-mirror-text {
-    top: 610px;
-    left: 1095px;
-    text-align: left;
-  }
-  .whats-new {
-    top: 950px;
-  }
-  .whats-p {
-    top: 930px;
-    left: 669px;
-  }
-  .centered-line {
-  top: 1030px;
-  }
-  .product-1-image {
-    top: 1470px;
-    left: 100px;
-  }
-  .console-text {
-    top: 1770px;
-  }
-  .price-1 {
-    top: 1740px;
-  }
-
- .product-2-image {
-  left: 550px;
-  top: 1470px;
- }
- .dining-table-text{
-  top: 1770px;
- }
- .price-2 {
-  top: 1740px;
- }
- .product-3-image {
-  left: 1000px;
-  top: 1470px;
- }
-
- .coffeetable-text {
-  top: 1770px;
- }
-
- .price-3{
-  top: 1740px;
- }
-
- .product-4-image{
-  left: 100px;
-  top: 1910px;
- }
- .price-4{
-  top: 2170px;
- }
- .tvunit-text{
-  top: 2200px;
- }
- .product-5-image-2 {
-  left: 600px;
-  top: 1910px;
- }
- .price-5{
-  top: 2170px;
- }
- .bentwood-text {
-  top: 2200px;
- }
- .product-5-image{
-  left: 550px;
-  top: 1910px;
- }
- .product-6-image-2{
-  left: 1050px;
-  top: 1910px;
- }
- .price-6 {
-  top: 2170px;
- }
- .chealseachair {
-  top: 2200px;
- }
- .product-6-image {
-  left: 1000px;
-  top: 1910px;
- }
- .square1{
-   left: 100px;
- }
- .square2{
-   left: 765px;
- }
-}
-
