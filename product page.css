@@ -829,9 +829,69 @@ color: #63A5B4;
   .furniture-main-title{
     position: relative;
     top: 17vh;
-    left: -2vh;
-    z-index: 30000;
+    left: 5vh;
     font-size: 1.7rem;
+  }
+
+  .furniture-sub-title {
+    position: relative;
+    top: 17vh;
+    left: 5vh;
+  }
+
+  .furniture-price {
+    position: relative;
+    top: 52vh;
+    left: -12vh;
+    font-size: 1.6rem;
+  }
+
+  .furniture-price-extra {
+    position: relative;
+    top: 52vh;
+    left: 5vh;
+    font-size: 1.4rem;
+  }
+
+  .afterpay-logo{
+    position: relative;
+    top: 53.2vh;
+    left: 5vh;
+  }
+
+  .small-button{
+    position: relative;
+    top: 105vh;
+    left: -3vh;
+    transform: scale(0.6);
+  }
+
+  .medium-button{
+    position: relative;
+    top: 100vh;
+    left: 8vh;
+    transform: scale(0.6);
+  }
+
+  .large-button{
+    position: relative;
+    top: 95vh;
+    left: 19vh;
+    transform: scale(0.6);
+  }
+
+  .add-to-cart-button {
+    position: relative;
+    top: 95vh;
+    left: -2vh;
+    transform: scale(0.7);
+  }
+
+  .buy-now-button {
+    position: relative;
+    top: 95vh;
+    left: -2vh;
+    transform: scale(0.7);
   }
 
   .furniture{
@@ -853,9 +913,9 @@ color: #63A5B4;
   }
 
   .btn-container{
-    transform: scale(0.5);
-    z-index: 999999;
-    top: -35vh;
+    position: relative;
+    top: -50vh;
+    left: 15vw;
   }
 
   .accordion{
@@ -865,14 +925,8 @@ color: #63A5B4;
   .furniture-image-scale{
     transform: scale(0.5);
     top: 15vh;
-    left: -14.5vh;
+    left: -18vh;
     position: relative;
-  }
-
-  .product-name-price{
-    z-index: 3000000000;
-    top: -10vh;
-    left: -10vh;
   }
 
   .mac-book-pro1415-logo824x5212{
@@ -897,6 +951,7 @@ color: #63A5B4;
     left: 30vh;
     top: 11vh;
   }
+
 
 
 }

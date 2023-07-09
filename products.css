@@ -376,9 +376,11 @@ button:hover{
   grid-template-columns: repeat(3, 0.01fr); /* This will create a 3-column grid */
   gap: 25px;
   justify-content: center;
+  align-items: center;
   position: relative;
-  top: -20vh;
   font-family: 'Raleway', sans-serif;
+  margin-left: 30%;
+  margin-top: 3%;
 }
 
 .product-galery a{
@@ -879,8 +881,6 @@ left: 10.5vw;
 
   .product-galery{
     position: relative;
-    top: -58vh;
-    left: 15vh;
     z-index: 0;
     transform: scale(0.6);
     text-decoration: none;
@@ -888,6 +888,8 @@ left: 10.5vw;
     grid-template-columns: repeat(1, 0.01fr); /* This will create a 3-column grid */
     gap: 25px;
     justify-content: center;
+    margin-right: 100%;
+    top: -55vh;
   }
 
   .fotter-rec{
